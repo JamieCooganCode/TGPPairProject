@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TGPPairProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\TGPPairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\TGPPairProject.cpp.obj"
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\TGPPairProjectGameModeBase.cpp.obj"
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\TGPPairProject.init.gen.cpp.obj"
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\TGPPairProjectGameModeBase.gen.cpp.obj"
+"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\PCLaunch.rc.res"
+/OUT:"C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject.lib"
