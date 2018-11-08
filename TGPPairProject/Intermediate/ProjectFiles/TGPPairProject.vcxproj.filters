@@ -1,46 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\TGPPairProject.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{B53131FB-C413-4057-877A-962A8515FE00}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TGPPairProject.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\TGPPairProjectEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{7A5BAD0B-FF97-4581-B7EB-83FAD165BFF0}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\TGPPairProject">
-			<UniqueIdentifier>{DEAB7780-84D4-46AF-BA16-1039A37302F4}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\TGPPairProject\TGPPairProject.Build.cs">
-			<Filter>Source\TGPPairProject</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\TGPPairProject\TGPPairProject.cpp">
-			<Filter>Source\TGPPairProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TGPPairProject\TGPPairProject.h">
-			<Filter>Source\TGPPairProject</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TGPPairProject\TGPPairProjectGameModeBase.cpp">
-			<Filter>Source\TGPPairProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TGPPairProject\TGPPairProjectGameModeBase.h">
-			<Filter>Source\TGPPairProject</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TGPPairProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B53131FB-C413-4057-877A-962A8515FE00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TGPPairProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TGPPairProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7A5BAD0B-FF97-4581-B7EB-83FAD165BFF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TGPPairProject">
+      <UniqueIdentifier>{DEAB7780-84D4-46AF-BA16-1039A37302F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TGPPairProject\TGPPairProject.Build.cs">
+      <Filter>Source\TGPPairProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TGPPairProject\TGPPairProject.cpp">
+      <Filter>Source\TGPPairProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TGPPairProject\TGPPairProject.h">
+      <Filter>Source\TGPPairProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TGPPairProject\TGPPairProjectGameModeBase.cpp">
+      <Filter>Source\TGPPairProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TGPPairProject\TGPPairProjectGameModeBase.h">
+      <Filter>Source\TGPPairProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TGPPairProject\Private">
+      <UniqueIdentifier>{e6c71630-fefe-4650-b820-1d8831676020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TGPPairProject\Public">
+      <UniqueIdentifier>{d0498f7e-da52-4312-b28e-48707e5d68ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TGPPairProject\Private\BaseCharacter.h">
+      <Filter>Source\TGPPairProject\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TGPPairProject\Public\BaseCamera.h">
+      <Filter>Source\TGPPairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TGPPairProject\Public\BaseEnemy.h">
+      <Filter>Source\TGPPairProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TGPPairProject\Private\BaseCharacter.cpp">
+      <Filter>Source\TGPPairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TGPPairProject\Private\BaseCamera.cpp">
+      <Filter>Source\TGPPairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TGPPairProject\Private\BaseEnemy.cpp">
+      <Filter>Source\TGPPairProject\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

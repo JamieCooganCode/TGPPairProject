@@ -333,3 +333,128 @@ LogInit: Object subsystem initialized
 [2018.11.08-10.14.08:700][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2018.11.08-10.14.08:700][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
 [2018.11.08-10.14.15:005][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-10.36.45:218][ 45]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.08-10.36.45:261][ 45]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.08-10.37.43:249][914]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -invalidatemakefilesonly
+[2018.11.08-10.37.44:162][914]Invalidating makefiles only in this run.
+[2018.11.08-10.37.44:285][914]Candidate modules for hot reload:
+[2018.11.08-10.37.44:285][914]  TGPPairProject
+[2018.11.08-10.37.44:286][914]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TGPPairProject,9908 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -canskiplink "C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" ]
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: New page: Compilation - 8 Nov 2018 10:38:05
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Creating makefile for hot reloading TGPPairProjectEditor (no existing makefile)
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.08-10.38.05:497][914]CompilerResultsLog: Parsing headers for TGPPairProjectEditor
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\TGPPairProject\TGPPairProject.uproject" "C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\TGPPairProjectEditor\Development\TGPPairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.08-10.38.05:498][914]CompilerResultsLog: Reflection code generated for TGPPairProjectEditor in 10.6431098 seconds
+[2018.11.08-10.38.05:498][914]CompilerResultsLog: Building 8 actions with 8 processes...
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [1/8] TGPPairProject.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [2/8] TGPPairProject.init.gen.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [3/8] TGPPairProjectGameModeBase.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [4/8] BaseCharacter.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [5/8] TGPPairProjectGameModeBase.gen.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [6/8] BaseCharacter.gen.cpp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [7/8] UE4Editor-TGPPairProject-9908.lib
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-9908.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-9908.exp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:   [8/8] UE4Editor-TGPPairProject-9908.dll
+[2018.11.08-10.38.05:498][914]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-9908.suppressed.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-9908.suppressed.exp
+[2018.11.08-10.38.05:498][914]CompilerResultsLog: Total build time: 20.97 seconds (Parallel executor: 3.38 seconds)
+[2018.11.08-10.38.05:498][914]LogMainFrame: MainFrame: Module compiling took 21.221 seconds
+[2018.11.08-10.38.05:545][914]LogClass: Could not find existing class BaseCharacter in package /Script/TGPPairProject for HotReload, assuming new class
+[2018.11.08-10.38.05:549][914]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2018.11.08-10.38.05:551][914]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.38.05:681][914]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2575 classes and 608 folders.
+[2018.11.08-10.38.05:682][914]Display: HotReload took 21.4s.
+[2018.11.08-10.38.05:683][914]Warning: HotReload operation took 21.4s.
+[2018.11.08-10.38.06:386][914]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/h017026h/TGPPairProject/TGPPairProject/Source/TGPPairProject/Private/BaseCharacter.h'
+[2018.11.08-10.38.06:393][914]LogVSAccessor: Warning: Couldn't open file 'C:/Users/h017026h/TGPPairProject/TGPPairProject/Source/TGPPairProject/Private/BaseCharacter.cpp'.
+[2018.11.08-10.38.06:408][914]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.08-10.38.06:417][914]LogHotReload: New module detected: UE4Editor-TGPPairProject-9908.dll
+[2018.11.08-10.38.06:441][915]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.08-10.38.06:492][915]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2018.11.08-10.38.06:496][915]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.38.06:539][915]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2575 classes and 608 folders.
+[2018.11.08-10.38.06:550][915]Display: HotReload took  0.1s.
+[2018.11.08-10.38.49:125][345]LogSlate: Took 0.003611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.08-10.38.52:493][747]LogAssetEditorManager: Opening Asset editor for Class /Script/TGPPairProject.BaseCharacter
+[2018.11.08-10.42.01:719][590]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -invalidatemakefilesonly
+[2018.11.08-10.42.03:334][590]Invalidating makefiles only in this run.
+[2018.11.08-10.42.03:474][590]Candidate modules for hot reload:
+[2018.11.08-10.42.03:474][590]  TGPPairProject
+[2018.11.08-10.42.03:474][590]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TGPPairProject,5969 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -canskiplink "C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" ]
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: New page: Compilation - 8 Nov 2018 10:43:01
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Creating makefile for hot reloading TGPPairProjectEditor (no existing makefile)
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Parsing headers for TGPPairProjectEditor
+[2018.11.08-10.43.01:107][590]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\TGPPairProject\TGPPairProject.uproject" "C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\TGPPairProjectEditor\Development\TGPPairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.08-10.43.01:107][590]CompilerResultsLog: Reflection code generated for TGPPairProjectEditor in 11.591693 seconds
+[2018.11.08-10.43.01:108][590]CompilerResultsLog: Building 10 actions with 8 processes...
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [1/10] TGPPairProject.init.gen.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [2/10] TGPPairProject.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [3/10] BaseCamera.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [4/10] BaseCamera.gen.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [5/10] TGPPairProjectGameModeBase.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [6/10] BaseCharacter.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [7/10] BaseCharacter.gen.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [8/10] TGPPairProjectGameModeBase.gen.cpp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [9/10] UE4Editor-TGPPairProject-5969.lib
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-5969.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-5969.exp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:   [10/10] UE4Editor-TGPPairProject-5969.dll
+[2018.11.08-10.43.01:108][590]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-5969.suppressed.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-5969.suppressed.exp
+[2018.11.08-10.43.01:108][590]CompilerResultsLog: Total build time: 57.26 seconds (Parallel executor: 2.08 seconds)
+[2018.11.08-10.43.01:108][590]LogMainFrame: MainFrame: Module compiling took 57.647 seconds
+[2018.11.08-10.43.01:152][590]LogClass: Could not find existing class BaseCamera in package /Script/TGPPairProject for HotReload, assuming new class
+[2018.11.08-10.43.01:157][590]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0005 seconds. Added 3 classes and 4 folders.
+[2018.11.08-10.43.01:159][590]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.43.01:214][590]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2576 classes and 609 folders.
+[2018.11.08-10.43.01:214][590]Display: HotReload took 57.8s.
+[2018.11.08-10.43.01:215][590]Warning: HotReload operation took 57.8s.
+[2018.11.08-10.43.01:477][590]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.08-10.43.01:510][591]LogHotReload: New module detected: UE4Editor-TGPPairProject-5969.dll
+[2018.11.08-10.43.01:530][592]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.08-10.43.01:587][592]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0007 seconds. Added 3 classes and 4 folders.
+[2018.11.08-10.43.01:591][592]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.43.01:639][592]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2576 classes and 609 folders.
+[2018.11.08-10.43.01:646][592]Display: HotReload took  0.1s.
+[2018.11.08-10.51.20:992][675]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -invalidatemakefilesonly
+[2018.11.08-10.51.21:905][675]Invalidating makefiles only in this run.
+[2018.11.08-10.51.22:028][675]Candidate modules for hot reload:
+[2018.11.08-10.51.22:028][675]  TGPPairProject
+[2018.11.08-10.51.22:028][675]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TGPPairProject,2492 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" -canskiplink "C:/Users/h017026h/TGPPairProject/TGPPairProject/TGPPairProject.uproject" ]
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: New page: Compilation - 8 Nov 2018 10:51:40
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Creating makefile for hot reloading TGPPairProjectEditor (no existing makefile)
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Parsing headers for TGPPairProjectEditor
+[2018.11.08-10.51.40:929][675]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\TGPPairProject\TGPPairProject.uproject" "C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\TGPPairProjectEditor\Development\TGPPairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.08-10.51.40:929][675]CompilerResultsLog: Reflection code generated for TGPPairProjectEditor in 10.7727493 seconds
+[2018.11.08-10.51.40:930][675]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:   [1/5] BaseEnemy.cpp
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:   [2/5] TGPPairProject.init.gen.cpp
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:   [3/5] BaseEnemy.gen.cpp
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:   [4/5] UE4Editor-TGPPairProject-2492.lib
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-2492.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-2492.exp
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:   [5/5] UE4Editor-TGPPairProject-2492.dll
+[2018.11.08-10.51.40:930][675]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-2492.suppressed.lib and object C:\Users\h017026h\TGPPairProject\TGPPairProject\Intermediate\Build\Win64\UE4Editor\Development\TGPPairProject\UE4Editor-TGPPairProject-2492.suppressed.exp
+[2018.11.08-10.51.40:930][675]CompilerResultsLog: Total build time: 18.64 seconds (Parallel executor: 1.51 seconds)
+[2018.11.08-10.51.40:930][675]LogMainFrame: MainFrame: Module compiling took 18.908 seconds
+[2018.11.08-10.51.40:978][675]LogClass: Could not find existing class BaseEnemy in package /Script/TGPPairProject for HotReload, assuming new class
+[2018.11.08-10.51.40:983][675]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0006 seconds. Added 4 classes and 4 folders.
+[2018.11.08-10.51.40:986][675]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.51.41:045][675]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2577 classes and 609 folders.
+[2018.11.08-10.51.41:045][675]Display: HotReload took 19.0s.
+[2018.11.08-10.51.41:046][675]Warning: HotReload operation took 19.0s.
+[2018.11.08-10.51.41:220][675]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/h017026h/TGPPairProject/TGPPairProject/Source/TGPPairProject/Public/BaseEnemy.h'
+[2018.11.08-10.51.41:360][675]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/h017026h/TGPPairProject/TGPPairProject/Source/TGPPairProject/Private/BaseEnemy.cpp'
+[2018.11.08-10.51.41:374][675]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.08-10.51.41:384][675]LogHotReload: New module detected: UE4Editor-TGPPairProject-2492.dll
+[2018.11.08-10.51.41:417][676]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.08-10.51.41:476][676]LogContentBrowser: Native class hierarchy updated for 'TGPPairProject' in 0.0007 seconds. Added 4 classes and 4 folders.
+[2018.11.08-10.51.41:480][676]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.08-10.51.41:523][676]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2577 classes and 609 folders.
+[2018.11.08-10.51.41:529][676]Display: HotReload took  0.1s.
