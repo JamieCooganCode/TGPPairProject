@@ -1,3 +1,0 @@
-C:\Users\h017026h\TGPPairProject\TGPPairProject\Source\TGPPairProject\TGPPairProject.Build.cs
-C:\Users\h017026h\TGPPairProject\TGPPairProject\Source\TGPPairProject.Target.cs
-C:\Users\h017026h\TGPPairProject\TGPPairProject\Source\TGPPairProjectEditor.Target.cs
