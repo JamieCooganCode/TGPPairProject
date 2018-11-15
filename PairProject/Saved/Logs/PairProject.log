@@ -332,3 +332,96 @@ LogInit: Object subsystem initialized
 [2018.11.15-09.11.47:462][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2018.11.15-09.11.47:462][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
 [2018.11.15-09.11.47:462][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.15-09.13.17:525][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.13.20:371][576]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-09.13.20:372][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.13.20:408][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.13.20:420][576]LogSlate: Took 0.005328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.15-09.19.47:994][ 56]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" -invalidatemakefilesonly
+[2018.11.15-09.19.48:908][ 56]Invalidating makefiles only in this run.
+[2018.11.15-09.19.49:035][ 56]Candidate modules for hot reload:
+[2018.11.15-09.19.49:035][ 56]  PairProject
+[2018.11.15-09.19.49:035][ 56]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,328 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "C:/Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: New page: Compilation - 15 Nov 2018 09:20:08
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (no existing makefile)
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Parsing headers for PairProjectEditor
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\PairProject\PairProject.uproject" "C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Reflection code generated for PairProjectEditor in 10.3797809 seconds
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog: Building 8 actions with 8 processes...
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   [1/8] PairProject.cpp
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   [2/8] PairProject.init.gen.cpp
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   [3/8] PairProjectGameModeBase.cpp
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   [4/8] PairProjectGameModeBase.gen.cpp
+[2018.11.15-09.20.08:030][ 56]CompilerResultsLog:   [5/8] BaseCharacter.cpp
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog:   [6/8] BaseCharacter.gen.cpp
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog:   [7/8] UE4Editor-PairProject-328.lib
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-328.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-328.exp
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog:   [8/8] UE4Editor-PairProject-328.dll
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-328.suppressed.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-328.suppressed.exp
+[2018.11.15-09.20.08:031][ 56]CompilerResultsLog: Total build time: 18.72 seconds (Parallel executor: 1.80 seconds)
+[2018.11.15-09.20.08:031][ 56]LogMainFrame: MainFrame: Module compiling took 19.004 seconds
+[2018.11.15-09.20.08:072][ 56]LogClass: Could not find existing class BaseCharacter in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-09.20.08:076][ 56]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2018.11.15-09.20.08:079][ 56]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.20.08:208][ 56]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2575 classes and 608 folders.
+[2018.11.15-09.20.08:208][ 56]Display: HotReload took 19.2s.
+[2018.11.15-09.20.08:209][ 56]Warning: HotReload operation took 19.2s.
+[2018.11.15-09.20.08:963][ 56]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/h017026h/TGPPairProject/PairProject/Source/PairProject/Public/BaseCharacter.h'
+[2018.11.15-09.20.08:967][ 56]LogVSAccessor: Warning: Couldn't open file 'C:/Users/h017026h/TGPPairProject/PairProject/Source/PairProject/Private/BaseCharacter.cpp'.
+[2018.11.15-09.20.08:980][ 56]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.15-09.20.08:986][ 56]LogHotReload: New module detected: UE4Editor-PairProject-328.dll
+[2018.11.15-09.20.08:996][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.20.09:009][ 57]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-09.20.09:057][ 57]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2018.11.15-09.20.09:061][ 57]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.20.09:108][ 57]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2575 classes and 608 folders.
+[2018.11.15-09.20.09:114][ 57]Display: HotReload took  0.1s.
+[2018.11.15-09.20.21:302][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.20.23:667][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.20.36:953][337]Running C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" -invalidatemakefilesonly
+[2018.11.15-09.20.37:864][337]Invalidating makefiles only in this run.
+[2018.11.15-09.20.37:984][337]Candidate modules for hot reload:
+[2018.11.15-09.20.37:984][337]  PairProject
+[2018.11.15-09.20.37:984][337]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,4089 Win64 Development -TargetType=Editor -Project="../../../../../../Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "C:/Users/h017026h/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: New page: Compilation - 15 Nov 2018 09:20:56
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (no existing makefile)
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Parsing headers for PairProjectEditor
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\PairProject\PairProject.uproject" "C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Reflection code generated for PairProjectEditor in 10.3747035 seconds
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   [1/5] PairProject.init.gen.cpp
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   [2/5] BaseEnemy.cpp
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   [3/5] BaseEnemy.gen.cpp
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   [4/5] UE4Editor-PairProject-4089.lib
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4089.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4089.exp
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:   [5/5] UE4Editor-PairProject-4089.dll
+[2018.11.15-09.20.56:065][337]CompilerResultsLog:      Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4089.suppressed.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4089.suppressed.exp
+[2018.11.15-09.20.56:065][337]CompilerResultsLog: Total build time: 17.81 seconds (Parallel executor: 1.39 seconds)
+[2018.11.15-09.20.56:066][337]LogMainFrame: MainFrame: Module compiling took 18.088 seconds
+[2018.11.15-09.20.56:108][337]LogClass: Could not find existing class BaseEnemy in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-09.20.56:113][337]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2018.11.15-09.20.56:117][337]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.20.56:178][337]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-09.20.56:178][337]Display: HotReload took 18.2s.
+[2018.11.15-09.20.56:179][337]Warning: HotReload operation took 18.2s.
+[2018.11.15-09.20.56:285][337]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/h017026h/TGPPairProject/PairProject/Source/PairProject/Public/BaseEnemy.h'
+[2018.11.15-09.20.56:286][337]LogVSAccessor: Warning: Couldn't open file 'C:/Users/h017026h/TGPPairProject/PairProject/Source/PairProject/Private/BaseEnemy.cpp'.
+[2018.11.15-09.20.56:291][337]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.15-09.20.56:297][337]LogHotReload: New module detected: UE4Editor-PairProject-4089.dll
+[2018.11.15-09.20.56:304][337]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.20.56:315][338]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-09.20.56:364][338]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2018.11.15-09.20.56:367][338]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.20.56:409][338]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-09.20.56:414][338]Display: HotReload took  0.1s.
+[2018.11.15-09.20.57:856][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-09.21.00:540][510]LogSlate: Window 'Save Level As' being destroyed
+[2018.11.15-09.21.01:373][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.21.04:697][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
