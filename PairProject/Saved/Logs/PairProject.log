@@ -425,3 +425,70 @@ LogInit: Object subsystem initialized
 [2018.11.15-09.21.00:540][510]LogSlate: Window 'Save Level As' being destroyed
 [2018.11.15-09.21.01:373][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.11.15-09.21.04:697][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-09.22.04:321][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-09.27.14:569][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-09.27.20:481][468]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.15-09.27.20:545][468]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PairProject
+[2018.11.15-09.27.20:545][468]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-09.27.20:545][468]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2018.11.15-09.27.20:545][468]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-09.27.20:545][468]LogTemp: BranchPath = C117B-04/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C117B-04/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2018.11.15-09.27.20:557][468]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\h017026h\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.15-09.39.16:967][220]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.15-09.39.16:971][220]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.15-09.41.47:327][737]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.15-09.41.47:385][738]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PairProject
+[2018.11.15-09.41.47:385][738]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-09.41.47:385][738]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2018.11.15-09.41.47:385][738]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-09.41.47:403][739]LogTemp: BranchPath = C117B-04/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = C117B-04/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2018.11.15-09.41.47:417][740]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\h017026h\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.15-09.44.11:404][402]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-09.44.11:417][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-09.44.11:429][402]PIE: New page: PIE session: Untitled_1 (15 Nov 2018 09:44:11)
+[2018.11.15-09.44.11:429][402]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.11.15-09.44.11:433][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003424s)
+[2018.11.15-09.44.11:433][402]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.15-09.44.11:434][402]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.11.15-09.44.11:434][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004444s)
+[2018.11.15-09.44.11:463][402]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.15-09.44.11:472][402]LogInit: FAudioDevice initialized.
+[2018.11.15-09.44.11:516][402]LogLoad: Game class is 'GameModeBase'
+[2018.11.15-09.44.11:520][402]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.11.15-09.44.11
+[2018.11.15-09.44.11:520][402]LogWorld: Bringing up level for play took: 0.001432
+[2018.11.15-09.44.11:548][402]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 10 classes and 0 folders.
+[2018.11.15-09.44.11:549][402]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.963
+[2018.11.15-09.44.15:251][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-09.44.15:285][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-09.44.15:317][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-09.44.15:352][811]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.15-09.44.54:001][333]LogHotReload: New module detected: UE4Editor-PairProject-4082.dll
+[2018.11.15-09.44.55:375][338]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-09.44.55:445][338]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-09.44.55:447][338]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.44.55:502][338]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-09.44.55:507][338]Display: HotReload took  0.1s.
+[2018.11.15-09.54.46:242][104]LogHotReload: New module detected: UE4Editor-PairProject-6950.dll
+[2018.11.15-09.55.58:503][320]LogHotReload: New module detected: UE4Editor-PairProject-9595.dll
+[2018.11.15-09.55.59:529][324]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-09.55.59:591][324]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-09.55.59:593][324]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-09.55.59:647][324]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-09.55.59:652][324]Display: HotReload took  0.1s.
+[2018.11.15-10.10.01:210][227]LogHotReload: New module detected: UE4Editor-PairProject-2440.dll
+[2018.11.15-10.10.01:898][230]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.10.01:962][230]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.10.01:965][230]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.10.02:023][230]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.10.02:028][230]Display: HotReload took  0.1s.
+[2018.11.15-10.34.30:250][ 71]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.15-10.34.30:256][ 71]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.15-10.36.18:446][559]LogHotReload: New module detected: UE4Editor-PairProject-5557.dll
+[2018.11.15-10.36.19:459][563]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.36.19:511][563]LogClass: Could not find existing class BaseCharacter in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-10.36.19:517][563]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.11.15-10.36.19:569][563]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.36.19:573][563]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.36.19:642][563]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.36.19:648][563]Display: HotReload took  0.2s.
+[2018.11.15-10.36.33:579][599]LogSlate: Window 'Save Level As' being destroyed

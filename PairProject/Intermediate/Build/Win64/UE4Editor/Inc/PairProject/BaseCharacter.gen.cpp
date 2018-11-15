@@ -43,6 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "BaseCharacter.h" },
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+		{ "ToolTip", "class StaticMeshComponenet;\nclass UCharacterMovementComponent;" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABaseCharacter_Statics::StaticCppClassTypeInfo = {
@@ -68,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3713333038);
+	IMPLEMENT_CLASS(ABaseCharacter, 3534172240);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
