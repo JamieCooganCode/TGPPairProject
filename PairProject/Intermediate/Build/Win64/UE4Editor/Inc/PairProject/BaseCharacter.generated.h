@@ -57,7 +57,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseCharacter)
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CurrentVelocity() { return STRUCT_OFFSET(ABaseCharacter, CurrentVelocity); } \
+	FORCEINLINE static uint32 __PPO__PlayerBodyMeshComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerBodyMeshComponent); }
+
+
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_12_PROLOG
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

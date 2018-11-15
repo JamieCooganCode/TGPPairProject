@@ -6,8 +6,8 @@
 #include "GameFramework/Character.h"
 #include "BaseCharacter.generated.h"
 
-//class StaticMeshComponenet;
-//class UCharacterMovementComponent;
+class StaticMeshComponenet;
+class UCharacterMovementComponent;
 
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
@@ -17,16 +17,30 @@ class PAIRPROJECT_API ABaseCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ABaseCharacter();
-	//UCharacterMovementComponent* CharacterMovementCopmonenet = GetCharacterMovement();
+
+	UCharacterMovementComponent* CharacterMovementComponent = GetCharacterMovement();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//UPROPERTY(EditAnywheere, BlueprintReadWrite, Category = "Player_Movement")
-		//FVector CurrentVelocity;
+	const float MaxHealth = 20.0f;
+	const float MaxMana = 10.0f;
+	const float MaxStamina = 10.0f;
+	const float BasicAttackDamage = 5.0f;
+	const float SpecialAttackDamage = 10.0f;
+	
+	float CurrentHealth;
+	float CurrentMana;
+	float CurrentStamina;
+	float CurrentAttackDamage;
 
-	//UPROPERTY(VisibleAnywhere)
-		//UStaticMeshComponent * PlayerBodyMeshComponenet;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		FVector CurrentVelocity;
+
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent * PlayerBodyMeshComponent;
 
 	//Controller Input functions
 	virtual void MoveForward(float value);
@@ -34,16 +48,20 @@ protected:
 
 	virtual void LeftTriggerDown();
 	virtual void LeftBumberDown();
+
 	virtual void UpDPadDown();
 	virtual void RightDPadDown();
 	virtual void DownDPadDown();
 	virtual void LeftDPadDown();
+
 	virtual void BackButtonDown();
 	virtual void StartButtonDown();
+
 	virtual void XButtonDown();
 	virtual void YButtonDown();
 	virtual void BButtonDown();
 	virtual void AButtonDown();
+
 	virtual void RightBumperDown();
 	virtual void RightTriggerDown();
 

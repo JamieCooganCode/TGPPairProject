@@ -492,3 +492,98 @@ LogInit: Object subsystem initialized
 [2018.11.15-10.36.19:642][563]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2576 classes and 608 folders.
 [2018.11.15-10.36.19:648][563]Display: HotReload took  0.2s.
 [2018.11.15-10.36.33:579][599]LogSlate: Window 'Save Level As' being destroyed
+[2018.11.15-10.39.30:702][334]LogHotReload: New module detected: UE4Editor-PairProject-1381.dll
+[2018.11.15-10.39.31:380][337]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.39.31:438][337]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.39.31:441][337]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.39.31:501][337]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.39.31:506][337]Display: HotReload took  0.1s.
+[2018.11.15-10.42.15:293][823]LogHotReload: New module detected: UE4Editor-PairProject-955.dll
+[2018.11.15-10.42.16:317][827]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.42.16:382][827]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.42.16:384][827]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.42.16:438][827]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.42.16:443][827]Display: HotReload took  0.1s.
+[2018.11.15-10.46.14:032][531]LogHotReload: New module detected: UE4Editor-PairProject-5400.dll
+[2018.11.15-10.46.15:394][536]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.46.15:455][536]LogClass: Could not find existing class BaseCharacter in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-10.46.15:463][536]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.11.15-10.46.15:527][536]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.46.15:529][536]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.46.15:607][536]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.46.15:612][536]Display: HotReload took  0.2s.
+[2018.11.15-10.49.47:885][166]LogHotReload: New module detected: UE4Editor-PairProject-4909.dll
+[2018.11.15-10.49.48:921][170]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.49.48:988][170]LogClass: Could not find existing class BaseCharacter in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-10.49.48:994][170]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.11.15-10.49.49:043][170]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.49.49:045][170]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.49.49:112][170]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.49.49:117][170]Display: HotReload took  0.2s.
+[2018.11.15-10.58.54:745][788]LogHotReload: New module detected: UE4Editor-PairProject-4298.dll
+[2018.11.15-10.58.55:448][791]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.15-10.58.55:505][791]LogClass: Could not find existing class BaseCharacter in package /Script/PairProject for HotReload, assuming new class
+[2018.11.15-10.58.55:516][791]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.11.15-10.58.55:563][791]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2018.11.15-10.58.55:565][791]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.15-10.58.55:624][791]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2576 classes and 608 folders.
+[2018.11.15-10.58.55:630][791]Display: HotReload took  0.2s.
+[2018.11.15-10.59.05:787][ 47]MapCheck: New page: Map Check
+[2018.11.15-10.59.05:803][ 47]Cmd: MAP REBUILD ALLVISIBLE
+[2018.11.15-10.59.05:803][ 47]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.11.15-10.59.05:850][ 47]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.11.15-10.59.05:857][ 47]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.11.15-10.59.06:550][ 47]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.15-10.59.06:550][ 47]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.15-10.59.06:550][ 47]TextureStreamingBuild: Display: Compiling optional shaders took 0.704 seconds.
+[2018.11.15-10.59.06:565][ 47]LogLevel: Display: Export Material TexCoord Scales took 0.015 seconds.
+[2018.11.15-10.59.06:578][ 47]TextureStreamingBuild: Display: Build Texture Streaming took 0.013 seconds.
+[2018.11.15-10.59.06:619][ 47]LightingResults: New page: Lighting Build - 15 Nov 2018 10:59:06
+[2018.11.15-10.59.06:660][ 47]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.11.15-10.59.06:740][ 47]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.11.15-10.59.06:761][ 47]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.11.15-10.59.07:281][ 47]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.11.15-10.59.07:281][ 47]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8836
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.11.15-10.59.18:805][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.11.15-10.59.19:048][ 47]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.11.15-10.59.19:048][ 47]MapCheck: New page: Untitled_1 - 15 Nov 2018 10:59:19
+[2018.11.15-10.59.19:164][ 47]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.061ms to complete.
+[2018.11.15-10.59.19:187][ 47]LogEditorBuildUtils: Build time 0:13
+[2018.11.15-10.59.19:214][ 47]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.11.15-10.59.19:239][ 47]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.15-10.59.19:239][ 47]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.11.15-10.59.19:269][ 47]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.15-10.59.21:862][144]Job is a success!
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:      Bricks at Level
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2018.11.15-10.59.21:906][145]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2018.11.15-10.59.21:937][145]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.11.15-10.59.21:938][145]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.11.15-10.59.21:938][145]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.11.15-10.59.21:938][145]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.11.15-10.59.21:938][145]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.11.15-10.59.21:938][145]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.11.15-10.59.21:960][145]Lightmass on C117B-04: 921 ms total, 143 ms importing, 14 ms setup, 390 ms photons, 343 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.24 sec total, 141 ms processing.
+[2018.11.15-10.59.21:993][145]LogStaticLightingSystem: Illumination: 15.3 sec (19 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2018.11.15-10.59.21:993][145]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.11.15-10.59.21:993][145]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.11.15-10.59.22:811][145]DumpUnbuiltLightIteractions
+[2018.11.15-10.59.22:812][145]Lights with unbuilt interactions: 0
+[2018.11.15-10.59.22:812][145]
+[2018.11.15-10.59.22:812][145]Primitives with unbuilt interactions: 0
+[2018.11.15-10.59.22:920][146]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.11.15-10.59.22:921][146]MapCheck: New page: Untitled_1 - 15 Nov 2018 10:59:22
+[2018.11.15-10.59.23:050][146]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.737ms to complete.
+[2018.11.15-10.59.23:530][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Users/h017026h/TGPPairProject/PairProject/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.15-10.59.23:560][188]LogSavePackage: Moving '../../../../../../Users/h017026h/TGPPairProject/PairProject/Saved/Untitled_1_Auto14AD1940745883FAC67C74FA14675A501.tmp' to '../../../../../../Users/h017026h/TGPPairProject/PairProject/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.11.15-10.59.23:566][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.067
+[2018.11.15-10.59.23:567][188]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.067
