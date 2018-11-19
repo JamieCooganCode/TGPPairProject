@@ -1,0 +1,14 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Parsing headers for PairProjectEditor
+    Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\PairProject\PairProject.uproject" "C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PairProjectEditor in 11.1423578 seconds
+  Building 4 actions with 8 processes...
+    [1/4] BaseCharacter.gen.cpp
+    [2/4] BaseCharacter.cpp
+    [3/4] UE4Editor-PairProject-4298.lib
+       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4298.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4298.exp
+    [4/4] UE4Editor-PairProject-4298.dll
+       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4298.suppressed.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-4298.suppressed.exp
+  Deploying PairProjectEditor Win64 Development...
+  Total build time: 15.19 seconds (Parallel executor: 1.98 seconds)
