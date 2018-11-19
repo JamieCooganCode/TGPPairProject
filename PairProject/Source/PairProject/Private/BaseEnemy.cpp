@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BaseEnemy.h"
-
+#include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ABaseEnemy::ABaseEnemy()
@@ -15,7 +16,7 @@ ABaseEnemy::ABaseEnemy()
 void ABaseEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	thePlayer = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 }
 
 // Called every frame
@@ -25,3 +26,12 @@ void ABaseEnemy::Tick(float DeltaTime)
 
 }
 
+void ABaseEnemy::Movement(float deltaTime)
+{
+
+}
+
+void ABaseEnemy::Attack(float deltaTime)
+{
+
+}
