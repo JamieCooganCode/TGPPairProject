@@ -35,6 +35,7 @@ protected:
 	float CurrentStamina;
 	float CurrentAttackDamage;
 
+	FVector CameraPos;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
@@ -45,6 +46,9 @@ protected:
 	//Controller Input functions
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
+
+	virtual void RotateCamera(float value);
+	virtual void ZoomCamera(float value);
 
 	virtual void LeftTriggerDown();
 	virtual void LeftBumberDown();

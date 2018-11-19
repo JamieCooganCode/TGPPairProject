@@ -10,6 +10,7 @@ ABaseCharacter::ABaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	PlayerBodyMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Player Body"));
+	
 }
 
 // Called when the game starts or when spawned
@@ -35,6 +36,9 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("Right Thumbstick Vertical", this, &ABaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Right Thumbstick Horizontal", this, &ABaseCharacter::MoveRight);
+
+	PlayerInputComponent->BindAxis("Left Thumbstick Vertical", this, &ABaseCharacter::ZoomCamera);
+	PlayerInputComponent->BindAxis("Left Thumbstick Horizontal", this, &ABaseCharacter::RotateCamera);
 
 	PlayerInputComponent->BindAction("Left Trigger", IE_Pressed, this, &ABaseCharacter::LeftTriggerDown);
 	PlayerInputComponent->BindAction("Left Bumber", IE_Pressed, this, &ABaseCharacter::LeftBumberDown);
@@ -64,6 +68,16 @@ void ABaseCharacter::MoveForward(float value)
 void ABaseCharacter::MoveRight(float value)
 {
 	CurrentVelocity.Y = value * 100;
+}
+
+void ABaseCharacter::ZoomCamera(float value)
+{
+
+}
+
+void ABaseCharacter::RotateCamera(float value)
+{
+
 }
 
 void ABaseCharacter::LeftTriggerDown()
