@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PairProject-2221.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProject.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProjectGameModeBase.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseCharacter.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseEnemy.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseCharacter.gen.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseEnemy.gen.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.gen.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProject.init.gen.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProjectGameModeBase.gen.cpp.obj"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PCLaunch.rc.res"
+/OUT:"E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-2221.lib"

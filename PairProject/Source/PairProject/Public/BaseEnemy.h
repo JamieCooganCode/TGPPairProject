@@ -2,12 +2,13 @@
 
 #pragma once
 
+#include "PairProject/Public/IAttackable.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "BaseEnemy.generated.h"
 
 UCLASS()
-class PAIRPROJECT_API ABaseEnemy : public AActor
+class PAIRPROJECT_API ABaseEnemy : public AActor, public IIAttackable
 {
 	GENERATED_BODY()
 	
@@ -18,11 +19,21 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float _health;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float _damage;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float movementSpeed;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	AActor* _attackTarget;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	float _attackRange;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	
+	virtual void Move(float deltaTime, FVector directionToTarget);
+	virtual void Attack(float deltaTime, FVector directionToTarget);
+	virtual void DealDamage(float damageDealt);
 	
 };

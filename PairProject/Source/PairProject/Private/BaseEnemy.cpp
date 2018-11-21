@@ -22,6 +22,39 @@ void ABaseEnemy::BeginPlay()
 void ABaseEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (_attackTarget != nullptr)
+	{
+		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
+		if (directionToTarget.Size() <= _attackRange)
+		{
+			Attack(DeltaTime, directionToTarget);
+		}
+		else
+		{
+			Move(DeltaTime, directionToTarget);
+		}
+	}
 }
 
+void ABaseEnemy::Move(float deltaTime, FVector directionToTarget)
+{
+	directionToTarget.Normalize();
+	FVector myPosition = this->RootComponent->GetComponentLocation();
+	FVector newPosition = myPosition + (directionToTarget * movementSpeed);
+	this->SetActorLocation(FMath::VInterpTo(this->GetActorLocation(), newPosition, deltaTime, 2.0f));
+}
+
+void ABaseEnemy::Attack(float deltaTime, FVector directionToTarget)
+{
+	//DO ATTACK THING
+}
+
+
+void ABaseEnemy::DealDamage(float damageDealt)
+{
+	_health -= damageDealt;
+	if (_health <= 0.0f)
+	{
+		this->Destroy();
+	}
+}
