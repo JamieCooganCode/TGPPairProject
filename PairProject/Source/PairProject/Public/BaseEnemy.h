@@ -3,6 +3,7 @@
 #pragma once
 
 #include "PairProject/Public/IAttackable.h"
+#include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "BaseEnemy.generated.h"
@@ -24,11 +25,15 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _damage;
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	float movementSpeed;
+	float _movementSpeed;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	AActor* _attackTarget;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _attackRange;
+	
+	UStaticMeshComponent* _movementComponent;
+	UPROPERTY(EditAnywhere, Category = "Mesh")
+	UStaticMesh* _movementComponentMesh;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
