@@ -1,16 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading PairProjectEditor (.uproject file is newer)
+  Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for PairProjectEditor
     Running UnrealHeaderTool "C:\Users\h017026h\TGPPairProject\PairProject\PairProject.uproject" "C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 10.8917656 seconds
-  Building 4 actions with 8 processes...
-    [1/4] BaseCharacter.gen.cpp
-    [2/4] BaseCharacter.cpp
-    [3/4] UE4Editor-PairProject-9602.lib
-       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-9602.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-9602.exp
-    [4/4] UE4Editor-PairProject-9602.dll
-       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-9602.suppressed.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-9602.suppressed.exp
+  Reflection code generated for PairProjectEditor in 10.642881 seconds
+  Building 5 actions with 8 processes...
+    [1/5] PairProject.init.gen.cpp
+    [2/5] PlayerManager.cpp
+    [3/5] PlayerManager.gen.cpp
+    [4/5] UE4Editor-PairProject-7920.lib
+       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7920.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7920.exp
+    [5/5] UE4Editor-PairProject-7920.dll
+       Creating library C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7920.suppressed.lib and object C:\Users\h017026h\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7920.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 20.67 seconds (Parallel executor: 2.78 seconds)
+  Total build time: 21.89 seconds (Parallel executor: 1.57 seconds)
