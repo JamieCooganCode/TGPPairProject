@@ -9,7 +9,7 @@
 #include "BaseEnemy.generated.h"
 
 UCLASS()
-class PAIRPROJECT_API ABaseEnemy : public AActor, public IIAttackable
+class PAIRPROJECT_API ABaseEnemy : public AActor, public IIAttackable     
 {
 	GENERATED_BODY()
 	
