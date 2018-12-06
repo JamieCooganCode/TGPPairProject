@@ -4,10 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
 #include "BaseCharacter.generated.h"
+
 
 class StaticMeshComponenet;
 class UCharacterMovementComponent;
+class UCameraComponent;
 
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
@@ -43,6 +46,12 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent * PlayerBodyMeshComponent;
 
+	UPROPERTY(VisibleAnywhere)
+		UCameraComponent * PlayerCameraComponent; //-200 0 160
+
+	void MoveCamera();
+	void SetCameraFacing();
+
 	//Controller Input functions
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
@@ -76,6 +85,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
+
 	
 };

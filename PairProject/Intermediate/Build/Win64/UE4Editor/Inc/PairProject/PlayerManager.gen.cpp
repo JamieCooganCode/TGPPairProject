@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 	PAIRPROJECT_API UClass* Z_Construct_UClass_APlayerManager();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PairProject();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 // End Cross Module References
 	void APlayerManager::StaticRegisterNativesAPlayerManager()
 	{
@@ -60,14 +60,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 		{ "ModuleRelativePath", "Public/PlayerManager.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterTwo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayerManager, CharacterTwo), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterTwo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayerManager, CharacterTwo), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne_MetaData[] = {
 		{ "Category", "PlayerManager" },
 		{ "ModuleRelativePath", "Public/PlayerManager.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterOne", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayerManager, CharacterOne), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterOne", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayerManager, CharacterOne), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerManager_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterTwo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerManager_Statics::NewProp_CharacterOne,
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerManager, 1220302922);
+	IMPLEMENT_CLASS(APlayerManager, 4042745121);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerManager(Z_Construct_UClass_APlayerManager, &APlayerManager::StaticClass, TEXT("/Script/PairProject"), TEXT("APlayerManager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerManager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

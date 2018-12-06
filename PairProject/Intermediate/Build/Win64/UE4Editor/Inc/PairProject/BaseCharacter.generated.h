@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PAIRPROJECT_BaseCharacter_generated_h
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_RPC_WRAPPERS
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
 	friend struct Z_Construct_UClass_ABaseCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseCharacter)
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_INCLASS \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
 	friend struct Z_Construct_UClass_ABaseCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseCharacter)
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABaseCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABaseCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABaseCharacter(ABaseCharacter&&); \
@@ -57,30 +57,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseCharacter)
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentVelocity() { return STRUCT_OFFSET(ABaseCharacter, CurrentVelocity); } \
-	FORCEINLINE static uint32 __PPO__PlayerBodyMeshComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerBodyMeshComponent); }
+	FORCEINLINE static uint32 __PPO__PlayerBodyMeshComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerBodyMeshComponent); } \
+	FORCEINLINE static uint32 __PPO__PlayerCameraComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerCameraComponent); }
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_12_PROLOG
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_GENERATED_BODY_LEGACY \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_PROLOG
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_RPC_WRAPPERS \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_INCLASS \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_STANDARD_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_RPC_WRAPPERS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_INCLASS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_15_GENERATED_BODY \
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BaseCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BaseCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

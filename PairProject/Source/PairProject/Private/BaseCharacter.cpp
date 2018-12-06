@@ -10,7 +10,16 @@ ABaseCharacter::ABaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	PlayerBodyMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Player Body"));
-	
+	PlayerCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
+
+	//AutoPossessPlayer = EAutoReceiveInput::Player0; //https://docs.unrealengine.com/en-us/Gameplay/HowTo/PossessPawns/Blueprints
+
+	FVector CameraPos;
+	CameraPos.X = 200.0f;
+	CameraPos.Y = 0.0f;
+	CameraPos.Z = 160.0f;
+	FVector newCameraPos = PlayerBodyMeshComponent->GetComponentLocation() - CameraPos;
+	PlayerCameraComponent->SetWorldLocation(newCameraPos);
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +36,23 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
+	MoveCamera();
+}
+
+
+void ABaseCharacter::MoveCamera()
+{
+	FVector newCameraLocation = PlayerBodyMeshComponent->GetComponentLocation() - CameraPos;// -CameraPos;
+	PlayerCameraComponent->SetWorldLocation(newCameraLocation);
+}
+
+void ABaseCharacter::SetCameraFacing()
+{
+	FVector CameraCurrentPos = PlayerCameraComponent->GetComponentLocation();
+	FVector PlayerCurrentPos = PlayerBodyMeshComponent->GetComponentLocation();
+	FVector CameraToPlayer = PlayerCurrentPos - CameraCurrentPos;
+
+	//PlayerCameraComponent->SetWorldRotation(CameraToPlayer);
 }
 
 // Called to bind functionality to input
