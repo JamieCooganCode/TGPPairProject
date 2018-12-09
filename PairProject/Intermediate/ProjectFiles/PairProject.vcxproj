@@ -410,7 +410,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\PairProject-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp" />
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h" />
     <None Include="..\..\PairProject.uproject" />
     <None Include="..\..\Source\PairProject.Target.cs" />

@@ -67,9 +67,15 @@
     <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
   </ItemGroup>

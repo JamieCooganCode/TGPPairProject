@@ -2,15 +2,6 @@
   Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for PairProjectEditor (BuildConfiguration.xml is newer)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for PairProjectEditor
-    Running UnrealHeaderTool "E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\PairProject.uproject" "E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 15.0985056 seconds
-  Building 4 actions with 8 processes...
-    [1/4] BaseEnemy.cpp
-    [2/4] BaseEnemy.gen.cpp
-    [3/4] UE4Editor-PairProject.lib
-       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [4/4] UE4Editor-PairProject.dll
-       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Target is up to date
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 161.88 seconds (Parallel executor: 93.46 seconds)
+  Total build time: 81.75 seconds (NoActionsToExecute executor: 0.00 seconds)
