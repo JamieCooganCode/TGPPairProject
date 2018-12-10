@@ -7,7 +7,7 @@
 #include "BaseAttack.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(Blueprintable, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PAIRPROJECT_API UBaseAttack : public UStaticMeshComponent
 {
 	GENERATED_BODY()
@@ -22,7 +22,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _attackDuration;
-
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float _attackDamage;
 
 public:	
 	// Called every frame

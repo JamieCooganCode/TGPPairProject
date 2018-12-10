@@ -19,16 +19,17 @@ class UIAttackable : public UInterface
 class PAIRPROJECT_API IIAttackable
 {
 	GENERATED_BODY()
+public:
 	enum Team
 	{
 		blue = 0,
 		red,
 		yellow
 	};
+protected:
 	Team _team;
-	virtual void DealDamage(float damageDealt) = 0;
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	
-	
+	virtual void DealDamage(float damageDealt) = 0;
+	virtual Team GetTeam() = 0;
 };

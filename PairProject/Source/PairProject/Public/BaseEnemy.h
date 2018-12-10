@@ -34,11 +34,15 @@ protected:
 	UStaticMeshComponent* _movementComponent;
 	UPROPERTY(EditAnywhere, Category = "Mesh")
 	UStaticMesh* _movementComponentMesh;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	TSubclassOf<class UBaseAttack> _attackComponent;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void Move(float deltaTime, FVector directionToTarget);
 	virtual void Attack(float deltaTime, FVector directionToTarget);
 	virtual void DealDamage(float damageDealt);
+	virtual Team GetTeam();
 	
 };

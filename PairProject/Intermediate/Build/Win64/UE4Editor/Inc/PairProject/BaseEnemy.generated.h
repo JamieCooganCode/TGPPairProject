@@ -65,7 +65,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseEnemy); \
 	FORCEINLINE static uint32 __PPO___movementSpeed() { return STRUCT_OFFSET(ABaseEnemy, _movementSpeed); } \
 	FORCEINLINE static uint32 __PPO___attackTarget() { return STRUCT_OFFSET(ABaseEnemy, _attackTarget); } \
 	FORCEINLINE static uint32 __PPO___attackRange() { return STRUCT_OFFSET(ABaseEnemy, _attackRange); } \
-	FORCEINLINE static uint32 __PPO___movementComponentMesh() { return STRUCT_OFFSET(ABaseEnemy, _movementComponentMesh); }
+	FORCEINLINE static uint32 __PPO___movementComponentMesh() { return STRUCT_OFFSET(ABaseEnemy, _movementComponentMesh); } \
+	FORCEINLINE static uint32 __PPO___attackComponent() { return STRUCT_OFFSET(ABaseEnemy, _attackComponent); }
 
 
 #define PairProject_Source_PairProject_Public_BaseEnemy_h_11_PROLOG

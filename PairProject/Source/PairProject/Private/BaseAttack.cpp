@@ -2,6 +2,8 @@
 
 #include "BaseAttack.h"
 #include "Components/PrimitiveComponent.h"
+#include "GameFramework/Actor.h"
+#include "PairProject/Public/IAttackable.h"
 
 // Sets default values for this component's properties
 UBaseAttack::UBaseAttack()
@@ -18,6 +20,7 @@ void UBaseAttack::BeginPlay()
 {
 	Super::BeginPlay();
 	this->SetGenerateOverlapEvents(true);
+	this->OnComponentBeginOverlap.AddDynamic(this, &UBaseAttack::OverlapTriggered);
 	// ...
 	
 }
@@ -27,13 +30,30 @@ void UBaseAttack::BeginPlay()
 void UBaseAttack::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	this->OnComponentBeginOverlap.AddDynamic(this, &UBaseAttack::OverlapTriggered);
 
 	// ...
 }
 
 void UBaseAttack::OverlapTriggered(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
+	if (OtherActor != nullptr)
+	{
+		IIAttackable* actor;
+		if ((actor = Cast<IIAttackable>(OtherActor)) != nullptr)
+		{
+			IIAttackable* me;
+			if ((me = Cast<IIAttackable>(this->GetOwner())) != nullptr)
+			{
+				if (me->GetTeam() != actor->GetTeam())
+				{
+					actor->DealDamage(_attackDamage);
+				}
+			}
+			else
+			{
+				actor->DealDamage(_attackDamage);
+			}
+		}
+	}
 }
 
