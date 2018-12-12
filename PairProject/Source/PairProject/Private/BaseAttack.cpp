@@ -21,6 +21,7 @@ void UBaseAttack::BeginPlay()
 	Super::BeginPlay();
 	this->SetGenerateOverlapEvents(true);
 	this->OnComponentBeginOverlap.AddDynamic(this, &UBaseAttack::OverlapTriggered);
+	timeExisted = 0.0f;
 	// ...
 	
 }
@@ -30,7 +31,11 @@ void UBaseAttack::BeginPlay()
 void UBaseAttack::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	timeExisted += DeltaTime;
+	if (timeExisted >= _attackDuration)
+	{
+		this->DestroyComponent();
+	}
 	// ...
 }
 

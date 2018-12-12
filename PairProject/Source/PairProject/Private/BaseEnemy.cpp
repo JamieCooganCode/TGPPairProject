@@ -31,8 +31,7 @@ void ABaseEnemy::Tick(float DeltaTime)
 	if (_attackTarget != nullptr)
 	{
 		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
-		float angleToTarget = Dot3(this->GetActorForwardVector(), directionToTarget);
-		if (directionToTarget.Size() <= _attackRange && angleToTarget < 20.0f && angleToTarget > -20.0f)
+		if (directionToTarget.Size() <= _attackRange)
 		{
 			Attack(DeltaTime, directionToTarget);
 		}
@@ -40,6 +39,8 @@ void ABaseEnemy::Tick(float DeltaTime)
 		{
 			Move(DeltaTime, directionToTarget);
 		}
+
+		Rotate(DeltaTime, directionToTarget, 10.0f);
 	}
 }
 
@@ -49,14 +50,13 @@ void ABaseEnemy::Move(float deltaTime, FVector directionToTarget)
 	FVector myPosition = this->RootComponent->GetComponentLocation();
 	FVector newPosition = myPosition + (directionToTarget * _movementSpeed);
 	this->SetActorLocation(FMath::VInterpTo(this->GetActorLocation(), newPosition, deltaTime, 2.0f));
-	//TODO: ROTATE TO TARGET
 }
 
 void ABaseEnemy::Attack(float deltaTime, FVector directionToTarget)
 {
 	UClass* test = _attackComponent;
 	UBaseAttack* attack = NewObject<UBaseAttack>(this, _attackComponent);
-	attack->AttachTo(RootComponent);
+	attack->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 	attack->SetRelativeLocation(FVector(_attackRange, 0.0f, 0.0f));
 	attack->RegisterComponent();
 }
@@ -74,4 +74,12 @@ void ABaseEnemy::DealDamage(float damageDealt)
 IIAttackable::Team ABaseEnemy::GetTeam()
 {
 	return _team;
+}
+
+void ABaseEnemy::Rotate(float deltaTime, FVector desiredForwardVector, float leniance)
+{
+	float angle = acos((Dot3(desiredForwardVector, this->GetActorForwardVector())) / (desiredForwardVector.Size() * this->GetActorForwardVector().Size()));
+	FRotator rotation = FRotator(0.0f, 0.0f, 0.0f);
+	rotation.Yaw += ((angle - 3.14) * deltaTime * _rotationSpeed);
+	this->AddActorLocalRotation(rotation);
 }

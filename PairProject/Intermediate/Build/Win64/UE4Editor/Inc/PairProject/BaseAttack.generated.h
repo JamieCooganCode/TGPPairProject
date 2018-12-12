@@ -94,7 +94,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseAttack); \
 
 #define PairProject_Source_PairProject_Public_BaseAttack_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO___attackDuration() { return STRUCT_OFFSET(UBaseAttack, _attackDuration); } \
-	FORCEINLINE static uint32 __PPO___attackDamage() { return STRUCT_OFFSET(UBaseAttack, _attackDamage); }
+	FORCEINLINE static uint32 __PPO___attackDamage() { return STRUCT_OFFSET(UBaseAttack, _attackDamage); } \
+	FORCEINLINE static uint32 __PPO__timeExisted() { return STRUCT_OFFSET(UBaseAttack, timeExisted); }
 
 
 #define PairProject_Source_PairProject_Public_BaseAttack_h_10_PROLOG

@@ -23,9 +23,11 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _health;
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	float _damage;
+	float _damage = 5.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	float _movementSpeed;
+	float _movementSpeed = 5.0f;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float _rotationSpeed = 3.0f;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	AActor* _attackTarget;
 	UPROPERTY(EditAnywhere, Category = "Attack")
@@ -42,6 +44,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void Move(float deltaTime, FVector directionToTarget);
 	virtual void Attack(float deltaTime, FVector directionToTarget);
+	virtual void Rotate(float deltaTime, FVector desiredForwardVector, float leniance = 10.0f);
 	virtual void DealDamage(float damageDealt);
 	virtual Team GetTeam();
 	

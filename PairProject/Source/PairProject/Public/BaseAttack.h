@@ -21,10 +21,11 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	float _attackDuration;
+	float _attackDuration = 5.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _attackDamage;
-
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float timeExisted;
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

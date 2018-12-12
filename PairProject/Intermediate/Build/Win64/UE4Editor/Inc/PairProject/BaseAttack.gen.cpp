@@ -123,6 +123,10 @@ void EmptyLinkFunctionForGeneratedCodeBaseAttack() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeExisted_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeExisted;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__attackDamage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__attackDamage;
@@ -153,6 +157,13 @@ void EmptyLinkFunctionForGeneratedCodeBaseAttack() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseAttack_Statics::NewProp_timeExisted_MetaData[] = {
+		{ "Category", "Stats" },
+		{ "ModuleRelativePath", "Public/BaseAttack.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBaseAttack_Statics::NewProp_timeExisted = { UE4CodeGen_Private::EPropertyClass::Float, "timeExisted", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UBaseAttack, timeExisted), METADATA_PARAMS(Z_Construct_UClass_UBaseAttack_Statics::NewProp_timeExisted_MetaData, ARRAY_COUNT(Z_Construct_UClass_UBaseAttack_Statics::NewProp_timeExisted_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDamage_MetaData[] = {
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Public/BaseAttack.h" },
@@ -167,6 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAttack() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDuration = { UE4CodeGen_Private::EPropertyClass::Float, "_attackDuration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UBaseAttack, _attackDuration), METADATA_PARAMS(Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDuration_MetaData, ARRAY_COUNT(Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDuration_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBaseAttack_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAttack_Statics::NewProp_timeExisted,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAttack_Statics::NewProp__attackDuration,
 	};
@@ -193,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAttack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBaseAttack, 2802811015);
+	IMPLEMENT_CLASS(UBaseAttack, 2268448431);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBaseAttack(Z_Construct_UClass_UBaseAttack, &UBaseAttack::StaticClass, TEXT("/Script/PairProject"), TEXT("UBaseAttack"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBaseAttack);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
