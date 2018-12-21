@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 E:\Staffs Uni\Level 5\Technical Games Production\Pair\Kraken\TGPPairProject\PairProject\Source\PairProject\PairProject.Build.cs
 E:\Staffs Uni\Level 5\Technical Games Production\Pair\Kraken\TGPPairProject\PairProject\Source\PairProject.Target.cs
 E:\Staffs Uni\Level 5\Technical Games Production\Pair\Kraken\TGPPairProject\PairProject\Source\PairProjectEditor.Target.cs
+=======
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\PairProject.Build.cs
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject.Target.cs
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProjectEditor.Target.cs
+>>>>>>> Player_Switch

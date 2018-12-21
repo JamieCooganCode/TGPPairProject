@@ -66,8 +66,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseEnemy); \
 	FORCEINLINE static uint32 __PPO___rotationSpeed() { return STRUCT_OFFSET(ABaseEnemy, _rotationSpeed); } \
 	FORCEINLINE static uint32 __PPO___attackTarget() { return STRUCT_OFFSET(ABaseEnemy, _attackTarget); } \
 	FORCEINLINE static uint32 __PPO___attackRange() { return STRUCT_OFFSET(ABaseEnemy, _attackRange); } \
+<<<<<<< HEAD
 	FORCEINLINE static uint32 __PPO___attackCooldown() { return STRUCT_OFFSET(ABaseEnemy, _attackCooldown); } \
 	FORCEINLINE static uint32 __PPO___timeSinceLastAttack() { return STRUCT_OFFSET(ABaseEnemy, _timeSinceLastAttack); } \
+=======
+>>>>>>> Player_Switch
 	FORCEINLINE static uint32 __PPO___movementComponentMesh() { return STRUCT_OFFSET(ABaseEnemy, _movementComponentMesh); } \
 	FORCEINLINE static uint32 __PPO___attackComponent() { return STRUCT_OFFSET(ABaseEnemy, _attackComponent); }
 

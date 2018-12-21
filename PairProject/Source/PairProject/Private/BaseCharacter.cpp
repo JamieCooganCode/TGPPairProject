@@ -58,7 +58,7 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 void ABaseCharacter::MoveForward(float value)
 {
-	CurrentVelocity.X = value * 100;
+	CurrentVelocity.X = value * -100;
 }
 
 void ABaseCharacter::MoveRight(float value)

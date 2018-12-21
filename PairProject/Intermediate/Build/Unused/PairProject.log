@@ -1,4 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Building 3 actions with 8 processes...
     [1/3] BaseEnemy.cpp
     [2/3] UE4Editor-PairProject.lib
@@ -7,3 +8,8 @@
        Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\Kraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\Kraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
   Total build time: 5.22 seconds (Parallel executor: 2.85 seconds)
+=======
+  Target is up to date
+  Deploying PairProjectEditor Win64 Development...
+  Total build time: 7.61 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> Player_Switch
