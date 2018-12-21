@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// PCH for C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
-=======
 // PCH for D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
->>>>>>> Player_Switch
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -177,8 +173,4 @@
 #define NETWORKREPLAYSTREAMING_API DLLIMPORT
 #define AUDIOMIXER_API DLLIMPORT
 #define UELIBSAMPLERATE_API DLLIMPORT
-<<<<<<< HEAD
-#include "C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
-=======
 #include "D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
->>>>>>> Player_Switch
