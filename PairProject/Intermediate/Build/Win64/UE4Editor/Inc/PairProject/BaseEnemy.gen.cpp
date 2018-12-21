@@ -45,6 +45,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__movementComponentMesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__timeSinceLastAttack_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__timeSinceLastAttack;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__attackCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__attackCooldown;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__attackRange_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__attackRange;
@@ -98,6 +106,20 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp__movementComponentMesh = { UE4CodeGen_Private::EPropertyClass::Object, "_movementComponentMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ABaseEnemy, _movementComponentMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__movementComponentMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__movementComponentMesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp__timeSinceLastAttack_MetaData[] = {
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/BaseEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp__timeSinceLastAttack = { UE4CodeGen_Private::EPropertyClass::Float, "_timeSinceLastAttack", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ABaseEnemy, _timeSinceLastAttack), METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__timeSinceLastAttack_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__timeSinceLastAttack_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackCooldown_MetaData[] = {
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/BaseEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackCooldown = { UE4CodeGen_Private::EPropertyClass::Float, "_attackCooldown", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ABaseEnemy, _attackCooldown), METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackCooldown_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackCooldown_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackRange_MetaData[] = {
 		{ "Category", "Attack" },
 		{ "ModuleRelativePath", "Public/BaseEnemy.h" },
@@ -142,6 +164,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseEnemy_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__movementComponentMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__timeSinceLastAttack,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackCooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__attackTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp__rotationSpeed,
@@ -175,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseEnemy, 1174062393);
+	IMPLEMENT_CLASS(ABaseEnemy, 963082775);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseEnemy(Z_Construct_UClass_ABaseEnemy, &ABaseEnemy::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseEnemy"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseEnemy);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
