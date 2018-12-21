@@ -32,6 +32,10 @@ protected:
 	AActor* _attackTarget;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _attackRange;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	float _attackCooldown;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	float _timeSinceLastAttack;
 	
 	UStaticMeshComponent* _movementComponent;
 	UPROPERTY(EditAnywhere, Category = "Mesh")
