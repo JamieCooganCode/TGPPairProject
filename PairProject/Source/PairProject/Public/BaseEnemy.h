@@ -28,6 +28,8 @@ protected:
 	float _movementSpeed = 5.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _rotationSpeed = 3.0f;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float _sightRange;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	AActor* _attackTarget;
 	UPROPERTY(EditAnywhere, Category = "Attack")
@@ -35,11 +37,19 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _attackCooldown;
 	UPROPERTY(EditAnywhere, Category = "Attack")
-	float _timeSinceLastAttack;
-	
+	float _timeSinceLastAttack; 
+
+	//Animation Variables
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	bool _attacking;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	float _currentMovementSpeed;
+	//////////////////////////////
 	UStaticMeshComponent* _movementComponent;
-	UPROPERTY(EditAnywhere, Category = "Mesh")
+	UPROPERTY(EditAnywhere, Category = "Stats")
 	UStaticMesh* _movementComponentMesh;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	class USphereComponent* _sightSphere;
 
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	TSubclassOf<class UBaseAttack> _attackComponent;

@@ -4,6 +4,7 @@
 #include "PairProject/Public/IAttackable.h"
 #include "PairProject/Public/BaseAttack.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 ABaseEnemy::ABaseEnemy()
@@ -12,6 +13,8 @@ ABaseEnemy::ABaseEnemy()
 	PrimaryActorTick.bCanEverTick = true;
 	_movementComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MovementComponent"));
 	RootComponent = _movementComponent;
+	_sightSphere = CreateDefaultSubobject<USphereComponent>(FName("SightSphere"));
+	_sightSphere->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -22,6 +25,7 @@ void ABaseEnemy::BeginPlay()
 	{
 		_movementComponent->SetStaticMesh(_movementComponentMesh);
 	}
+	_sightSphere->InitSphereRadius(_sightRange);
 }
 
 // Called every frame
@@ -34,6 +38,7 @@ void ABaseEnemy::Tick(float DeltaTime)
 		if (directionToTarget.Size() <= _attackRange)
 		{
 			Attack(DeltaTime, directionToTarget);
+			_currentMovementSpeed = 0.0f;
 		}
 		else
 		{
@@ -50,6 +55,7 @@ void ABaseEnemy::Move(float deltaTime, FVector directionToTarget)
 	FVector myPosition = this->RootComponent->GetComponentLocation();
 	FVector newPosition = myPosition + (directionToTarget * _movementSpeed);
 	this->SetActorLocation(FMath::VInterpTo(this->GetActorLocation(), newPosition, deltaTime, 2.0f));
+	_currentMovementSpeed = _movementSpeed;
 }
 
 void ABaseEnemy::Attack(float deltaTime, FVector directionToTarget)

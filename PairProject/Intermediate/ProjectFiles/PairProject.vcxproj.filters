@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PairProject.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{76743397-6AFE-47A5-B2C6-7C148829F60C}</UniqueIdentifier>
+			<UniqueIdentifier>{850A830F-CE95-4AAF-8768-7A7A0F5D7732}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PairProject.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{F946063F-F2FE-4216-9E30-417F79F99160}</UniqueIdentifier>
+			<UniqueIdentifier>{36D475FF-72E1-4450-9A36-AF0525E4C7A7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PairProject">
-			<UniqueIdentifier>{38C812DE-1EB3-4BC6-9CCD-7FD612CDE7E9}</UniqueIdentifier>
+			<UniqueIdentifier>{6FAF1703-4C4E-4150-A31F-B4D805F8FAC6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PairProject\PairProject.Build.cs">
 			<Filter>Source\PairProject</Filter>
@@ -46,7 +46,7 @@
 			<Filter>Source\PairProject</Filter>
 		</ClInclude >
 		<Filter Include="Source\PairProject\Private">
-			<UniqueIdentifier>{DCC54E90-C91C-4005-BCDD-4CCD161C2802}</UniqueIdentifier>
+			<UniqueIdentifier>{6F46417E-6D47-4AF0-988A-044CD0CFE4E4}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
 			<Filter>Source\PairProject\Private</Filter>
@@ -64,7 +64,7 @@
 			<Filter>Source\PairProject\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\PairProject\Public">
-			<UniqueIdentifier>{1C2BF983-06BC-4E16-84B8-E9B00A13DB3A}</UniqueIdentifier>
+			<UniqueIdentifier>{E10D578D-CA5D-48FC-B494-E4EC0C35BC8C}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
 			<Filter>Source\PairProject\Public</Filter>

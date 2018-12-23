@@ -1,30 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for PairProjectEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for PairProjectEditor
-    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\PairProject.uproject" "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 8.9835863 seconds
-  Building 18 actions with 12 processes...
-    [1/18] PCLaunch.rc
-    [2/18] SharedPCH.Engine.cpp
-    [3/18] PairProject.cpp
-    [4/18] IAttackable.cpp
-    [5/18] BaseEnemy.cpp
-    [6/18] BaseEnemy.gen.cpp
-    [7/18] PairProjectGameModeBase.cpp
-    [8/18] IAttackable.gen.cpp
-    [9/18] BaseAttack.cpp
-    [10/18] PairProject.init.gen.cpp
-    [11/18] BaseAttack.gen.cpp
-    [12/18] LinkCharacter.gen.cpp
-    [13/18] BaseCharacter.gen.cpp
-    [14/18] BaseCharacter.cpp
-    [15/18] LinkCharacter.cpp
-    [16/18] PairProjectGameModeBase.gen.cpp
-    [17/18] UE4Editor-PairProject.lib
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [18/18] UE4Editor-PairProject.dll
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Building 3 actions with 8 processes...
+    [1/3] BaseEnemy.cpp
+    [2/3] UE4Editor-PairProject.lib
+       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
+    [3/3] UE4Editor-PairProject.dll
+       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 93.91 seconds (Parallel executor: 25.54 seconds)
+  Total build time: 4.39 seconds (Parallel executor: 2.25 seconds)
