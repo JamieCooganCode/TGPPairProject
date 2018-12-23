@@ -39,11 +39,8 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _timeSinceLastAttack; 
 
-	//Animation Variables
-	UPROPERTY(EditAnywhere, Category = "Attack")
-	bool _attacking;
-	UPROPERTY(EditAnywhere, Category = "Attack")
-	float _currentMovementSpeed;
+	
+
 	//////////////////////////////
 	UStaticMeshComponent* _movementComponent;
 	UPROPERTY(EditAnywhere, Category = "Stats")
@@ -61,5 +58,11 @@ public:
 	virtual void Rotate(float deltaTime, FVector desiredForwardVector, float leniance = 10.0f);
 	virtual void DealDamage(float damageDealt);
 	virtual Team GetTeam();
+
+	//Animation Variables
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
+		bool _attacking;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
+		float _currentMovementSpeed;
 	
 };
