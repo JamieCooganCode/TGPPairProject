@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PairProject.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{850A830F-CE95-4AAF-8768-7A7A0F5D7732}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{B4A64326-A020-4E90-AF9E-6992B3AAD9A3}</UniqueIdentifier>
->>>>>>> Player_Manager
+			<UniqueIdentifier>{63C7642E-30A9-4689-A580-0E7141674A33}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PairProject.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
-			<UniqueIdentifier>{36D475FF-72E1-4450-9A36-AF0525E4C7A7}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{1712BBC6-498C-4DCC-B929-A63B429B5137}</UniqueIdentifier>
->>>>>>> Player_Manager
+			<UniqueIdentifier>{FAE0BC42-9C41-4225-9399-EE958F23CC60}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -36,11 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PairProject">
-<<<<<<< HEAD
-			<UniqueIdentifier>{6FAF1703-4C4E-4150-A31F-B4D805F8FAC6}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E84FC36B-2DF1-442F-B5E9-84DBC3EAE376}</UniqueIdentifier>
->>>>>>> Player_Manager
+			<UniqueIdentifier>{D1EE2065-1DD7-42F4-820B-3A60D5A5169A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PairProject\PairProject.Build.cs">
 			<Filter>Source\PairProject</Filter>
@@ -58,11 +46,7 @@
 			<Filter>Source\PairProject</Filter>
 		</ClInclude >
 		<Filter Include="Source\PairProject\Private">
-<<<<<<< HEAD
-			<UniqueIdentifier>{6F46417E-6D47-4AF0-988A-044CD0CFE4E4}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{6D58CC69-9AB1-4754-A474-1D95CEE9BA1A}</UniqueIdentifier>
->>>>>>> Player_Manager
+			<UniqueIdentifier>{5BBBE247-F3F2-4037-BF5C-8A7DAF1D3942}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
 			<Filter>Source\PairProject\Private</Filter>
@@ -80,11 +64,7 @@
 			<Filter>Source\PairProject\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\PairProject\Public">
-<<<<<<< HEAD
-			<UniqueIdentifier>{E10D578D-CA5D-48FC-B494-E4EC0C35BC8C}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{A483E2F4-AFFA-4618-AF2C-5EBF856BE627}</UniqueIdentifier>
->>>>>>> Player_Manager
+			<UniqueIdentifier>{19260EA2-54C4-4693-ABAD-82CACC8670FF}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
 			<Filter>Source\PairProject\Public</Filter>

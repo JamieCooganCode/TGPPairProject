@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeLinkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALinkCharacter, 1816766149);
+	IMPLEMENT_CLASS(ALinkCharacter, 3764671872);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALinkCharacter(Z_Construct_UClass_ALinkCharacter, &ALinkCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ALinkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALinkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

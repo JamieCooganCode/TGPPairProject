@@ -41,6 +41,11 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentVelocity_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CurrentVelocity;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attacking_MetaData[];
+#endif
+		static void NewProp_Attacking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Attacking;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -71,9 +76,21 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "CurrentVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, CurrentVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_MetaData[] = {
+		{ "Category", "Player_Attacks" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_SetBit(void* Obj)
+	{
+		((ABaseCharacter*)Obj)->Attacking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking = { UE4CodeGen_Private::EPropertyClass::Bool, "Attacking", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_PlayerBodyMeshComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABaseCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABaseCharacter>::IsAbstract,
@@ -98,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 2179319719);
+	IMPLEMENT_CLASS(ABaseCharacter, 774940319);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

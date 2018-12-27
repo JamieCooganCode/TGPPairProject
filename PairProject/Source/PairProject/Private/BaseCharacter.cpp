@@ -26,6 +26,9 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
+	
+	if (Attacking)
+		Attacking = false;
 }
 
 // Called to bind functionality to input
@@ -108,7 +111,7 @@ void ABaseCharacter::StartButtonDown()
 
 void ABaseCharacter::XButtonDown()
 {
-
+	Attacking = true;
 }
 
 void ABaseCharacter::YButtonDown()

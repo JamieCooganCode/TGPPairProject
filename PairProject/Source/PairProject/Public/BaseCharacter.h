@@ -34,7 +34,9 @@ protected:
 	float CurrentMana;
 	float CurrentStamina;
 	float CurrentAttackDamage;
-
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
+		bool Attacking;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
