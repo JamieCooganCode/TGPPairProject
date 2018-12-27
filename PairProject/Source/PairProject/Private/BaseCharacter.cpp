@@ -3,6 +3,8 @@
 #include "BaseCharacter.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
@@ -10,6 +12,12 @@ ABaseCharacter::ABaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	PlayerBodyMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Player Body"));
+	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraSpringArm"));
+	CameraSpringArm->SetupAttachment(PlayerBodyMeshComponent);
+	CameraSpringArm->SetRelativeLocationAndRotation(FVector(-150.0f, 0.0f, 300.0f), FRotator(-35.0f, 0.0f, 0.0f));
+	CameraSpringArm->TargetArmLength = 200.0f;
+	ThirdPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Third Camera"));
+	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +35,14 @@ void ABaseCharacter::Tick(float DeltaTime)
 	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
 	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
 	
+	FRotator NewRotation = GetActorRotation(); //left and right : broken
+	NewRotation.Yaw += CameraInput.X;
+	SetActorRotation(NewRotation);
+
+	FRotator newPitchRotation = CameraSpringArm->GetComponentRotation(); //in and out : works
+	newPitchRotation.Pitch = FMath::Clamp(newPitchRotation.Pitch + CameraInput.Y, -80.0f, -15.0f);
+	CameraSpringArm->SetWorldRotation(newPitchRotation);
+
 	if (Attacking)
 		Attacking = false;
 }
@@ -38,6 +54,9 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("Right Thumbstick Vertical", this, &ABaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Right Thumbstick Horizontal", this, &ABaseCharacter::MoveRight);
+
+	PlayerInputComponent->BindAxis("Left ThumbStick Vertical", this, &ABaseCharacter::PitchCamera);
+	PlayerInputComponent->BindAxis("Left Thumbstick Horizontal", this, &ABaseCharacter::YawCamera);
 
 	PlayerInputComponent->BindAction("Left Trigger", IE_Pressed, this, &ABaseCharacter::LeftTriggerDown);
 	PlayerInputComponent->BindAction("Left Bumber", IE_Pressed, this, &ABaseCharacter::LeftBumberDown);
@@ -67,6 +86,16 @@ void ABaseCharacter::MoveForward(float value)
 void ABaseCharacter::MoveRight(float value)
 {
 	CurrentVelocity.Y = value * 100;
+}
+
+void ABaseCharacter::YawCamera(float value)
+{
+	CameraInput.X = value;
+}
+
+void ABaseCharacter::PitchCamera(float value)
+{
+	CameraInput.Y = value;
 }
 
 void ABaseCharacter::LeftTriggerDown()

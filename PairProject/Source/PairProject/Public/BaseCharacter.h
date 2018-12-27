@@ -9,6 +9,7 @@
 class StaticMeshComponenet;
 class UCharacterMovementComponent;
 
+
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
 {
@@ -43,6 +44,18 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent * PlayerBodyMeshComponent;
+
+	//third person camera
+	UPROPERTY(EditAnywhere)
+		class UCameraComponent* ThirdPersonCameraComponent;
+		class USpringArmComponent* CameraSpringArm;
+
+	//Camera Methods
+	FVector2D CameraInput;
+	void PitchCamera(float axisValue);
+	void YawCamera(float axisValue);
+
+
 
 	//Controller Input functions
 	virtual void MoveForward(float value);
