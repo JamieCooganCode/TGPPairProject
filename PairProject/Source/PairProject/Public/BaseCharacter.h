@@ -9,6 +9,7 @@
 class StaticMeshComponenet;
 class UCharacterMovementComponent;
 
+
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
 {
@@ -20,6 +21,9 @@ public:
 
 	UCharacterMovementComponent* CharacterMovementComponent = GetCharacterMovement();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Management")
+		bool isPossessed = false;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,17 +34,39 @@ protected:
 	const float BasicAttackDamage = 5.0f;
 	const float SpecialAttackDamage = 10.0f;
 	
-	float CurrentHealth;
-	float CurrentMana;
-	float CurrentStamina;
-	float CurrentAttackDamage;
-
+	
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
+		bool Attacking;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
 
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent * PlayerBodyMeshComponent;
+
+	//third person camera
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UCameraComponent* ThirdPersonCameraComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class USpringArmComponent* CameraSpringArm;
+
+
+	//Camera Methods
+	FVector2D CameraInput;
+	void PitchCamera(float axisValue);
+	void YawCamera(float axisValue);
+
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void SetUpCamera();
+
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void SetUpCameraArm();
+
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void RotatePlayer();
+
 
 	//Controller Input functions
 	virtual void MoveForward(float value);
@@ -65,6 +91,8 @@ protected:
 	virtual void RightBumperDown();
 	virtual void RightTriggerDown();
 
+	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -72,6 +100,18 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
+		float CurrentHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
+		float CurrentMana;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
+		float CurrentStamina;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
+		float CurrentAttackDamage;
 	
-	
+
+	void MoveToPosition(FVector position);
 };

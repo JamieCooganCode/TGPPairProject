@@ -19,8 +19,13 @@ void EmptyLinkFunctionForGeneratedCodePairProject_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/PairProject",
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0xF588F079,
 				0x34FB9E5D,
+=======
+				0xAF530A73,
+				0x525F2A04,
+>>>>>>> Player_Camera_UI
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

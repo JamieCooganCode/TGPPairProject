@@ -1,4 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Creating makefile for PairProjectEditor (game project files are newer)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for PairProjectEditor
@@ -21,8 +22,19 @@
     [14/17] PairProjectGameModeBase.gen.cpp
     [15/17] BaseCharacter.cpp
     [16/17] UE4Editor-PairProject.lib
+=======
+  Creating makefile for PairProjectEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 12 processes...
+    [1/3] BaseCharacter.cpp
+    [2/3] UE4Editor-PairProject.lib
+>>>>>>> Player_Camera_UI
        Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [17/17] UE4Editor-PairProject.dll
+    [3/3] UE4Editor-PairProject.dll
        Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
+<<<<<<< HEAD
   Total build time: 57.31 seconds (Parallel executor: 24.50 seconds)
+=======
+  Total build time: 5.48 seconds (Parallel executor: 1.49 seconds)
+>>>>>>> Player_Camera_UI
