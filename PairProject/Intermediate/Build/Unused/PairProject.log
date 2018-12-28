@@ -1,40 +1,31 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-<<<<<<< HEAD
-  Creating makefile for PairProjectEditor (game project files are newer)
+  Creating makefile for hot reloading PairProjectEditor (game project files are newer)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for PairProjectEditor
     Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\PairProject.uproject" "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 7.6730468 seconds
-  Building 17 actions with 12 processes...
-    [1/17] SharedPCH.Engine.cpp
-    [2/17] PairProject.cpp
-    [3/17] IAttackable.cpp
-    [4/17] PairProject.init.gen.cpp
-    [5/17] IAttackable.gen.cpp
-    [6/17] BaseEnemy.cpp
-    [7/17] BaseEnemy.gen.cpp
-    [8/17] BaseAttack.cpp
-    [9/17] PairProjectGameModeBase.cpp
-    [10/17] BaseAttack.gen.cpp
-    [11/17] LinkCharacter.gen.cpp
-    [12/17] BaseCharacter.gen.cpp
-    [13/17] LinkCharacter.cpp
-    [14/17] PairProjectGameModeBase.gen.cpp
-    [15/17] BaseCharacter.cpp
-    [16/17] UE4Editor-PairProject.lib
-=======
-  Creating makefile for PairProjectEditor (ini files are newer than UBTMakefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 12 processes...
-    [1/3] BaseCharacter.cpp
-    [2/3] UE4Editor-PairProject.lib
->>>>>>> Player_Camera_UI
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [3/3] UE4Editor-PairProject.dll
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Reflection code generated for PairProjectEditor in 7.9420107 seconds
+  Building 11 actions with 12 processes...
+    [1/11] BaseKeep.cpp
+    [2/11] PairProject.init.gen.cpp
+    [3/11] BaseKeep.gen.cpp
+    [4/11] LinkCharacter.cpp
+    [5/11] BaseCharacter.gen.cpp
+    [6/11] MyPlayerController.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+    [7/11] LinkCharacter.gen.cpp
+    [8/11] BaseCharacter.cpp
+    [9/11] MyPlayerController.cpp
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+    [10/11] UE4Editor-PairProject-7268.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7268.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7268.exp
+    [11/11] UE4Editor-PairProject-7268.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7268.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject-7268.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-<<<<<<< HEAD
-  Total build time: 57.31 seconds (Parallel executor: 24.50 seconds)
-=======
-  Total build time: 5.48 seconds (Parallel executor: 1.49 seconds)
->>>>>>> Player_Camera_UI
+  Total build time: 13.92 seconds (Parallel executor: 1.86 seconds)

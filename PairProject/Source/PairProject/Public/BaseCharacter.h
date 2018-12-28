@@ -36,8 +36,7 @@ protected:
 	
 	
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
-		bool Attacking;
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
@@ -112,6 +111,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
 		float CurrentAttackDamage;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
+		bool Attacking;
 
 	void MoveToPosition(FVector position);
 };
