@@ -13,8 +13,60 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PAIRPROJECT_BaseCharacter_generated_h
 
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRotatePlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotatePlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetUpCameraArm) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUpCameraArm(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetUpCamera) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUpCamera(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRotatePlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RotatePlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetUpCameraArm) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUpCameraArm(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetUpCamera) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUpCamera(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
@@ -61,7 +113,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	FORCEINLINE static uint32 __PPO__Attacking() { return STRUCT_OFFSET(ABaseCharacter, Attacking); } \
 	FORCEINLINE static uint32 __PPO__CurrentVelocity() { return STRUCT_OFFSET(ABaseCharacter, CurrentVelocity); } \
 	FORCEINLINE static uint32 __PPO__PlayerBodyMeshComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerBodyMeshComponent); } \
-	FORCEINLINE static uint32 __PPO__ThirdPersonCameraComponent() { return STRUCT_OFFSET(ABaseCharacter, ThirdPersonCameraComponent); }
+	FORCEINLINE static uint32 __PPO__ThirdPersonCameraComponent() { return STRUCT_OFFSET(ABaseCharacter, ThirdPersonCameraComponent); } \
+	FORCEINLINE static uint32 __PPO__CameraSpringArm() { return STRUCT_OFFSET(ABaseCharacter, CameraSpringArm); }
 
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_13_PROLOG

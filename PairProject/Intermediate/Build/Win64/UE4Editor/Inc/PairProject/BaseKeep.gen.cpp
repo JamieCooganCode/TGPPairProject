@@ -62,7 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseKeep() {}
 		{ "ModuleRelativePath", "Public/BaseKeep.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider = { UE4CodeGen_Private::EPropertyClass::Object, "KeepBoxCollider", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(ABaseKeep, KeepBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider = { UE4CodeGen_Private::EPropertyClass::Object, "KeepBoxCollider", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a000d, 1, nullptr, STRUCT_OFFSET(ABaseKeep, KeepBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall_MetaData[] = {
 		{ "Category", "BaseKeep" },
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseKeep() {}
 		{ "ModuleRelativePath", "Public/BaseKeep.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall = { UE4CodeGen_Private::EPropertyClass::Object, "KeepWall", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(ABaseKeep, KeepWall), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall = { UE4CodeGen_Private::EPropertyClass::Object, "KeepWall", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a000d, 1, nullptr, STRUCT_OFFSET(ABaseKeep, KeepWall), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseKeep_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepBoxCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseKeep_Statics::NewProp_KeepWall,
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseKeep() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseKeep, 711141442);
+	IMPLEMENT_CLASS(ABaseKeep, 553352359);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseKeep(Z_Construct_UClass_ABaseKeep, &ABaseKeep::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseKeep"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseKeep);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

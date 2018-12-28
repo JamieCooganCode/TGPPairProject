@@ -46,15 +46,26 @@ protected:
 		UStaticMeshComponent * PlayerBodyMeshComponent;
 
 	//third person camera
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UCameraComponent* ThirdPersonCameraComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class USpringArmComponent* CameraSpringArm;
+
 
 	//Camera Methods
 	FVector2D CameraInput;
 	void PitchCamera(float axisValue);
 	void YawCamera(float axisValue);
 
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void SetUpCamera();
+
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void SetUpCameraArm();
+
+	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
+		void RotatePlayer();
 
 
 	//Controller Input functions

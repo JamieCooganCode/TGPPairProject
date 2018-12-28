@@ -9,7 +9,8 @@ void AMyPlayerController::Tick(float delta)
 	Super::Tick(delta);
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABaseCharacter::StaticClass(), characterArray);
 
-	for (int i = 0; i < sizeof(characterArray); i++) //this currently causes breakpoint
+	
+	for (int i = 0; i < characterArray.Num(); i++) //this currently causes breakpoint
 	{
 		ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[i]);
 
