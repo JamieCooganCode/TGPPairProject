@@ -1,0 +1,1626 @@
+﻿Log file open, 12/28/18 18:27:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PairProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.569386
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.200s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 950
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.28-18.27.12:809][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.28-18.27.12:816][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.28-18.27.12:857][  0]LogHAL: Display: Platform has ~ 16 GB [17132584960 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.28-18.27.12:878][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.28-18.27.12:885][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.28-18.27.12:906][  0]LogInit: Computer: DESKTOP-D8L6EI8
+[2018.12.28-18.27.12:906][  0]LogInit: User: h017026h
+[2018.12.28-18.27.12:906][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.12.28-18.27.12:906][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2018.12.28-18.27.12:906][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.12.28-18.27.12:906][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.28-18.27.12:906][  0]LogMemory: Process Physical Memory: 102.85 MB used, 102.85 MB peak
+[2018.12.28-18.27.12:906][  0]LogMemory: Process Virtual Memory: 93.84 MB used, 93.84 MB peak
+[2018.12.28-18.27.12:907][  0]LogMemory: Physical Memory: 6015.50 MB used,  10323.41 MB free, 16338.91 MB total
+[2018.12.28-18.27.12:907][  0]LogMemory: Virtual Memory: 4660.66 MB used,  10323.41 MB free, 134217728.00 MB total
+[2018.12.28-18.27.14:003][  0]LogInit: Using OS detected language (en-GB).
+[2018.12.28-18.27.14:003][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.28-18.27.14:060][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.12.28-18.27.14:707][  0]LogStreaming: Display: Took  0.708s to InitEngineTextLocalization.
+[2018.12.28-18.27.14:722][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.28-18.27.15:223][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.28-18.27.15:224][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.28-18.27.17:120][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.28-18.27.17:120][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.28-18.27.17:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2018.12.28-18.27.17:183][  0]LogD3D11RHI:       2007/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.28-18.27.17:187][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.28-18.27.17:188][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.28-18.27.17:188][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.28-18.27.17:211][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.28-18.27.17:212][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.28-18.27.17:215][  0]LogWindows: EnumDisplayDevices:
+[2018.12.28-18.27.17:215][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2018.12.28-18.27.17:216][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.28-18.27.17:216][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.28-18.27.17:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.28-18.27.17:216][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.28-18.27.17:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2018.12.28-18.27.17:221][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.12.28-18.27.17:221][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.12.28-18.27.17:221][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.12.28-18.27.17:270][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.28-18.27.17:578][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.28-18.27.17:684][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Intermediate/Shaders/WorkingDirectory/15988/).
+[2018.12.28-18.27.17:684][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/89D9AA664DA032903610EEA03FCFB0FF/'.
+[2018.12.28-18.27.17:948][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.28-18.27.17:978][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.28-18.27.18:005][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.28-18.27.18:025][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.28-18.27.18:058][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.28-18.27.18:093][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.28-18.27.18:112][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.28-18.27.18:131][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.28-18.27.18:146][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.28-18.27.18:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.28-18.27.18:275][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.28-18.27.18:382][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.28-18.27.18:382][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.28-18.27.18:409][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.28-18.27.18:409][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.28-18.27.18:438][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.28-18.27.18:457][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.28-18.27.18:476][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.28-18.27.18:499][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.28-18.27.18:516][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.28-18.27.18:516][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.28-18.27.19:300][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.28-18.27.19:300][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.28-18.27.19:300][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.28-18.27.19:301][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.28-18.27.21:615][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.28-18.27.21:843][  0]LogDerivedDataCache: Loaded boot cache 0.23s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.28-18.27.21:843][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.28-18.27.21:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.28-18.27.21:844][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.28-18.27.21:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.28-18.27.21:844][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.28-18.27.21:898][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.28-18.27.21:911][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.28-18.27.21:911][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.28-18.27.21:911][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.28-18.27.21:967][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.28-18.27.22:024][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.28-18.27.22:093][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.28-18.27.22:533][  0]LogAssetRegistry: FAssetRegistry took 0.0345 seconds to start up
+[2018.12.28-18.27.25:244][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.28-18.27.26:559][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.28-18.27.26:788][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.28-18.27.26:798][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.28-18.27.26:799][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.28-18.27.26:799][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.28-18.27.27:131][  0]LogNetVersion: PairProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2248716754)
+[2018.12.28-18.27.30:625][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.173035 seconds
+[2018.12.28-18.27.30:648][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.28-18.27.30:648][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.28-18.27.30:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.28-18.27.40:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.28-18.27.40:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.28-18.27.41:728][  0]SourceControl: Source control is disabled
+[2018.12.28-18.27.41:728][  0]SourceControl: Source control is disabled
+[2018.12.28-18.27.41:823][  0]SourceControl: Source control is disabled
+[2018.12.28-18.27.41:844][  0]SourceControl: Source control is disabled
+[2018.12.28-18.27.43:208][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.28-18.27.43:404][  0]LogOcInput: OculusInput pre-init called
+[2018.12.28-18.27.44:004][  0]LogEngine: Initializing Engine...
+[2018.12.28-18.27.44:033][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.28-18.27.44:045][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.28-18.27.44:045][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.28-18.27.44:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.28-18.27.44:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.007 s
+[2018.12.28-18.27.44:578][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.28-18.27.44:932][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.28-18.27.45:052][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.28-18.27.45:159][  0]LogInit: FAudioDevice initialized.
+[2018.12.28-18.27.45:159][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.28-18.27.45:224][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.28-18.27.45:234][  0]LogInit: Texture streaming: Enabled
+[2018.12.28-18.27.45:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.28-18.27.45:392][  0]LogInit: Transaction tracking system initialized
+[2018.12.28-18.27.45:760][  0]BlueprintLog: New page: Editor Load
+[2018.12.28-18.27.46:819][  0]LocalizationService: Localization service is disabled
+[2018.12.28-18.27.48:491][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/' took 0.03s
+[2018.12.28-18.27.48:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.28-18.27.48:498][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.28-18.27.48:503][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.28-18.27.48:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.28-18.27.48:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.28-18.27.48:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.28-18.27.48:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.28-18.27.50:108][  0]SourceControl: Source control is disabled
+[2018.12.28-18.27.50:132][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.28-18.27.50:156][  0]LightingResults: New page: Lighting Build
+[2018.12.28-18.27.50:279][  0]MapCheck: New page: Map Check
+[2018.12.28-18.27.50:279][  0]LightingResults: New page: Lighting Build
+[2018.12.28-18.27.51:214][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.28-18.27.51:537][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.28-18.27.51:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.28-18.27.51:652][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.181ms to complete.
+[2018.12.28-18.27.51:652][  0]LogFileHelpers: Loading map 'Template_Default' took 1.527
+[2018.12.28-18.27.52:548][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.27.52:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.27.52:561][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.27.52:567][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.27.52:599][  0]LogCollectionManager: Loaded 0 collections in 0.000746 seconds
+[2018.12.28-18.27.52:694][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Collections/' took 0.01s
+[2018.12.28-18.27.52:694][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Developers/h017026h/Collections/' took 0.01s
+[2018.12.28-18.27.52:694][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Collections/' took 0.01s
+[2018.12.28-18.27.52:694][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.28-18.27.52:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0258 seconds. Added 2578 classes and 606 folders.
+[2018.12.28-18.27.52:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.28-18.27.53:965][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.28-18.27.53:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.28-18.27.54:601][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.28-18.27.54:601][  0]LogLoad: (Engine Initialization) Total time: 47.34 seconds
+[2018.12.28-18.27.54:602][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.28-18.27.54:797][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.28-18.27.54:853][  0]LogSlate: Took 0.008466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.28-18.27.54:883][  0]LogSlate: Took 0.022869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.28-18.27.54:923][  0]LogSlate: Took 0.011353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.28-18.27.55:250][  0]LogRenderer: Reallocating scene render targets to support 1064x452 Format 10 NumSamples 1 (Frame:1).
+[2018.12.28-18.27.55:463][  0]LogSlate: Took 0.004857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.28-18.27.55:537][  1]LogAssetRegistry: Asset discovery search completed in 33.0331 seconds
+[2018.12.28-18.27.55:538][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.28-18.27.55:538][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2018.12.28-18.29.05:390][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.16:706][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.20:608][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.28-18.29.21:597][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.26:174][610]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.28-18.29.26:249][610]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.28-18.29.26:255][610]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/CameraTestScene.CameraTestScene
+[2018.12.28-18.29.28:039][610]LogSlate: Window 'Save Content' being destroyed
+[2018.12.28-18.29.28:054][610]Cmd: MAP LOAD FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.28-18.29.28:055][610]LightingResults: New page: Lighting Build
+[2018.12.28-18.29.28:056][610]LoadErrors: New page: Loading map: CameraTestScene.umap
+[2018.12.28-18.29.28:057][610]MapCheck: New page: Map Check
+[2018.12.28-18.29.28:057][610]LightingResults: New page: Lighting Build
+[2018.12.28-18.29.28:096][610]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.28-18.29.28:146][610]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.28-18.29.28:202][610]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.684ms to complete.
+[2018.12.28-18.29.28:202][610]LogFileHelpers: Loading map 'CameraTestScene' took 0.159
+[2018.12.28-18.29.30:139][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.28-18.29.30:912][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.28-18.29.31:545][997]LogEditorViewport: Clicking on Actor (LMB): MyBaseEnemy_C (MyBaseEnemy)
+[2018.12.28-18.29.34:850][386]Cmd: TRANSACTION UNDO
+[2018.12.28-18.29.34:850][386]LogEditorTransaction: Undo Scale Actors
+[2018.12.28-18.29.36:348][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.39:515][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.39:632][953]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.28-18.29.39:648][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.28-18.29.39:648][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.28-18.29.39:699][953]PIE: New page: PIE session: CameraTestScene (28 Dec 2018 18:29:39)
+[2018.12.28-18.29.39:700][953]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.28-18.29.39:727][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027029s)
+[2018.12.28-18.29.39:728][953]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.28-18.29.39:728][953]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2018.12.28-18.29.39:728][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.028511s)
+[2018.12.28-18.29.39:758][953]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.28-18.29.39:870][953]LogInit: FAudioDevice initialized.
+[2018.12.28-18.29.39:925][953]LogLoad: Game class is 'GameModeBase'
+[2018.12.28-18.29.39:953][953]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.28-18.29.39
+[2018.12.28-18.29.39:983][953]LogWorld: Bringing up level for play took: 0.037602
+[2018.12.28-18.29.40:043][953]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.12.28-18.29.40:048][953]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.876
+[2018.12.28-18.29.40:048][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.28-18.29.40:062][953]LogTemp: Warning: Angle: -2.947608
+[2018.12.28-18.29.40:131][954]LogTemp: Warning: Angle: -2.946335
+[2018.12.28-18.29.40:141][955]LogTemp: Warning: Angle: -2.885103
+[2018.12.28-18.29.40:149][956]LogTemp: Warning: Angle: -2.883475
+[2018.12.28-18.29.40:158][957]LogTemp: Warning: Angle: -2.882225
+[2018.12.28-18.29.40:167][958]LogTemp: Warning: Angle: -2.880974
+[2018.12.28-18.29.40:174][959]LogTemp: Warning: Angle: -2.879723
+[2018.12.28-18.29.40:183][960]LogTemp: Warning: Angle: -2.878474
+[2018.12.28-18.29.40:191][961]LogTemp: Warning: Angle: -2.877224
+[2018.12.28-18.29.40:199][962]LogTemp: Warning: Angle: -2.875976
+[2018.12.28-18.29.40:208][963]LogTemp: Warning: Angle: -2.874728
+[2018.12.28-18.29.40:216][964]LogTemp: Warning: Angle: -2.873481
+[2018.12.28-18.29.40:225][965]LogTemp: Warning: Angle: -2.872233
+[2018.12.28-18.29.40:233][966]LogTemp: Warning: Angle: -2.870986
+[2018.12.28-18.29.40:241][967]LogTemp: Warning: Angle: -2.869741
+[2018.12.28-18.29.40:250][968]LogTemp: Warning: Angle: -2.868495
+[2018.12.28-18.29.40:258][969]LogTemp: Warning: Angle: -2.867250
+[2018.12.28-18.29.40:266][970]LogTemp: Warning: Angle: -2.866005
+[2018.12.28-18.29.40:275][971]LogTemp: Warning: Angle: -2.864761
+[2018.12.28-18.29.40:282][972]LogTemp: Warning: Angle: -2.863517
+[2018.12.28-18.29.40:291][973]LogTemp: Warning: Angle: -2.862274
+[2018.12.28-18.29.40:299][974]LogTemp: Warning: Angle: -2.861031
+[2018.12.28-18.29.40:307][975]LogTemp: Warning: Angle: -2.859788
+[2018.12.28-18.29.40:316][976]LogTemp: Warning: Angle: -2.858547
+[2018.12.28-18.29.40:324][977]LogTemp: Warning: Angle: -2.857306
+[2018.12.28-18.29.40:333][978]LogTemp: Warning: Angle: -2.856065
+[2018.12.28-18.29.40:341][979]LogTemp: Warning: Angle: -2.854824
+[2018.12.28-18.29.40:349][980]LogTemp: Warning: Angle: -2.853584
+[2018.12.28-18.29.40:358][981]LogTemp: Warning: Angle: -2.852344
+[2018.12.28-18.29.40:366][982]LogTemp: Warning: Angle: -2.851106
+[2018.12.28-18.29.40:375][983]LogTemp: Warning: Angle: -2.849866
+[2018.12.28-18.29.40:383][984]LogTemp: Warning: Angle: -2.848629
+[2018.12.28-18.29.40:391][985]LogTemp: Warning: Angle: -2.847391
+[2018.12.28-18.29.40:399][986]LogTemp: Warning: Angle: -2.846155
+[2018.12.28-18.29.40:408][987]LogTemp: Warning: Angle: -2.844918
+[2018.12.28-18.29.40:416][988]LogTemp: Warning: Angle: -2.843681
+[2018.12.28-18.29.40:424][989]LogTemp: Warning: Angle: -2.842446
+[2018.12.28-18.29.40:433][990]LogTemp: Warning: Angle: -2.841211
+[2018.12.28-18.29.40:441][991]LogTemp: Warning: Angle: -2.839976
+[2018.12.28-18.29.40:450][992]LogTemp: Warning: Angle: -2.838742
+[2018.12.28-18.29.40:458][993]LogTemp: Warning: Angle: -2.837509
+[2018.12.28-18.29.40:466][994]LogTemp: Warning: Angle: -2.836275
+[2018.12.28-18.29.40:475][995]LogTemp: Warning: Angle: -2.835042
+[2018.12.28-18.29.40:484][996]LogTemp: Warning: Angle: -2.833810
+[2018.12.28-18.29.40:491][997]LogTemp: Warning: Angle: -2.832579
+[2018.12.28-18.29.40:500][998]LogTemp: Warning: Angle: -2.831348
+[2018.12.28-18.29.40:508][999]LogTemp: Warning: Angle: -2.830117
+[2018.12.28-18.29.40:516][  0]LogTemp: Warning: Angle: -2.828887
+[2018.12.28-18.29.40:538][  1]LogTemp: Warning: Angle: -2.827657
+[2018.12.28-18.29.40:544][  2]LogTemp: Warning: Angle: -2.826428
+[2018.12.28-18.29.40:552][  3]LogTemp: Warning: Angle: -2.823469
+[2018.12.28-18.29.40:561][  4]LogTemp: Warning: Angle: -2.822242
+[2018.12.28-18.29.40:569][  5]LogTemp: Warning: Angle: -2.821013
+[2018.12.28-18.29.40:577][  6]LogTemp: Warning: Angle: -2.819787
+[2018.12.28-18.29.40:586][  7]LogTemp: Warning: Angle: -2.818561
+[2018.12.28-18.29.40:594][  8]LogTemp: Warning: Angle: -2.817336
+[2018.12.28-18.29.40:602][  9]LogTemp: Warning: Angle: -2.816110
+[2018.12.28-18.29.40:611][ 10]LogTemp: Warning: Angle: -2.814886
+[2018.12.28-18.29.40:619][ 11]LogTemp: Warning: Angle: -2.813663
+[2018.12.28-18.29.40:627][ 12]LogTemp: Warning: Angle: -2.812439
+[2018.12.28-18.29.40:636][ 13]LogTemp: Warning: Angle: -2.811217
+[2018.12.28-18.29.40:644][ 14]LogTemp: Warning: Angle: -2.809995
+[2018.12.28-18.29.40:653][ 15]LogTemp: Warning: Angle: -2.808773
+[2018.12.28-18.29.40:661][ 16]LogTemp: Warning: Angle: -2.807552
+[2018.12.28-18.29.40:669][ 17]LogTemp: Warning: Angle: -2.806331
+[2018.12.28-18.29.40:677][ 18]LogTemp: Warning: Angle: -2.805110
+[2018.12.28-18.29.40:686][ 19]LogTemp: Warning: Angle: -2.803891
+[2018.12.28-18.29.40:694][ 20]LogTemp: Warning: Angle: -2.802671
+[2018.12.28-18.29.40:703][ 21]LogTemp: Warning: Angle: -2.801453
+[2018.12.28-18.29.40:711][ 22]LogTemp: Warning: Angle: -2.800234
+[2018.12.28-18.29.40:719][ 23]LogTemp: Warning: Angle: -2.799017
+[2018.12.28-18.29.40:728][ 24]LogTemp: Warning: Angle: -2.797800
+[2018.12.28-18.29.40:736][ 25]LogTemp: Warning: Angle: -2.796583
+[2018.12.28-18.29.40:744][ 26]LogTemp: Warning: Angle: -2.795366
+[2018.12.28-18.29.40:753][ 27]LogTemp: Warning: Angle: -2.794150
+[2018.12.28-18.29.40:761][ 28]LogTemp: Warning: Angle: -2.792935
+[2018.12.28-18.29.40:769][ 29]LogTemp: Warning: Angle: -2.791720
+[2018.12.28-18.29.40:778][ 30]LogTemp: Warning: Angle: -2.790505
+[2018.12.28-18.29.40:786][ 31]LogTemp: Warning: Angle: -2.789292
+[2018.12.28-18.29.40:795][ 32]LogTemp: Warning: Angle: -2.788078
+[2018.12.28-18.29.40:803][ 33]LogTemp: Warning: Angle: -2.786865
+[2018.12.28-18.29.40:811][ 34]LogTemp: Warning: Angle: -2.785653
+[2018.12.28-18.29.40:820][ 35]LogTemp: Warning: Angle: -2.784442
+[2018.12.28-18.29.40:828][ 36]LogTemp: Warning: Angle: -2.783231
+[2018.12.28-18.29.40:836][ 37]LogTemp: Warning: Angle: -2.782019
+[2018.12.28-18.29.40:845][ 38]LogTemp: Warning: Angle: -2.780808
+[2018.12.28-18.29.40:853][ 39]LogTemp: Warning: Angle: -2.779598
+[2018.12.28-18.29.40:861][ 40]LogTemp: Warning: Angle: -2.778389
+[2018.12.28-18.29.40:870][ 41]LogTemp: Warning: Angle: -2.777179
+[2018.12.28-18.29.40:878][ 42]LogTemp: Warning: Angle: -2.775971
+[2018.12.28-18.29.40:886][ 43]LogTemp: Warning: Angle: -2.774763
+[2018.12.28-18.29.40:895][ 44]LogTemp: Warning: Angle: -2.773555
+[2018.12.28-18.29.40:903][ 45]LogTemp: Warning: Angle: -2.772348
+[2018.12.28-18.29.40:911][ 46]LogTemp: Warning: Angle: -2.771141
+[2018.12.28-18.29.40:920][ 47]LogTemp: Warning: Angle: -2.769935
+[2018.12.28-18.29.40:927][ 48]LogTemp: Warning: Angle: -2.768729
+[2018.12.28-18.29.40:936][ 49]LogTemp: Warning: Angle: -2.767524
+[2018.12.28-18.29.40:944][ 50]LogTemp: Warning: Angle: -2.766320
+[2018.12.28-18.29.40:952][ 51]LogTemp: Warning: Angle: -2.765116
+[2018.12.28-18.29.40:961][ 52]LogTemp: Warning: Angle: -2.763912
+[2018.12.28-18.29.40:969][ 53]LogTemp: Warning: Angle: -2.762707
+[2018.12.28-18.29.40:977][ 54]LogTemp: Warning: Angle: -2.761504
+[2018.12.28-18.29.40:986][ 55]LogTemp: Warning: Angle: -2.760302
+[2018.12.28-18.29.40:994][ 56]LogTemp: Warning: Angle: -2.759101
+[2018.12.28-18.29.41:003][ 57]LogTemp: Warning: Angle: -2.757899
+[2018.12.28-18.29.41:011][ 58]LogTemp: Warning: Angle: -2.756699
+[2018.12.28-18.29.41:019][ 59]LogTemp: Warning: Angle: -2.755498
+[2018.12.28-18.29.41:027][ 60]LogTemp: Warning: Angle: -2.754299
+[2018.12.28-18.29.41:036][ 61]LogTemp: Warning: Angle: -2.753100
+[2018.12.28-18.29.41:044][ 62]LogTemp: Warning: Angle: -2.751902
+[2018.12.28-18.29.41:053][ 63]LogTemp: Warning: Angle: -2.750704
+[2018.12.28-18.29.41:063][ 64]LogTemp: Warning: Angle: -2.749506
+[2018.12.28-18.29.41:069][ 65]LogTemp: Warning: Angle: -2.748309
+[2018.12.28-18.29.41:078][ 66]LogTemp: Warning: Angle: -2.747113
+[2018.12.28-18.29.41:086][ 67]LogTemp: Warning: Angle: -2.745917
+[2018.12.28-18.29.41:095][ 68]LogTemp: Warning: Angle: -2.744720
+[2018.12.28-18.29.41:103][ 69]LogTemp: Warning: Angle: -2.743526
+[2018.12.28-18.29.41:111][ 70]LogTemp: Warning: Angle: -2.742331
+[2018.12.28-18.29.41:119][ 71]LogTemp: Warning: Angle: -2.741138
+[2018.12.28-18.29.41:128][ 72]LogTemp: Warning: Angle: -2.739944
+[2018.12.28-18.29.41:136][ 73]LogTemp: Warning: Angle: -2.738752
+[2018.12.28-18.29.41:145][ 74]LogTemp: Warning: Angle: -2.737559
+[2018.12.28-18.29.41:153][ 75]LogTemp: Warning: Angle: -2.736367
+[2018.12.28-18.29.41:162][ 76]LogTemp: Warning: Angle: -2.735176
+[2018.12.28-18.29.41:170][ 77]LogTemp: Warning: Angle: -2.733986
+[2018.12.28-18.29.41:178][ 78]LogTemp: Warning: Angle: -2.732795
+[2018.12.28-18.29.41:186][ 79]LogTemp: Warning: Angle: -2.731605
+[2018.12.28-18.29.41:194][ 80]LogTemp: Warning: Angle: -2.730416
+[2018.12.28-18.29.41:203][ 81]LogTemp: Warning: Angle: -2.729227
+[2018.12.28-18.29.41:211][ 82]LogTemp: Warning: Angle: -2.728038
+[2018.12.28-18.29.41:219][ 83]LogTemp: Warning: Angle: -2.726851
+[2018.12.28-18.29.41:228][ 84]LogTemp: Warning: Angle: -2.725662
+[2018.12.28-18.29.41:236][ 85]LogTemp: Warning: Angle: -2.724475
+[2018.12.28-18.29.41:246][ 86]LogTemp: Warning: Angle: -2.723289
+[2018.12.28-18.29.41:253][ 87]LogTemp: Warning: Angle: -2.722102
+[2018.12.28-18.29.41:263][ 88]LogTemp: Warning: Angle: -2.720916
+[2018.12.28-18.29.41:269][ 89]LogTemp: Warning: Angle: -2.719731
+[2018.12.28-18.29.41:279][ 90]LogTemp: Warning: Angle: -2.718547
+[2018.12.28-18.29.41:286][ 91]LogTemp: Warning: Angle: -2.717363
+[2018.12.28-18.29.41:296][ 92]LogTemp: Warning: Angle: -2.716179
+[2018.12.28-18.29.41:304][ 93]LogTemp: Warning: Angle: -2.714996
+[2018.12.28-18.29.41:312][ 94]LogTemp: Warning: Angle: -2.713814
+[2018.12.28-18.29.41:320][ 95]LogTemp: Warning: Angle: -2.712630
+[2018.12.28-18.29.41:328][ 96]LogTemp: Warning: Angle: -2.711449
+[2018.12.28-18.29.41:336][ 97]LogTemp: Warning: Angle: -2.710268
+[2018.12.28-18.29.41:345][ 98]LogTemp: Warning: Angle: -2.709087
+[2018.12.28-18.29.41:353][ 99]LogTemp: Warning: Angle: -2.707907
+[2018.12.28-18.29.41:361][100]LogTemp: Warning: Angle: -2.706728
+[2018.12.28-18.29.41:370][101]LogTemp: Warning: Angle: -2.705549
+[2018.12.28-18.29.41:378][102]LogTemp: Warning: Angle: -2.704371
+[2018.12.28-18.29.41:386][103]LogTemp: Warning: Angle: -2.703193
+[2018.12.28-18.29.41:395][104]LogTemp: Warning: Angle: -2.702015
+[2018.12.28-18.29.41:403][105]LogTemp: Warning: Angle: -2.700839
+[2018.12.28-18.29.41:412][106]LogTemp: Warning: Angle: -2.699662
+[2018.12.28-18.29.41:420][107]LogTemp: Warning: Angle: -2.698487
+[2018.12.28-18.29.41:428][108]LogTemp: Warning: Angle: -2.697312
+[2018.12.28-18.29.41:436][109]LogTemp: Warning: Angle: -2.696137
+[2018.12.28-18.29.41:445][110]LogTemp: Warning: Angle: -2.694963
+[2018.12.28-18.29.41:452][111]LogTemp: Warning: Angle: -2.693789
+[2018.12.28-18.29.41:461][112]LogTemp: Warning: Angle: -2.692616
+[2018.12.28-18.29.41:469][113]LogTemp: Warning: Angle: -2.691443
+[2018.12.28-18.29.41:477][114]LogTemp: Warning: Angle: -2.690270
+[2018.12.28-18.29.41:486][115]LogTemp: Warning: Angle: -2.689098
+[2018.12.28-18.29.41:494][116]LogTemp: Warning: Angle: -2.687926
+[2018.12.28-18.29.41:502][117]LogTemp: Warning: Angle: -2.686755
+[2018.12.28-18.29.41:512][118]LogTemp: Warning: Angle: -2.685585
+[2018.12.28-18.29.41:519][119]LogTemp: Warning: Angle: -2.684415
+[2018.12.28-18.29.41:527][120]LogTemp: Warning: Angle: -2.683245
+[2018.12.28-18.29.41:536][121]LogTemp: Warning: Angle: -2.682076
+[2018.12.28-18.29.41:544][122]LogTemp: Warning: Angle: -2.680907
+[2018.12.28-18.29.41:552][123]LogTemp: Warning: Angle: -2.679739
+[2018.12.28-18.29.41:561][124]LogTemp: Warning: Angle: -2.678572
+[2018.12.28-18.29.41:569][125]LogTemp: Warning: Angle: -2.677405
+[2018.12.28-18.29.41:578][126]LogTemp: Warning: Angle: -2.676239
+[2018.12.28-18.29.41:586][127]LogTemp: Warning: Angle: -2.675073
+[2018.12.28-18.29.41:594][128]LogTemp: Warning: Angle: -2.673908
+[2018.12.28-18.29.41:603][129]LogTemp: Warning: Angle: -2.672743
+[2018.12.28-18.29.41:611][130]LogTemp: Warning: Angle: -2.671578
+[2018.12.28-18.29.41:619][131]LogTemp: Warning: Angle: -2.670415
+[2018.12.28-18.29.41:628][132]LogTemp: Warning: Angle: -2.669251
+[2018.12.28-18.29.41:636][133]LogTemp: Warning: Angle: -2.668089
+[2018.12.28-18.29.41:645][134]LogTemp: Warning: Angle: -2.666927
+[2018.12.28-18.29.41:653][135]LogTemp: Warning: Angle: -2.665765
+[2018.12.28-18.29.41:661][136]LogTemp: Warning: Angle: -2.664603
+[2018.12.28-18.29.41:670][137]LogTemp: Warning: Angle: -2.663443
+[2018.12.28-18.29.41:678][138]LogTemp: Warning: Angle: -2.662282
+[2018.12.28-18.29.41:686][139]LogTemp: Warning: Angle: -2.661122
+[2018.12.28-18.29.41:695][140]LogTemp: Warning: Angle: -2.659963
+[2018.12.28-18.29.41:703][141]LogTemp: Warning: Angle: -2.658803
+[2018.12.28-18.29.41:711][142]LogTemp: Warning: Angle: -2.657645
+[2018.12.28-18.29.41:720][143]LogTemp: Warning: Angle: -2.656487
+[2018.12.28-18.29.41:728][144]LogTemp: Warning: Angle: -2.655329
+[2018.12.28-18.29.41:736][145]LogTemp: Warning: Angle: -2.654172
+[2018.12.28-18.29.41:745][146]LogTemp: Warning: Angle: -2.653016
+[2018.12.28-18.29.41:753][147]LogTemp: Warning: Angle: -2.651860
+[2018.12.28-18.29.41:761][148]LogTemp: Warning: Angle: -2.650704
+[2018.12.28-18.29.41:770][149]LogTemp: Warning: Angle: -2.649549
+[2018.12.28-18.29.41:778][150]LogTemp: Warning: Angle: -2.648395
+[2018.12.28-18.29.41:786][151]LogTemp: Warning: Angle: -2.647241
+[2018.12.28-18.29.41:795][152]LogTemp: Warning: Angle: -2.646088
+[2018.12.28-18.29.41:803][153]LogTemp: Warning: Angle: -2.644935
+[2018.12.28-18.29.41:811][154]LogTemp: Warning: Angle: -2.643783
+[2018.12.28-18.29.41:819][155]LogTemp: Warning: Angle: -2.642631
+[2018.12.28-18.29.41:827][156]LogTemp: Warning: Angle: -2.641480
+[2018.12.28-18.29.41:836][157]LogTemp: Warning: Angle: -2.640329
+[2018.12.28-18.29.41:844][158]LogTemp: Warning: Angle: -2.639179
+[2018.12.28-18.29.41:852][159]LogTemp: Warning: Angle: -2.638029
+[2018.12.28-18.29.41:861][160]LogTemp: Warning: Angle: -2.636880
+[2018.12.28-18.29.41:869][161]LogTemp: Warning: Angle: -2.635731
+[2018.12.28-18.29.41:878][162]LogTemp: Warning: Angle: -2.634583
+[2018.12.28-18.29.41:886][163]LogTemp: Warning: Angle: -2.633435
+[2018.12.28-18.29.41:894][164]LogTemp: Warning: Angle: -2.632287
+[2018.12.28-18.29.41:903][165]LogTemp: Warning: Angle: -2.631140
+[2018.12.28-18.29.41:911][166]LogTemp: Warning: Angle: -2.629993
+[2018.12.28-18.29.41:919][167]LogTemp: Warning: Angle: -2.628847
+[2018.12.28-18.29.41:927][168]LogTemp: Warning: Angle: -2.627702
+[2018.12.28-18.29.41:936][169]LogTemp: Warning: Angle: -2.626557
+[2018.12.28-18.29.41:944][170]LogTemp: Warning: Angle: -2.625412
+[2018.12.28-18.29.41:953][171]LogTemp: Warning: Angle: -2.624269
+[2018.12.28-18.29.41:961][172]LogTemp: Warning: Angle: -2.623125
+[2018.12.28-18.29.41:969][173]LogTemp: Warning: Angle: -2.621980
+[2018.12.28-18.29.41:978][174]LogTemp: Warning: Angle: -2.620838
+[2018.12.28-18.29.41:986][175]LogTemp: Warning: Angle: -2.619696
+[2018.12.28-18.29.41:994][176]LogTemp: Warning: Angle: -2.618555
+[2018.12.28-18.29.42:003][177]LogTemp: Warning: Angle: -2.617414
+[2018.12.28-18.29.42:011][178]LogTemp: Warning: Angle: -2.616274
+[2018.12.28-18.29.42:020][179]LogTemp: Warning: Angle: -2.615134
+[2018.12.28-18.29.42:028][180]LogTemp: Warning: Angle: -2.613995
+[2018.12.28-18.29.42:036][181]LogTemp: Warning: Angle: -2.612857
+[2018.12.28-18.29.42:044][182]LogTemp: Warning: Angle: -2.611718
+[2018.12.28-18.29.42:053][183]LogTemp: Warning: Angle: -2.610580
+[2018.12.28-18.29.42:061][184]LogTemp: Warning: Angle: -2.609443
+[2018.12.28-18.29.42:070][185]LogTemp: Warning: Angle: -2.608305
+[2018.12.28-18.29.42:078][186]LogTemp: Warning: Angle: -2.607169
+[2018.12.28-18.29.42:086][187]LogTemp: Warning: Angle: -2.606033
+[2018.12.28-18.29.42:095][188]LogTemp: Warning: Angle: -2.604897
+[2018.12.28-18.29.42:103][189]LogTemp: Warning: Angle: -2.603762
+[2018.12.28-18.29.42:111][190]LogTemp: Warning: Angle: -2.602627
+[2018.12.28-18.29.42:120][191]LogTemp: Warning: Angle: -2.601493
+[2018.12.28-18.29.42:128][192]LogTemp: Warning: Angle: -2.600360
+[2018.12.28-18.29.42:137][193]LogTemp: Warning: Angle: -2.599227
+[2018.12.28-18.29.42:145][194]LogTemp: Warning: Angle: -2.598094
+[2018.12.28-18.29.42:153][195]LogTemp: Warning: Angle: -2.596963
+[2018.12.28-18.29.42:162][196]LogTemp: Warning: Angle: -2.595831
+[2018.12.28-18.29.42:170][197]LogTemp: Warning: Angle: -2.594701
+[2018.12.28-18.29.42:178][198]LogTemp: Warning: Angle: -2.593570
+[2018.12.28-18.29.42:187][199]LogTemp: Warning: Angle: -2.592440
+[2018.12.28-18.29.42:194][200]LogTemp: Warning: Angle: -2.591310
+[2018.12.28-18.29.42:202][201]LogTemp: Warning: Angle: -2.590181
+[2018.12.28-18.29.42:211][202]LogTemp: Warning: Angle: -2.589052
+[2018.12.28-18.29.42:219][203]LogTemp: Warning: Angle: -2.587924
+[2018.12.28-18.29.42:227][204]LogTemp: Warning: Angle: -2.586796
+[2018.12.28-18.29.42:236][205]LogTemp: Warning: Angle: -2.585669
+[2018.12.28-18.29.42:244][206]LogTemp: Warning: Angle: -2.584543
+[2018.12.28-18.29.42:252][207]LogTemp: Warning: Angle: -2.583417
+[2018.12.28-18.29.42:261][208]LogTemp: Warning: Angle: -2.582291
+[2018.12.28-18.29.42:269][209]LogTemp: Warning: Angle: -2.581166
+[2018.12.28-18.29.42:278][210]LogTemp: Warning: Angle: -2.580042
+[2018.12.28-18.29.42:286][211]LogTemp: Warning: Angle: -2.578917
+[2018.12.28-18.29.42:295][212]LogTemp: Warning: Angle: -2.577794
+[2018.12.28-18.29.42:303][213]LogTemp: Warning: Angle: -2.576671
+[2018.12.28-18.29.42:311][214]LogTemp: Warning: Angle: -2.575549
+[2018.12.28-18.29.42:319][215]LogTemp: Warning: Angle: -2.574425
+[2018.12.28-18.29.42:328][216]LogTemp: Warning: Angle: -2.573303
+[2018.12.28-18.29.42:336][217]LogTemp: Warning: Angle: -2.572182
+[2018.12.28-18.29.42:344][218]LogTemp: Warning: Angle: -2.571061
+[2018.12.28-18.29.42:353][219]LogTemp: Warning: Angle: -2.569941
+[2018.12.28-18.29.42:361][220]LogTemp: Warning: Angle: -2.568821
+[2018.12.28-18.29.42:369][221]LogTemp: Warning: Angle: -2.567702
+[2018.12.28-18.29.42:378][222]LogTemp: Warning: Angle: -2.566583
+[2018.12.28-18.29.42:386][223]LogTemp: Warning: Angle: -2.565465
+[2018.12.28-18.29.42:394][224]LogTemp: Warning: Angle: -2.564348
+[2018.12.28-18.29.42:404][225]LogTemp: Warning: Angle: -2.563230
+[2018.12.28-18.29.42:411][226]LogTemp: Warning: Angle: -2.562114
+[2018.12.28-18.29.42:420][227]LogTemp: Warning: Angle: -2.560998
+[2018.12.28-18.29.42:428][228]LogTemp: Warning: Angle: -2.559882
+[2018.12.28-18.29.42:436][229]LogTemp: Warning: Angle: -2.558766
+[2018.12.28-18.29.42:445][230]LogTemp: Warning: Angle: -2.557651
+[2018.12.28-18.29.42:453][231]LogTemp: Warning: Angle: -2.556537
+[2018.12.28-18.29.42:461][232]LogTemp: Warning: Angle: -2.555423
+[2018.12.28-18.29.42:470][233]LogTemp: Warning: Angle: -2.554309
+[2018.12.28-18.29.42:478][234]LogTemp: Warning: Angle: -2.553196
+[2018.12.28-18.29.42:486][235]LogTemp: Warning: Angle: -2.552084
+[2018.12.28-18.29.42:494][236]LogTemp: Warning: Angle: -2.550972
+[2018.12.28-18.29.42:503][237]LogTemp: Warning: Angle: -2.549861
+[2018.12.28-18.29.42:512][238]LogTemp: Warning: Angle: -2.548750
+[2018.12.28-18.29.42:519][239]LogTemp: Warning: Angle: -2.547640
+[2018.12.28-18.29.42:528][240]LogTemp: Warning: Angle: -2.546530
+[2018.12.28-18.29.42:536][241]LogTemp: Warning: Angle: -2.545420
+[2018.12.28-18.29.42:544][242]LogTemp: Warning: Angle: -2.544311
+[2018.12.28-18.29.42:553][243]LogTemp: Warning: Angle: -2.543202
+[2018.12.28-18.29.42:561][244]LogTemp: Warning: Angle: -2.542094
+[2018.12.28-18.29.42:569][245]LogTemp: Warning: Angle: -2.540987
+[2018.12.28-18.29.42:578][246]LogTemp: Warning: Angle: -2.539880
+[2018.12.28-18.29.42:586][247]LogTemp: Warning: Angle: -2.538773
+[2018.12.28-18.29.42:595][248]LogTemp: Warning: Angle: -2.537667
+[2018.12.28-18.29.42:603][249]LogTemp: Warning: Angle: -2.536561
+[2018.12.28-18.29.42:611][250]LogTemp: Warning: Angle: -2.535456
+[2018.12.28-18.29.42:619][251]LogTemp: Warning: Angle: -2.534351
+[2018.12.28-18.29.42:627][252]LogTemp: Warning: Angle: -2.533247
+[2018.12.28-18.29.42:636][253]LogTemp: Warning: Angle: -2.532143
+[2018.12.28-18.29.42:644][254]LogTemp: Warning: Angle: -2.531039
+[2018.12.28-18.29.42:653][255]LogTemp: Warning: Angle: -2.529937
+[2018.12.28-18.29.42:661][256]LogTemp: Warning: Angle: -2.528834
+[2018.12.28-18.29.42:669][257]LogTemp: Warning: Angle: -2.527733
+[2018.12.28-18.29.42:677][258]LogTemp: Warning: Angle: -2.526631
+[2018.12.28-18.29.42:686][259]LogTemp: Warning: Angle: -2.525530
+[2018.12.28-18.29.42:695][260]LogTemp: Warning: Angle: -2.524430
+[2018.12.28-18.29.42:703][261]LogTemp: Warning: Angle: -2.523330
+[2018.12.28-18.29.42:711][262]LogTemp: Warning: Angle: -2.522230
+[2018.12.28-18.29.42:720][263]LogTemp: Warning: Angle: -2.521132
+[2018.12.28-18.29.42:728][264]LogTemp: Warning: Angle: -2.520033
+[2018.12.28-18.29.42:736][265]LogTemp: Warning: Angle: -2.518935
+[2018.12.28-18.29.42:745][266]LogTemp: Warning: Angle: -2.517837
+[2018.12.28-18.29.42:753][267]LogTemp: Warning: Angle: -2.516740
+[2018.12.28-18.29.42:762][268]LogTemp: Warning: Angle: -2.515643
+[2018.12.28-18.29.42:770][269]LogTemp: Warning: Angle: -2.514548
+[2018.12.28-18.29.42:778][270]LogTemp: Warning: Angle: -2.513452
+[2018.12.28-18.29.42:787][271]LogTemp: Warning: Angle: -2.512357
+[2018.12.28-18.29.42:795][272]LogTemp: Warning: Angle: -2.511263
+[2018.12.28-18.29.42:802][273]LogTemp: Warning: Angle: -2.510168
+[2018.12.28-18.29.42:811][274]LogTemp: Warning: Angle: -2.509074
+[2018.12.28-18.29.42:819][275]LogTemp: Warning: Angle: -2.507981
+[2018.12.28-18.29.42:827][276]LogTemp: Warning: Angle: -2.506888
+[2018.12.28-18.29.42:836][277]LogTemp: Warning: Angle: -2.505796
+[2018.12.28-18.29.42:844][278]LogTemp: Warning: Angle: -2.504704
+[2018.12.28-18.29.42:853][279]LogTemp: Warning: Angle: -2.503613
+[2018.12.28-18.29.42:861][280]LogTemp: Warning: Angle: -2.502522
+[2018.12.28-18.29.42:869][281]LogTemp: Warning: Angle: -2.501432
+[2018.12.28-18.29.42:877][282]LogTemp: Warning: Angle: -2.500341
+[2018.12.28-18.29.42:887][283]LogTemp: Warning: Angle: -2.499252
+[2018.12.28-18.29.42:894][284]LogTemp: Warning: Angle: -2.498163
+[2018.12.28-18.29.42:903][285]LogTemp: Warning: Angle: -2.497074
+[2018.12.28-18.29.42:911][286]LogTemp: Warning: Angle: -2.495986
+[2018.12.28-18.29.42:919][287]LogTemp: Warning: Angle: -2.494898
+[2018.12.28-18.29.42:928][288]LogTemp: Warning: Angle: -2.493811
+[2018.12.28-18.29.42:936][289]LogTemp: Warning: Angle: -2.492724
+[2018.12.28-18.29.42:944][290]LogTemp: Warning: Angle: -2.491637
+[2018.12.28-18.29.42:953][291]LogTemp: Warning: Angle: -2.490551
+[2018.12.28-18.29.42:961][292]LogTemp: Warning: Angle: -2.489466
+[2018.12.28-18.29.42:969][293]LogTemp: Warning: Angle: -2.488381
+[2018.12.28-18.29.42:978][294]LogTemp: Warning: Angle: -2.487297
+[2018.12.28-18.29.42:986][295]LogTemp: Warning: Angle: -2.486213
+[2018.12.28-18.29.42:995][296]LogTemp: Warning: Angle: -2.485129
+[2018.12.28-18.29.43:003][297]LogTemp: Warning: Angle: -2.484046
+[2018.12.28-18.29.43:011][298]LogTemp: Warning: Angle: -2.482964
+[2018.12.28-18.29.43:020][299]LogTemp: Warning: Angle: -2.481882
+[2018.12.28-18.29.43:028][300]LogTemp: Warning: Angle: -2.480800
+[2018.12.28-18.29.43:037][301]LogTemp: Warning: Angle: -2.479719
+[2018.12.28-18.29.43:045][302]LogTemp: Warning: Angle: -2.478638
+[2018.12.28-18.29.43:053][303]LogTemp: Warning: Angle: -2.477557
+[2018.12.28-18.29.43:061][304]LogTemp: Warning: Angle: -2.476478
+[2018.12.28-18.29.43:069][305]LogTemp: Warning: Angle: -2.475399
+[2018.12.28-18.29.43:077][306]LogTemp: Warning: Angle: -2.474320
+[2018.12.28-18.29.43:086][307]LogTemp: Warning: Angle: -2.473242
+[2018.12.28-18.29.43:095][308]LogTemp: Warning: Angle: -2.472163
+[2018.12.28-18.29.43:103][309]LogTemp: Warning: Angle: -2.471086
+[2018.12.28-18.29.43:111][310]LogTemp: Warning: Angle: -2.470009
+[2018.12.28-18.29.43:120][311]LogTemp: Warning: Angle: -2.468932
+[2018.12.28-18.29.43:128][312]LogTemp: Warning: Angle: -2.467857
+[2018.12.28-18.29.43:136][313]LogTemp: Warning: Angle: -2.466781
+[2018.12.28-18.29.43:145][314]LogTemp: Warning: Angle: -2.465706
+[2018.12.28-18.29.43:153][315]LogTemp: Warning: Angle: -2.464631
+[2018.12.28-18.29.43:161][316]LogTemp: Warning: Angle: -2.463557
+[2018.12.28-18.29.43:170][317]LogTemp: Warning: Angle: -2.462483
+[2018.12.28-18.29.43:178][318]LogTemp: Warning: Angle: -2.461410
+[2018.12.28-18.29.43:186][319]LogTemp: Warning: Angle: -2.460337
+[2018.12.28-18.29.43:195][320]LogTemp: Warning: Angle: -2.459265
+[2018.12.28-18.29.43:202][321]LogTemp: Warning: Angle: -2.458193
+[2018.12.28-18.29.43:211][322]LogTemp: Warning: Angle: -2.457121
+[2018.12.28-18.29.43:219][323]LogTemp: Warning: Angle: -2.456050
+[2018.12.28-18.29.43:227][324]LogTemp: Warning: Angle: -2.454980
+[2018.12.28-18.29.43:236][325]LogTemp: Warning: Angle: -2.453910
+[2018.12.28-18.29.43:244][326]LogTemp: Warning: Angle: -2.452840
+[2018.12.28-18.29.43:253][327]LogTemp: Warning: Angle: -2.451771
+[2018.12.28-18.29.43:261][328]LogTemp: Warning: Angle: -2.450702
+[2018.12.28-18.29.43:269][329]LogTemp: Warning: Angle: -2.449634
+[2018.12.28-18.29.43:279][330]LogTemp: Warning: Angle: -2.448566
+[2018.12.28-18.29.43:286][331]LogTemp: Warning: Angle: -2.447499
+[2018.12.28-18.29.43:295][332]LogTemp: Warning: Angle: -2.446432
+[2018.12.28-18.29.43:303][333]LogTemp: Warning: Angle: -2.445365
+[2018.12.28-18.29.43:311][334]LogTemp: Warning: Angle: -2.444300
+[2018.12.28-18.29.43:319][335]LogTemp: Warning: Angle: -2.443233
+[2018.12.28-18.29.43:328][336]LogTemp: Warning: Angle: -2.442168
+[2018.12.28-18.29.43:336][337]LogTemp: Warning: Angle: -2.441103
+[2018.12.28-18.29.43:345][338]LogTemp: Warning: Angle: -2.440039
+[2018.12.28-18.29.43:353][339]LogTemp: Warning: Angle: -2.438976
+[2018.12.28-18.29.43:361][340]LogTemp: Warning: Angle: -2.437912
+[2018.12.28-18.29.43:370][341]LogTemp: Warning: Angle: -2.436850
+[2018.12.28-18.29.43:378][342]LogTemp: Warning: Angle: -2.435787
+[2018.12.28-18.29.43:386][343]LogTemp: Warning: Angle: -2.434726
+[2018.12.28-18.29.43:395][344]LogTemp: Warning: Angle: -2.433663
+[2018.12.28-18.29.43:403][345]LogTemp: Warning: Angle: -2.432602
+[2018.12.28-18.29.43:412][346]LogTemp: Warning: Angle: -2.431541
+[2018.12.28-18.29.43:420][347]LogTemp: Warning: Angle: -2.430481
+[2018.12.28-18.29.43:428][348]LogTemp: Warning: Angle: -2.429422
+[2018.12.28-18.29.43:436][349]LogTemp: Warning: Angle: -2.428362
+[2018.12.28-18.29.43:445][350]LogTemp: Warning: Angle: -2.427303
+[2018.12.28-18.29.43:453][351]LogTemp: Warning: Angle: -2.426244
+[2018.12.28-18.29.43:462][352]LogTemp: Warning: Angle: -2.425187
+[2018.12.28-18.29.43:470][353]LogTemp: Warning: Angle: -2.424129
+[2018.12.28-18.29.43:478][354]LogTemp: Warning: Angle: -2.423072
+[2018.12.28-18.29.43:487][355]LogTemp: Warning: Angle: -2.422016
+[2018.12.28-18.29.43:495][356]LogTemp: Warning: Angle: -2.420960
+[2018.12.28-18.29.43:503][357]LogTemp: Warning: Angle: -2.419904
+[2018.12.28-18.29.43:512][358]LogTemp: Warning: Angle: -2.418849
+[2018.12.28-18.29.43:520][359]LogTemp: Warning: Angle: -2.417794
+[2018.12.28-18.29.43:529][360]LogTemp: Warning: Angle: -2.416739
+[2018.12.28-18.29.43:537][361]LogTemp: Warning: Angle: -2.415686
+[2018.12.28-18.29.43:544][362]LogTemp: Warning: Angle: -2.414633
+[2018.12.28-18.29.43:552][363]LogTemp: Warning: Angle: -2.413579
+[2018.12.28-18.29.43:561][364]LogTemp: Warning: Angle: -2.412527
+[2018.12.28-18.29.43:569][365]LogTemp: Warning: Angle: -2.411475
+[2018.12.28-18.29.43:577][366]LogTemp: Warning: Angle: -2.410423
+[2018.12.28-18.29.43:586][367]LogTemp: Warning: Angle: -2.409372
+[2018.12.28-18.29.43:594][368]LogTemp: Warning: Angle: -2.408321
+[2018.12.28-18.29.43:603][369]LogTemp: Warning: Angle: -2.407271
+[2018.12.28-18.29.43:611][370]LogTemp: Warning: Angle: -2.406222
+[2018.12.28-18.29.43:620][371]LogTemp: Warning: Angle: -2.405172
+[2018.12.28-18.29.43:628][372]LogTemp: Warning: Angle: -2.404124
+[2018.12.28-18.29.43:637][373]LogTemp: Warning: Angle: -2.403075
+[2018.12.28-18.29.43:644][374]LogTemp: Warning: Angle: -2.402027
+[2018.12.28-18.29.43:653][375]LogTemp: Warning: Angle: -2.400980
+[2018.12.28-18.29.43:661][376]LogTemp: Warning: Angle: -2.399933
+[2018.12.28-18.29.43:669][377]LogTemp: Warning: Angle: -2.398885
+[2018.12.28-18.29.43:678][378]LogTemp: Warning: Angle: -2.397838
+[2018.12.28-18.29.43:686][379]LogTemp: Warning: Angle: -2.396793
+[2018.12.28-18.29.43:694][380]LogTemp: Warning: Angle: -2.395747
+[2018.12.28-18.29.43:703][381]LogTemp: Warning: Angle: -2.394703
+[2018.12.28-18.29.43:711][382]LogTemp: Warning: Angle: -2.393658
+[2018.12.28-18.29.43:720][383]LogTemp: Warning: Angle: -2.392614
+[2018.12.28-18.29.43:729][384]LogTemp: Warning: Angle: -2.391571
+[2018.12.28-18.29.43:736][385]LogTemp: Warning: Angle: -2.390527
+[2018.12.28-18.29.43:745][386]LogTemp: Warning: Angle: -2.389485
+[2018.12.28-18.29.43:753][387]LogTemp: Warning: Angle: -2.388443
+[2018.12.28-18.29.43:762][388]LogTemp: Warning: Angle: -2.387401
+[2018.12.28-18.29.43:771][389]LogTemp: Warning: Angle: -2.386360
+[2018.12.28-18.29.43:779][390]LogTemp: Warning: Angle: -2.385319
+[2018.12.28-18.29.43:787][391]LogTemp: Warning: Angle: -2.384278
+[2018.12.28-18.29.43:796][392]LogTemp: Warning: Angle: -2.383239
+[2018.12.28-18.29.43:803][393]LogTemp: Warning: Angle: -2.382199
+[2018.12.28-18.29.43:812][394]LogTemp: Warning: Angle: -2.381160
+[2018.12.28-18.29.43:821][395]LogTemp: Warning: Angle: -2.380122
+[2018.12.28-18.29.43:828][396]LogTemp: Warning: Angle: -2.379084
+[2018.12.28-18.29.43:837][397]LogTemp: Warning: Angle: -2.378046
+[2018.12.28-18.29.43:845][398]LogTemp: Warning: Angle: -2.377008
+[2018.12.28-18.29.43:853][399]LogTemp: Warning: Angle: -2.375972
+[2018.12.28-18.29.43:862][400]LogTemp: Warning: Angle: -2.374935
+[2018.12.28-18.29.43:870][401]LogTemp: Warning: Angle: -2.373899
+[2018.12.28-18.29.43:878][402]LogTemp: Warning: Angle: -2.372864
+[2018.12.28-18.29.43:887][403]LogTemp: Warning: Angle: -2.371829
+[2018.12.28-18.29.43:895][404]LogTemp: Warning: Angle: -2.370794
+[2018.12.28-18.29.43:903][405]LogTemp: Warning: Angle: -2.369759
+[2018.12.28-18.29.43:912][406]LogTemp: Warning: Angle: -2.368726
+[2018.12.28-18.29.43:919][407]LogTemp: Warning: Angle: -2.367692
+[2018.12.28-18.29.43:927][408]LogTemp: Warning: Angle: -2.366660
+[2018.12.28-18.29.43:936][409]LogTemp: Warning: Angle: -2.365628
+[2018.12.28-18.29.43:944][410]LogTemp: Warning: Angle: -2.364596
+[2018.12.28-18.29.43:952][411]LogTemp: Warning: Angle: -2.363564
+[2018.12.28-18.29.43:961][412]LogTemp: Warning: Angle: -2.362534
+[2018.12.28-18.29.43:969][413]LogTemp: Warning: Angle: -2.361503
+[2018.12.28-18.29.43:978][414]LogTemp: Warning: Angle: -2.360473
+[2018.12.28-18.29.43:986][415]LogTemp: Warning: Angle: -2.359444
+[2018.12.28-18.29.43:994][416]LogTemp: Warning: Angle: -2.358415
+[2018.12.28-18.29.44:003][417]LogTemp: Warning: Angle: -2.357387
+[2018.12.28-18.29.44:012][418]LogTemp: Warning: Angle: -2.356359
+[2018.12.28-18.29.44:019][419]LogTemp: Warning: Angle: -2.355330
+[2018.12.28-18.29.44:028][420]LogTemp: Warning: Angle: -2.354303
+[2018.12.28-18.29.44:036][421]LogTemp: Warning: Angle: -2.353276
+[2018.12.28-18.29.44:044][422]LogTemp: Warning: Angle: -2.352250
+[2018.12.28-18.29.44:053][423]LogTemp: Warning: Angle: -2.351224
+[2018.12.28-18.29.44:061][424]LogTemp: Warning: Angle: -2.350198
+[2018.12.28-18.29.44:069][425]LogTemp: Warning: Angle: -2.349173
+[2018.12.28-18.29.44:078][426]LogTemp: Warning: Angle: -2.348148
+[2018.12.28-18.29.44:086][427]LogTemp: Warning: Angle: -2.347124
+[2018.12.28-18.29.44:095][428]LogTemp: Warning: Angle: -2.346101
+[2018.12.28-18.29.44:103][429]LogTemp: Warning: Angle: -2.345078
+[2018.12.28-18.29.44:111][430]LogTemp: Warning: Angle: -2.344055
+[2018.12.28-18.29.44:120][431]LogTemp: Warning: Angle: -2.343032
+[2018.12.28-18.29.44:128][432]LogTemp: Warning: Angle: -2.342010
+[2018.12.28-18.29.44:136][433]LogTemp: Warning: Angle: -2.340989
+[2018.12.28-18.29.44:145][434]LogTemp: Warning: Angle: -2.339968
+[2018.12.28-18.29.44:153][435]LogTemp: Warning: Angle: -2.338948
+[2018.12.28-18.29.44:162][436]LogTemp: Warning: Angle: -2.337928
+[2018.12.28-18.29.44:170][437]LogTemp: Warning: Angle: -2.336908
+[2018.12.28-18.29.44:179][438]LogTemp: Warning: Angle: -2.335889
+[2018.12.28-18.29.44:187][439]LogTemp: Warning: Angle: -2.334871
+[2018.12.28-18.29.44:195][440]LogTemp: Warning: Angle: -2.333852
+[2018.12.28-18.29.44:203][441]LogTemp: Warning: Angle: -2.332835
+[2018.12.28-18.29.44:211][442]LogTemp: Warning: Angle: -2.331817
+[2018.12.28-18.29.44:220][443]LogTemp: Warning: Angle: -2.330800
+[2018.12.28-18.29.44:228][444]LogTemp: Warning: Angle: -2.329784
+[2018.12.28-18.29.44:237][445]LogTemp: Warning: Angle: -2.328768
+[2018.12.28-18.29.44:245][446]LogTemp: Warning: Angle: -2.327752
+[2018.12.28-18.29.44:253][447]LogTemp: Warning: Angle: -2.326737
+[2018.12.28-18.29.44:262][448]LogTemp: Warning: Angle: -2.325723
+[2018.12.28-18.29.44:270][449]LogTemp: Warning: Angle: -2.324709
+[2018.12.28-18.29.44:278][450]LogTemp: Warning: Angle: -2.323695
+[2018.12.28-18.29.44:287][451]LogTemp: Warning: Angle: -2.322681
+[2018.12.28-18.29.44:295][452]LogTemp: Warning: Angle: -2.321669
+[2018.12.28-18.29.44:303][453]LogTemp: Warning: Angle: -2.320657
+[2018.12.28-18.29.44:312][454]LogTemp: Warning: Angle: -2.319644
+[2018.12.28-18.29.44:320][455]LogTemp: Warning: Angle: -2.318632
+[2018.12.28-18.29.44:328][456]LogTemp: Warning: Angle: -2.317622
+[2018.12.28-18.29.44:336][457]LogTemp: Warning: Angle: -2.316611
+[2018.12.28-18.29.44:346][458]LogTemp: Warning: Angle: -2.315601
+[2018.12.28-18.29.44:353][459]LogTemp: Warning: Angle: -2.314591
+[2018.12.28-18.29.44:361][460]LogTemp: Warning: Angle: -2.313582
+[2018.12.28-18.29.44:371][461]LogTemp: Warning: Angle: -2.312574
+[2018.12.28-18.29.44:378][462]LogTemp: Warning: Angle: -2.311566
+[2018.12.28-18.29.44:386][463]LogTemp: Warning: Angle: -2.310558
+[2018.12.28-18.29.44:395][464]LogTemp: Warning: Angle: -2.309551
+[2018.12.28-18.29.44:403][465]LogTemp: Warning: Angle: -2.308543
+[2018.12.28-18.29.44:411][466]LogTemp: Warning: Angle: -2.307537
+[2018.12.28-18.29.44:420][467]LogTemp: Warning: Angle: -2.306531
+[2018.12.28-18.29.44:428][468]LogTemp: Warning: Angle: -2.305525
+[2018.12.28-18.29.44:436][469]LogTemp: Warning: Angle: -2.304521
+[2018.12.28-18.29.44:445][470]LogTemp: Warning: Angle: -2.303515
+[2018.12.28-18.29.44:453][471]LogTemp: Warning: Angle: -2.302511
+[2018.12.28-18.29.44:462][472]LogTemp: Warning: Angle: -2.301507
+[2018.12.28-18.29.44:470][473]LogTemp: Warning: Angle: -2.300504
+[2018.12.28-18.29.44:478][474]LogTemp: Warning: Angle: -2.299501
+[2018.12.28-18.29.44:487][475]LogTemp: Warning: Angle: -2.298499
+[2018.12.28-18.29.44:496][476]LogTemp: Warning: Angle: -2.297497
+[2018.12.28-18.29.44:504][477]LogTemp: Warning: Angle: -2.296495
+[2018.12.28-18.29.44:512][478]LogTemp: Warning: Angle: -2.295493
+[2018.12.28-18.29.44:520][479]LogTemp: Warning: Angle: -2.294492
+[2018.12.28-18.29.44:528][480]LogTemp: Warning: Angle: -2.293492
+[2018.12.28-18.29.44:537][481]LogTemp: Warning: Angle: -2.292493
+[2018.12.28-18.29.44:545][482]LogTemp: Warning: Angle: -2.291494
+[2018.12.28-18.29.44:554][483]LogTemp: Warning: Angle: -2.290495
+[2018.12.28-18.29.44:562][484]LogTemp: Warning: Angle: -2.289496
+[2018.12.28-18.29.44:570][485]LogTemp: Warning: Angle: -2.288498
+[2018.12.28-18.29.44:578][486]LogTemp: Warning: Angle: -2.287500
+[2018.12.28-18.29.44:586][487]LogTemp: Warning: Angle: -2.286503
+[2018.12.28-18.29.44:594][488]LogTemp: Warning: Angle: -2.285506
+[2018.12.28-18.29.44:602][489]LogTemp: Warning: Angle: -2.284510
+[2018.12.28-18.29.44:611][490]LogTemp: Warning: Angle: -2.283514
+[2018.12.28-18.29.44:619][491]LogTemp: Warning: Angle: -2.282518
+[2018.12.28-18.29.44:628][492]LogTemp: Warning: Angle: -2.281523
+[2018.12.28-18.29.44:636][493]LogTemp: Warning: Angle: -2.280529
+[2018.12.28-18.29.44:645][494]LogTemp: Warning: Angle: -2.279534
+[2018.12.28-18.29.44:654][495]LogTemp: Warning: Angle: -2.278540
+[2018.12.28-18.29.44:661][496]LogTemp: Warning: Angle: -2.277547
+[2018.12.28-18.29.44:670][497]LogTemp: Warning: Angle: -2.276555
+[2018.12.28-18.29.44:678][498]LogTemp: Warning: Angle: -2.275563
+[2018.12.28-18.29.44:686][499]LogTemp: Warning: Angle: -2.274570
+[2018.12.28-18.29.44:695][500]LogTemp: Warning: Angle: -2.273579
+[2018.12.28-18.29.44:703][501]LogTemp: Warning: Angle: -2.272587
+[2018.12.28-18.29.44:711][502]LogTemp: Warning: Angle: -2.271597
+[2018.12.28-18.29.44:719][503]LogTemp: Warning: Angle: -2.270607
+[2018.12.28-18.29.44:727][504]LogTemp: Warning: Angle: -2.269617
+[2018.12.28-18.29.44:736][505]LogTemp: Warning: Angle: -2.268627
+[2018.12.28-18.29.44:744][506]LogTemp: Warning: Angle: -2.267638
+[2018.12.28-18.29.44:753][507]LogTemp: Warning: Angle: -2.266650
+[2018.12.28-18.29.44:762][508]LogTemp: Warning: Angle: -2.265662
+[2018.12.28-18.29.44:769][509]LogTemp: Warning: Angle: -2.264674
+[2018.12.28-18.29.44:778][510]LogTemp: Warning: Angle: -2.263687
+[2018.12.28-18.29.44:786][511]LogTemp: Warning: Angle: -2.262700
+[2018.12.28-18.29.44:794][512]LogTemp: Warning: Angle: -2.261713
+[2018.12.28-18.29.44:803][513]LogTemp: Warning: Angle: -2.260727
+[2018.12.28-18.29.44:812][514]LogTemp: Warning: Angle: -2.259742
+[2018.12.28-18.29.44:820][515]LogTemp: Warning: Angle: -2.258756
+[2018.12.28-18.29.44:828][516]LogTemp: Warning: Angle: -2.257772
+[2018.12.28-18.29.44:837][517]LogTemp: Warning: Angle: -2.256787
+[2018.12.28-18.29.44:845][518]LogTemp: Warning: Angle: -2.255804
+[2018.12.28-18.29.44:853][519]LogTemp: Warning: Angle: -2.254820
+[2018.12.28-18.29.44:862][520]LogTemp: Warning: Angle: -2.253837
+[2018.12.28-18.29.44:871][521]LogTemp: Warning: Angle: -2.252854
+[2018.12.28-18.29.44:878][522]LogTemp: Warning: Angle: -2.251872
+[2018.12.28-18.29.44:886][523]LogTemp: Warning: Angle: -2.250891
+[2018.12.28-18.29.44:894][524]LogTemp: Warning: Angle: -2.249909
+[2018.12.28-18.29.44:902][525]LogTemp: Warning: Angle: -2.248928
+[2018.12.28-18.29.44:911][526]LogTemp: Warning: Angle: -2.247947
+[2018.12.28-18.29.44:920][527]LogTemp: Warning: Angle: -2.246968
+[2018.12.28-18.29.44:928][528]LogTemp: Warning: Angle: -2.245988
+[2018.12.28-18.29.44:936][529]LogTemp: Warning: Angle: -2.245008
+[2018.12.28-18.29.44:945][530]LogTemp: Warning: Angle: -2.244029
+[2018.12.28-18.29.44:953][531]LogTemp: Warning: Angle: -2.243051
+[2018.12.28-18.29.44:961][532]LogTemp: Warning: Angle: -2.242072
+[2018.12.28-18.29.44:970][533]LogTemp: Warning: Angle: -2.241095
+[2018.12.28-18.29.44:978][534]LogTemp: Warning: Angle: -2.240117
+[2018.12.28-18.29.44:987][535]LogTemp: Warning: Angle: -2.239141
+[2018.12.28-18.29.44:995][536]LogTemp: Warning: Angle: -2.238164
+[2018.12.28-18.29.45:003][537]LogTemp: Warning: Angle: -2.237188
+[2018.12.28-18.29.45:012][538]LogTemp: Warning: Angle: -2.236212
+[2018.12.28-18.29.45:020][539]LogTemp: Warning: Angle: -2.235237
+[2018.12.28-18.29.45:028][540]LogTemp: Warning: Angle: -2.234262
+[2018.12.28-18.29.45:037][541]LogTemp: Warning: Angle: -2.233288
+[2018.12.28-18.29.45:045][542]LogTemp: Warning: Angle: -2.232314
+[2018.12.28-18.29.45:053][543]LogTemp: Warning: Angle: -2.231340
+[2018.12.28-18.29.45:062][544]LogTemp: Warning: Angle: -2.230367
+[2018.12.28-18.29.45:070][545]LogTemp: Warning: Angle: -2.229394
+[2018.12.28-18.29.45:078][546]LogTemp: Warning: Angle: -2.228421
+[2018.12.28-18.29.45:086][547]LogTemp: Warning: Angle: -2.227449
+[2018.12.28-18.29.45:094][548]LogTemp: Warning: Angle: -2.226478
+[2018.12.28-18.29.45:103][549]LogTemp: Warning: Angle: -2.225506
+[2018.12.28-18.29.45:111][550]LogTemp: Warning: Angle: -2.224536
+[2018.12.28-18.29.45:119][551]LogTemp: Warning: Angle: -2.223566
+[2018.12.28-18.29.45:128][552]LogTemp: Warning: Angle: -2.222596
+[2018.12.28-18.29.45:137][553]LogTemp: Warning: Angle: -2.221626
+[2018.12.28-18.29.45:144][554]LogTemp: Warning: Angle: -2.220657
+[2018.12.28-18.29.45:153][555]LogTemp: Warning: Angle: -2.219688
+[2018.12.28-18.29.45:161][556]LogTemp: Warning: Angle: -2.218720
+[2018.12.28-18.29.45:169][557]LogTemp: Warning: Angle: -2.217752
+[2018.12.28-18.29.45:178][558]LogTemp: Warning: Angle: -2.216785
+[2018.12.28-18.29.45:186][559]LogTemp: Warning: Angle: -2.215818
+[2018.12.28-18.29.45:194][560]LogTemp: Warning: Angle: -2.214851
+[2018.12.28-18.29.45:203][561]LogTemp: Warning: Angle: -2.213885
+[2018.12.28-18.29.45:211][562]LogTemp: Warning: Angle: -2.212919
+[2018.12.28-18.29.45:219][563]LogTemp: Warning: Angle: -2.211954
+[2018.12.28-18.29.45:228][564]LogTemp: Warning: Angle: -2.210989
+[2018.12.28-18.29.45:236][565]LogTemp: Warning: Angle: -2.210024
+[2018.12.28-18.29.45:245][566]LogTemp: Warning: Angle: -2.209060
+[2018.12.28-18.29.45:253][567]LogTemp: Warning: Angle: -2.208097
+[2018.12.28-18.29.45:262][568]LogTemp: Warning: Angle: -2.207133
+[2018.12.28-18.29.45:270][569]LogTemp: Warning: Angle: -2.206170
+[2018.12.28-18.29.45:278][570]LogTemp: Warning: Angle: -2.205208
+[2018.12.28-18.29.45:286][571]LogTemp: Warning: Angle: -2.204246
+[2018.12.28-18.29.45:295][572]LogTemp: Warning: Angle: -2.203285
+[2018.12.28-18.29.45:303][573]LogTemp: Warning: Angle: -2.202323
+[2018.12.28-18.29.45:311][574]LogTemp: Warning: Angle: -2.201362
+[2018.12.28-18.29.45:320][575]LogTemp: Warning: Angle: -2.200402
+[2018.12.28-18.29.45:328][576]LogTemp: Warning: Angle: -2.199442
+[2018.12.28-18.29.45:336][577]LogTemp: Warning: Angle: -2.198483
+[2018.12.28-18.29.45:345][578]LogTemp: Warning: Angle: -2.197524
+[2018.12.28-18.29.45:353][579]LogTemp: Warning: Angle: -2.196565
+[2018.12.28-18.29.45:362][580]LogTemp: Warning: Angle: -2.195607
+[2018.12.28-18.29.45:371][581]LogTemp: Warning: Angle: -2.194649
+[2018.12.28-18.29.45:378][582]LogTemp: Warning: Angle: -2.193692
+[2018.12.28-18.29.45:387][583]LogTemp: Warning: Angle: -2.192735
+[2018.12.28-18.29.45:395][584]LogTemp: Warning: Angle: -2.191779
+[2018.12.28-18.29.45:403][585]LogTemp: Warning: Angle: -2.190823
+[2018.12.28-18.29.45:412][586]LogTemp: Warning: Angle: -2.189868
+[2018.12.28-18.29.45:420][587]LogTemp: Warning: Angle: -2.188913
+[2018.12.28-18.29.45:428][588]LogTemp: Warning: Angle: -2.187958
+[2018.12.28-18.29.45:437][589]LogTemp: Warning: Angle: -2.187004
+[2018.12.28-18.29.45:444][590]LogTemp: Warning: Angle: -2.186050
+[2018.12.28-18.29.45:454][591]LogTemp: Warning: Angle: -2.185097
+[2018.12.28-18.29.45:461][592]LogTemp: Warning: Angle: -2.184144
+[2018.12.28-18.29.45:470][593]LogTemp: Warning: Angle: -2.183192
+[2018.12.28-18.29.45:478][594]LogTemp: Warning: Angle: -2.182240
+[2018.12.28-18.29.45:486][595]LogTemp: Warning: Angle: -2.181289
+[2018.12.28-18.29.45:494][596]LogTemp: Warning: Angle: -2.180337
+[2018.12.28-18.29.45:503][597]LogTemp: Warning: Angle: -2.179387
+[2018.12.28-18.29.45:511][598]LogTemp: Warning: Angle: -2.178437
+[2018.12.28-18.29.45:519][599]LogTemp: Warning: Angle: -2.177486
+[2018.12.28-18.29.45:528][600]LogTemp: Warning: Angle: -2.176537
+[2018.12.28-18.29.45:536][601]LogTemp: Warning: Angle: -2.175588
+[2018.12.28-18.29.45:544][602]LogTemp: Warning: Angle: -2.174640
+[2018.12.28-18.29.45:553][603]LogTemp: Warning: Angle: -2.173692
+[2018.12.28-18.29.45:561][604]LogTemp: Warning: Angle: -2.172744
+[2018.12.28-18.29.45:570][605]LogTemp: Warning: Angle: -2.171796
+[2018.12.28-18.29.45:578][606]LogTemp: Warning: Angle: -2.170849
+[2018.12.28-18.29.45:586][607]LogTemp: Warning: Angle: -2.169903
+[2018.12.28-18.29.45:595][608]LogTemp: Warning: Angle: -2.168957
+[2018.12.28-18.29.45:604][609]LogTemp: Warning: Angle: -2.168012
+[2018.12.28-18.29.45:611][610]LogTemp: Warning: Angle: -2.167066
+[2018.12.28-18.29.45:621][611]LogTemp: Warning: Angle: -2.166121
+[2018.12.28-18.29.45:628][612]LogTemp: Warning: Angle: -2.165177
+[2018.12.28-18.29.45:637][613]LogTemp: Warning: Angle: -2.164232
+[2018.12.28-18.29.45:646][614]LogTemp: Warning: Angle: -2.163289
+[2018.12.28-18.29.45:654][615]LogTemp: Warning: Angle: -2.162345
+[2018.12.28-18.29.45:662][616]LogTemp: Warning: Angle: -2.161402
+[2018.12.28-18.29.45:670][617]LogTemp: Warning: Angle: -2.160459
+[2018.12.28-18.29.45:678][618]LogTemp: Warning: Angle: -2.159517
+[2018.12.28-18.29.45:687][619]LogTemp: Warning: Angle: -2.158574
+[2018.12.28-18.29.45:696][620]LogTemp: Warning: Angle: -2.157633
+[2018.12.28-18.29.45:704][621]LogTemp: Warning: Angle: -2.156691
+[2018.12.28-18.29.45:712][622]LogTemp: Warning: Angle: -2.155750
+[2018.12.28-18.29.45:721][623]LogTemp: Warning: Angle: -2.154809
+[2018.12.28-18.29.45:728][624]LogTemp: Warning: Angle: -2.153869
+[2018.12.28-18.29.45:737][625]LogTemp: Warning: Angle: -2.152930
+[2018.12.28-18.29.45:745][626]LogTemp: Warning: Angle: -2.151991
+[2018.12.28-18.29.45:753][627]LogTemp: Warning: Angle: -2.151052
+[2018.12.28-18.29.45:762][628]LogTemp: Warning: Angle: -2.150113
+[2018.12.28-18.29.45:770][629]LogTemp: Warning: Angle: -2.149175
+[2018.12.28-18.29.45:778][630]LogTemp: Warning: Angle: -2.148238
+[2018.12.28-18.29.45:787][631]LogTemp: Warning: Angle: -2.147301
+[2018.12.28-18.29.45:795][632]LogTemp: Warning: Angle: -2.146364
+[2018.12.28-18.29.45:803][633]LogTemp: Warning: Angle: -2.145428
+[2018.12.28-18.29.45:812][634]LogTemp: Warning: Angle: -2.144492
+[2018.12.28-18.29.45:820][635]LogTemp: Warning: Angle: -2.143557
+[2018.12.28-18.29.45:828][636]LogTemp: Warning: Angle: -2.142622
+[2018.12.28-18.29.45:837][637]LogTemp: Warning: Angle: -2.141688
+[2018.12.28-18.29.45:845][638]LogTemp: Warning: Angle: -2.140754
+[2018.12.28-18.29.45:854][639]LogTemp: Warning: Angle: -2.139820
+[2018.12.28-18.29.45:862][640]LogTemp: Warning: Angle: -2.138887
+[2018.12.28-18.29.45:870][641]LogTemp: Warning: Angle: -2.137954
+[2018.12.28-18.29.45:879][642]LogTemp: Warning: Angle: -2.137022
+[2018.12.28-18.29.45:886][643]LogTemp: Warning: Angle: -2.136091
+[2018.12.28-18.29.45:895][644]LogTemp: Warning: Angle: -2.135159
+[2018.12.28-18.29.45:903][645]LogTemp: Warning: Angle: -2.134228
+[2018.12.28-18.29.45:911][646]LogTemp: Warning: Angle: -2.133297
+[2018.12.28-18.29.45:919][647]LogTemp: Warning: Angle: -2.132367
+[2018.12.28-18.29.45:928][648]LogTemp: Warning: Angle: -2.131438
+[2018.12.28-18.29.45:936][649]LogTemp: Warning: Angle: -2.130508
+[2018.12.28-18.29.45:945][650]LogTemp: Warning: Angle: -2.129579
+[2018.12.28-18.29.45:953][651]LogTemp: Warning: Angle: -2.128651
+[2018.12.28-18.29.45:961][652]LogTemp: Warning: Angle: -2.127723
+[2018.12.28-18.29.45:971][653]LogTemp: Warning: Angle: -2.126796
+[2018.12.28-18.29.45:978][654]LogTemp: Warning: Angle: -2.125868
+[2018.12.28-18.29.45:986][655]LogTemp: Warning: Angle: -2.124941
+[2018.12.28-18.29.45:995][656]LogTemp: Warning: Angle: -2.124015
+[2018.12.28-18.29.46:003][657]LogTemp: Warning: Angle: -2.123089
+[2018.12.28-18.29.46:012][658]LogTemp: Warning: Angle: -2.122164
+[2018.12.28-18.29.46:020][659]LogTemp: Warning: Angle: -2.121239
+[2018.12.28-18.29.46:028][660]LogTemp: Warning: Angle: -2.120314
+[2018.12.28-18.29.46:036][661]LogTemp: Warning: Angle: -2.119390
+[2018.12.28-18.29.46:045][662]LogTemp: Warning: Angle: -2.118466
+[2018.12.28-18.29.46:053][663]LogTemp: Warning: Angle: -2.117543
+[2018.12.28-18.29.46:062][664]LogTemp: Warning: Angle: -2.116620
+[2018.12.28-18.29.46:070][665]LogTemp: Warning: Angle: -2.115697
+[2018.12.28-18.29.46:078][666]LogTemp: Warning: Angle: -2.114774
+[2018.12.28-18.29.46:086][667]LogTemp: Warning: Angle: -2.113853
+[2018.12.28-18.29.46:095][668]LogTemp: Warning: Angle: -2.112931
+[2018.12.28-18.29.46:103][669]LogTemp: Warning: Angle: -2.112010
+[2018.12.28-18.29.46:112][670]LogTemp: Warning: Angle: -2.111089
+[2018.12.28-18.29.46:119][671]LogTemp: Warning: Angle: -2.110169
+[2018.12.28-18.29.46:128][672]LogTemp: Warning: Angle: -2.109249
+[2018.12.28-18.29.46:136][673]LogTemp: Warning: Angle: -2.108330
+[2018.12.28-18.29.46:145][674]LogTemp: Warning: Angle: -2.107410
+[2018.12.28-18.29.46:153][675]LogTemp: Warning: Angle: -2.106491
+[2018.12.28-18.29.46:161][676]LogTemp: Warning: Angle: -2.105573
+[2018.12.28-18.29.46:169][677]LogTemp: Warning: Angle: -2.104655
+[2018.12.28-18.29.46:178][678]LogTemp: Warning: Angle: -2.103737
+[2018.12.28-18.29.46:186][679]LogTemp: Warning: Angle: -2.102820
+[2018.12.28-18.29.46:195][680]LogTemp: Warning: Angle: -2.101903
+[2018.12.28-18.29.46:203][681]LogTemp: Warning: Angle: -2.100987
+[2018.12.28-18.29.46:211][682]LogTemp: Warning: Angle: -2.100070
+[2018.12.28-18.29.46:220][683]LogTemp: Warning: Angle: -2.099155
+[2018.12.28-18.29.46:228][684]LogTemp: Warning: Angle: -2.098240
+[2018.12.28-18.29.46:236][685]LogTemp: Warning: Angle: -2.097325
+[2018.12.28-18.29.46:245][686]LogTemp: Warning: Angle: -2.096410
+[2018.12.28-18.29.46:253][687]LogTemp: Warning: Angle: -2.095496
+[2018.12.28-18.29.46:262][688]LogTemp: Warning: Angle: -2.094582
+[2018.12.28-18.29.46:270][689]LogTemp: Warning: Angle: -2.093669
+[2018.12.28-18.29.46:278][690]LogTemp: Warning: Angle: -2.092756
+[2018.12.28-18.29.46:286][691]LogTemp: Warning: Angle: -2.091843
+[2018.12.28-18.29.46:295][692]LogTemp: Warning: Angle: -2.090931
+[2018.12.28-18.29.46:304][693]LogTemp: Warning: Angle: -2.090019
+[2018.12.28-18.29.46:311][694]LogTemp: Warning: Angle: -2.089108
+[2018.12.28-18.29.46:320][695]LogTemp: Warning: Angle: -2.088196
+[2018.12.28-18.29.46:329][696]LogTemp: Warning: Angle: -2.087284
+[2018.12.28-18.29.46:337][697]LogTemp: Warning: Angle: -2.086374
+[2018.12.28-18.29.46:345][698]LogTemp: Warning: Angle: -2.085464
+[2018.12.28-18.29.46:354][699]LogTemp: Warning: Angle: -2.084555
+[2018.12.28-18.29.46:362][700]LogTemp: Warning: Angle: -2.083645
+[2018.12.28-18.29.46:370][701]LogTemp: Warning: Angle: -2.082736
+[2018.12.28-18.29.46:378][702]LogTemp: Warning: Angle: -2.081828
+[2018.12.28-18.29.46:388][703]LogTemp: Warning: Angle: -2.080920
+[2018.12.28-18.29.46:395][704]LogTemp: Warning: Angle: -2.080013
+[2018.12.28-18.29.46:404][705]LogTemp: Warning: Angle: -2.079105
+[2018.12.28-18.29.46:412][706]LogTemp: Warning: Angle: -2.078198
+[2018.12.28-18.29.46:420][707]LogTemp: Warning: Angle: -2.077291
+[2018.12.28-18.29.46:429][708]LogTemp: Warning: Angle: -2.076385
+[2018.12.28-18.29.46:437][709]LogTemp: Warning: Angle: -2.075480
+[2018.12.28-18.29.46:445][710]LogTemp: Warning: Angle: -2.074574
+[2018.12.28-18.29.46:454][711]LogTemp: Warning: Angle: -2.073669
+[2018.12.28-18.29.46:461][712]LogTemp: Warning: Angle: -2.072765
+[2018.12.28-18.29.46:469][713]LogTemp: Warning: Angle: -2.071861
+[2018.12.28-18.29.46:478][714]LogTemp: Warning: Angle: -2.070957
+[2018.12.28-18.29.46:486][715]LogTemp: Warning: Angle: -2.070053
+[2018.12.28-18.29.46:494][716]LogTemp: Warning: Angle: -2.069150
+[2018.12.28-18.29.46:503][717]LogTemp: Warning: Angle: -2.068248
+[2018.12.28-18.29.46:512][718]LogTemp: Warning: Angle: -2.067345
+[2018.12.28-18.29.46:520][719]LogTemp: Warning: Angle: -2.066443
+[2018.12.28-18.29.46:528][720]LogTemp: Warning: Angle: -2.065542
+[2018.12.28-18.29.46:536][721]LogTemp: Warning: Angle: -2.064641
+[2018.12.28-18.29.46:545][722]LogTemp: Warning: Angle: -2.063740
+[2018.12.28-18.29.46:553][723]LogTemp: Warning: Angle: -2.062840
+[2018.12.28-18.29.46:561][724]LogTemp: Warning: Angle: -2.061939
+[2018.12.28-18.29.46:570][725]LogTemp: Warning: Angle: -2.061040
+[2018.12.28-18.29.46:578][726]LogTemp: Warning: Angle: -2.060141
+[2018.12.28-18.29.46:586][727]LogTemp: Warning: Angle: -2.059242
+[2018.12.28-18.29.46:595][728]LogTemp: Warning: Angle: -2.058344
+[2018.12.28-18.29.46:603][729]LogTemp: Warning: Angle: -2.057446
+[2018.12.28-18.29.46:611][730]LogTemp: Warning: Angle: -2.056548
+[2018.12.28-18.29.46:620][731]LogTemp: Warning: Angle: -2.055651
+[2018.12.28-18.29.46:628][732]LogTemp: Warning: Angle: -2.054754
+[2018.12.28-18.29.46:636][733]LogTemp: Warning: Angle: -2.053857
+[2018.12.28-18.29.46:645][734]LogTemp: Warning: Angle: -2.052961
+[2018.12.28-18.29.46:653][735]LogTemp: Warning: Angle: -2.052066
+[2018.12.28-18.29.46:662][736]LogTemp: Warning: Angle: -2.051171
+[2018.12.28-18.29.46:670][737]LogTemp: Warning: Angle: -2.050276
+[2018.12.28-18.29.46:678][738]LogTemp: Warning: Angle: -2.049381
+[2018.12.28-18.29.46:687][739]LogTemp: Warning: Angle: -2.048487
+[2018.12.28-18.29.46:695][740]LogTemp: Warning: Angle: -2.047594
+[2018.12.28-18.29.46:703][741]LogTemp: Warning: Angle: -2.046700
+[2018.12.28-18.29.46:712][742]LogTemp: Warning: Angle: -2.045807
+[2018.12.28-18.29.46:720][743]LogTemp: Warning: Angle: -2.044915
+[2018.12.28-18.29.46:728][744]LogTemp: Warning: Angle: -2.044022
+[2018.12.28-18.29.46:737][745]LogTemp: Warning: Angle: -2.043130
+[2018.12.28-18.29.46:745][746]LogTemp: Warning: Angle: -2.042239
+[2018.12.28-18.29.46:753][747]LogTemp: Warning: Angle: -2.041348
+[2018.12.28-18.29.46:762][748]LogTemp: Warning: Angle: -2.040457
+[2018.12.28-18.29.46:770][749]LogTemp: Warning: Angle: -2.039567
+[2018.12.28-18.29.46:778][750]LogTemp: Warning: Angle: -2.038677
+[2018.12.28-18.29.46:787][751]LogTemp: Warning: Angle: -2.037788
+[2018.12.28-18.29.46:795][752]LogTemp: Warning: Angle: -2.036898
+[2018.12.28-18.29.46:803][753]LogTemp: Warning: Angle: -2.036010
+[2018.12.28-18.29.46:812][754]LogTemp: Warning: Angle: -2.035122
+[2018.12.28-18.29.46:819][755]LogTemp: Warning: Angle: -2.034234
+[2018.12.28-18.29.46:828][756]LogTemp: Warning: Angle: -2.033347
+[2018.12.28-18.29.46:836][757]LogTemp: Warning: Angle: -2.032459
+[2018.12.28-18.29.46:844][758]LogTemp: Warning: Angle: -2.031573
+[2018.12.28-18.29.46:853][759]LogTemp: Warning: Angle: -2.030686
+[2018.12.28-18.29.46:862][760]LogTemp: Warning: Angle: -2.029800
+[2018.12.28-18.29.46:869][761]LogTemp: Warning: Angle: -2.028915
+[2018.12.28-18.29.46:878][762]LogTemp: Warning: Angle: -2.028029
+[2018.12.28-18.29.46:886][763]LogTemp: Warning: Angle: -2.027145
+[2018.12.28-18.29.46:894][764]LogTemp: Warning: Angle: -2.026260
+[2018.12.28-18.29.46:903][765]LogTemp: Warning: Angle: -2.025377
+[2018.12.28-18.29.46:911][766]LogTemp: Warning: Angle: -2.024493
+[2018.12.28-18.29.46:920][767]LogTemp: Warning: Angle: -2.023610
+[2018.12.28-18.29.46:928][768]LogTemp: Warning: Angle: -2.022727
+[2018.12.28-18.29.46:936][769]LogTemp: Warning: Angle: -2.021845
+[2018.12.28-18.29.46:945][770]LogTemp: Warning: Angle: -2.020963
+[2018.12.28-18.29.46:953][771]LogTemp: Warning: Angle: -2.020082
+[2018.12.28-18.29.46:961][772]LogTemp: Warning: Angle: -2.019201
+[2018.12.28-18.29.46:970][773]LogTemp: Warning: Angle: -2.018320
+[2018.12.28-18.29.46:978][774]LogTemp: Warning: Angle: -2.017440
+[2018.12.28-18.29.46:986][775]LogTemp: Warning: Angle: -2.016559
+[2018.12.28-18.29.46:995][776]LogTemp: Warning: Angle: -2.015680
+[2018.12.28-18.29.47:003][777]LogTemp: Warning: Angle: -2.014800
+[2018.12.28-18.29.47:011][778]LogTemp: Warning: Angle: -2.013921
+[2018.12.28-18.29.47:020][779]LogTemp: Warning: Angle: -2.013043
+[2018.12.28-18.29.47:029][780]LogTemp: Warning: Angle: -2.012165
+[2018.12.28-18.29.47:036][781]LogTemp: Warning: Angle: -2.011287
+[2018.12.28-18.29.47:045][782]LogTemp: Warning: Angle: -2.010410
+[2018.12.28-18.29.47:053][783]LogTemp: Warning: Angle: -2.009533
+[2018.12.28-18.29.47:062][784]LogTemp: Warning: Angle: -2.008657
+[2018.12.28-18.29.47:070][785]LogTemp: Warning: Angle: -2.007781
+[2018.12.28-18.29.47:078][786]LogTemp: Warning: Angle: -2.006906
+[2018.12.28-18.29.47:087][787]LogTemp: Warning: Angle: -2.006030
+[2018.12.28-18.29.47:095][788]LogTemp: Warning: Angle: -2.005156
+[2018.12.28-18.29.47:103][789]LogTemp: Warning: Angle: -2.004281
+[2018.12.28-18.29.47:112][790]LogTemp: Warning: Angle: -2.003407
+[2018.12.28-18.29.47:121][791]LogTemp: Warning: Angle: -2.002533
+[2018.12.28-18.29.47:128][792]LogTemp: Warning: Angle: -2.001660
+[2018.12.28-18.29.47:137][793]LogTemp: Warning: Angle: -2.000787
+[2018.12.28-18.29.47:145][794]LogTemp: Warning: Angle: -1.999914
+[2018.12.28-18.29.47:153][795]LogTemp: Warning: Angle: -1.999041
+[2018.12.28-18.29.47:162][796]LogTemp: Warning: Angle: -1.998170
+[2018.12.28-18.29.47:170][797]LogTemp: Warning: Angle: -1.997298
+[2018.12.28-18.29.47:179][798]LogTemp: Warning: Angle: -1.996428
+[2018.12.28-18.29.47:187][799]LogTemp: Warning: Angle: -1.995557
+[2018.12.28-18.29.47:195][800]LogTemp: Warning: Angle: -1.994687
+[2018.12.28-18.29.47:203][801]LogTemp: Warning: Angle: -1.993817
+[2018.12.28-18.29.47:211][802]LogTemp: Warning: Angle: -1.992947
+[2018.12.28-18.29.47:219][803]LogTemp: Warning: Angle: -1.992077
+[2018.12.28-18.29.47:228][804]LogTemp: Warning: Angle: -1.991208
+[2018.12.28-18.29.47:236][805]LogTemp: Warning: Angle: -1.990340
+[2018.12.28-18.29.47:245][806]LogTemp: Warning: Angle: -1.989472
+[2018.12.28-18.29.47:253][807]LogTemp: Warning: Angle: -1.988605
+[2018.12.28-18.29.47:261][808]LogTemp: Warning: Angle: -1.987737
+[2018.12.28-18.29.47:269][809]LogTemp: Warning: Angle: -1.986871
+[2018.12.28-18.29.47:278][810]LogTemp: Warning: Angle: -1.986004
+[2018.12.28-18.29.47:286][811]LogTemp: Warning: Angle: -1.985139
+[2018.12.28-18.29.47:295][812]LogTemp: Warning: Angle: -1.984273
+[2018.12.28-18.29.47:303][813]LogTemp: Warning: Angle: -1.983408
+[2018.12.28-18.29.47:311][814]LogTemp: Warning: Angle: -1.982543
+[2018.12.28-18.29.47:320][815]LogTemp: Warning: Angle: -1.981679
+[2018.12.28-18.29.47:328][816]LogTemp: Warning: Angle: -1.980815
+[2018.12.28-18.29.47:336][817]LogTemp: Warning: Angle: -1.979952
+[2018.12.28-18.29.47:345][818]LogTemp: Warning: Angle: -1.979089
+[2018.12.28-18.29.47:353][819]LogTemp: Warning: Angle: -1.978225
+[2018.12.28-18.29.47:361][820]LogTemp: Warning: Angle: -1.977363
+[2018.12.28-18.29.47:370][821]LogTemp: Warning: Angle: -1.976501
+[2018.12.28-18.29.47:378][822]LogTemp: Warning: Angle: -1.975639
+[2018.12.28-18.29.47:386][823]LogTemp: Warning: Angle: -1.974778
+[2018.12.28-18.29.47:395][824]LogTemp: Warning: Angle: -1.973917
+[2018.12.28-18.29.47:403][825]LogTemp: Warning: Angle: -1.973057
+[2018.12.28-18.29.47:412][826]LogTemp: Warning: Angle: -1.972196
+[2018.12.28-18.29.47:420][827]LogTemp: Warning: Angle: -1.971336
+[2018.12.28-18.29.47:428][828]LogTemp: Warning: Angle: -1.970477
+[2018.12.28-18.29.47:437][829]LogTemp: Warning: Angle: -1.969618
+[2018.12.28-18.29.47:445][830]LogTemp: Warning: Angle: -1.968759
+[2018.12.28-18.29.47:453][831]LogTemp: Warning: Angle: -1.967901
+[2018.12.28-18.29.47:462][832]LogTemp: Warning: Angle: -1.967043
+[2018.12.28-18.29.47:470][833]LogTemp: Warning: Angle: -1.966185
+[2018.12.28-18.29.47:478][834]LogTemp: Warning: Angle: -1.965328
+[2018.12.28-18.29.47:487][835]LogTemp: Warning: Angle: -1.964472
+[2018.12.28-18.29.47:495][836]LogTemp: Warning: Angle: -1.963615
+[2018.12.28-18.29.47:503][837]LogTemp: Warning: Angle: -1.962759
+[2018.12.28-18.29.47:512][838]LogTemp: Warning: Angle: -1.961903
+[2018.12.28-18.29.47:520][839]LogTemp: Warning: Angle: -1.961048
+[2018.12.28-18.29.47:529][840]LogTemp: Warning: Angle: -1.960193
+[2018.12.28-18.29.47:537][841]LogTemp: Warning: Angle: -1.959338
+[2018.12.28-18.29.47:545][842]LogTemp: Warning: Angle: -1.958484
+[2018.12.28-18.29.47:554][843]LogTemp: Warning: Angle: -1.957631
+[2018.12.28-18.29.47:562][844]LogTemp: Warning: Angle: -1.956777
+[2018.12.28-18.29.47:570][845]LogTemp: Warning: Angle: -1.955925
+[2018.12.28-18.29.47:579][846]LogTemp: Warning: Angle: -1.955072
+[2018.12.28-18.29.47:587][847]LogTemp: Warning: Angle: -1.954220
+[2018.12.28-18.29.47:595][848]LogTemp: Warning: Angle: -1.953368
+[2018.12.28-18.29.47:603][849]LogTemp: Warning: Angle: -1.952517
+[2018.12.28-18.29.47:611][850]LogTemp: Warning: Angle: -1.951665
+[2018.12.28-18.29.47:620][851]LogTemp: Warning: Angle: -1.950814
+[2018.12.28-18.29.47:628][852]LogTemp: Warning: Angle: -1.949962
+[2018.12.28-18.29.47:637][853]LogTemp: Warning: Angle: -1.949112
+[2018.12.28-18.29.47:645][854]LogTemp: Warning: Angle: -1.948262
+[2018.12.28-18.29.47:653][855]LogTemp: Warning: Angle: -1.947413
+[2018.12.28-18.29.47:662][856]LogTemp: Warning: Angle: -1.946564
+[2018.12.28-18.29.47:670][857]LogTemp: Warning: Angle: -1.945715
+[2018.12.28-18.29.47:678][858]LogTemp: Warning: Angle: -1.944867
+[2018.12.28-18.29.47:687][859]LogTemp: Warning: Angle: -1.944019
+[2018.12.28-18.29.47:695][860]LogTemp: Warning: Angle: -1.943171
+[2018.12.28-18.29.47:703][861]LogTemp: Warning: Angle: -1.942324
+[2018.12.28-18.29.47:712][862]LogTemp: Warning: Angle: -1.941478
+[2018.12.28-18.29.47:720][863]LogTemp: Warning: Angle: -1.940631
+[2018.12.28-18.29.47:728][864]LogTemp: Warning: Angle: -1.939785
+[2018.12.28-18.29.47:736][865]LogTemp: Warning: Angle: -1.938940
+[2018.12.28-18.29.47:745][866]LogTemp: Warning: Angle: -1.938094
+[2018.12.28-18.29.47:753][867]LogTemp: Warning: Angle: -1.937249
+[2018.12.28-18.29.47:762][868]LogTemp: Warning: Angle: -1.936405
+[2018.12.28-18.29.47:770][869]LogTemp: Warning: Angle: -1.935561
+[2018.12.28-18.29.47:778][870]LogTemp: Warning: Angle: -1.934717
+[2018.12.28-18.29.47:786][871]LogTemp: Warning: Angle: -1.933873
+[2018.12.28-18.29.47:795][872]LogTemp: Warning: Angle: -1.933030
+[2018.12.28-18.29.47:803][873]LogTemp: Warning: Angle: -1.932187
+[2018.12.28-18.29.47:812][874]LogTemp: Warning: Angle: -1.931345
+[2018.12.28-18.29.47:820][875]LogTemp: Warning: Angle: -1.930503
+[2018.12.28-18.29.47:828][876]LogTemp: Warning: Angle: -1.929661
+[2018.12.28-18.29.47:837][877]LogTemp: Warning: Angle: -1.928819
+[2018.12.28-18.29.47:845][878]LogTemp: Warning: Angle: -1.927978
+[2018.12.28-18.29.47:853][879]LogTemp: Warning: Angle: -1.927137
+[2018.12.28-18.29.47:862][880]LogTemp: Warning: Angle: -1.926297
+[2018.12.28-18.29.47:870][881]LogTemp: Warning: Angle: -1.925457
+[2018.12.28-18.29.47:878][882]LogTemp: Warning: Angle: -1.924618
+[2018.12.28-18.29.47:887][883]LogTemp: Warning: Angle: -1.923778
+[2018.12.28-18.29.47:895][884]LogTemp: Warning: Angle: -1.922939
+[2018.12.28-18.29.47:904][885]LogTemp: Warning: Angle: -1.922101
+[2018.12.28-18.29.47:912][886]LogTemp: Warning: Angle: -1.921263
+[2018.12.28-18.29.47:920][887]LogTemp: Warning: Angle: -1.920425
+[2018.12.28-18.29.47:929][888]LogTemp: Warning: Angle: -1.919588
+[2018.12.28-18.29.47:937][889]LogTemp: Warning: Angle: -1.918751
+[2018.12.28-18.29.47:945][890]LogTemp: Warning: Angle: -1.917915
+[2018.12.28-18.29.47:954][891]LogTemp: Warning: Angle: -1.917078
+[2018.12.28-18.29.47:962][892]LogTemp: Warning: Angle: -1.916242
+[2018.12.28-18.29.47:970][893]LogTemp: Warning: Angle: -1.915406
+[2018.12.28-18.29.47:979][894]LogTemp: Warning: Angle: -1.914571
+[2018.12.28-18.29.47:987][895]LogTemp: Warning: Angle: -1.913736
+[2018.12.28-18.29.47:995][896]LogTemp: Warning: Angle: -1.912902
+[2018.12.28-18.29.48:003][897]LogTemp: Warning: Angle: -1.912068
+[2018.12.28-18.29.48:011][898]LogTemp: Warning: Angle: -1.911234
+[2018.12.28-18.29.48:019][899]LogTemp: Warning: Angle: -1.910401
+[2018.12.28-18.29.48:028][900]LogTemp: Warning: Angle: -1.909567
+[2018.12.28-18.29.48:036][901]LogTemp: Warning: Angle: -1.908735
+[2018.12.28-18.29.48:045][902]LogTemp: Warning: Angle: -1.907903
+[2018.12.28-18.29.48:053][903]LogTemp: Warning: Angle: -1.907071
+[2018.12.28-18.29.48:062][904]LogTemp: Warning: Angle: -1.906239
+[2018.12.28-18.29.48:069][905]LogTemp: Warning: Angle: -1.905408
+[2018.12.28-18.29.48:078][906]LogTemp: Warning: Angle: -1.904577
+[2018.12.28-18.29.48:086][907]LogTemp: Warning: Angle: -1.903746
+[2018.12.28-18.29.48:095][908]LogTemp: Warning: Angle: -1.902916
+[2018.12.28-18.29.48:103][909]LogTemp: Warning: Angle: -1.902086
+[2018.12.28-18.29.48:111][910]LogTemp: Warning: Angle: -1.901256
+[2018.12.28-18.29.48:120][911]LogTemp: Warning: Angle: -1.900427
+[2018.12.28-18.29.48:129][912]LogTemp: Warning: Angle: -1.899598
+[2018.12.28-18.29.48:137][913]LogTemp: Warning: Angle: -1.898770
+[2018.12.28-18.29.48:145][914]LogTemp: Warning: Angle: -1.897942
+[2018.12.28-18.29.48:153][915]LogTemp: Warning: Angle: -1.897114
+[2018.12.28-18.29.48:161][916]LogTemp: Warning: Angle: -1.896286
+[2018.12.28-18.29.48:170][917]LogTemp: Warning: Angle: -1.895459
+[2018.12.28-18.29.48:178][918]LogTemp: Warning: Angle: -1.894632
+[2018.12.28-18.29.48:187][919]LogTemp: Warning: Angle: -1.893806
+[2018.12.28-18.29.48:195][920]LogTemp: Warning: Angle: -1.892980
+[2018.12.28-18.29.48:203][921]LogTemp: Warning: Angle: -1.892155
+[2018.12.28-18.29.48:212][922]LogTemp: Warning: Angle: -1.891329
+[2018.12.28-18.29.48:220][923]LogTemp: Warning: Angle: -1.890505
+[2018.12.28-18.29.48:228][924]LogTemp: Warning: Angle: -1.889680
+[2018.12.28-18.29.48:237][925]LogTemp: Warning: Angle: -1.888856
+[2018.12.28-18.29.48:245][926]LogTemp: Warning: Angle: -1.888032
+[2018.12.28-18.29.48:253][927]LogTemp: Warning: Angle: -1.887209
+[2018.12.28-18.29.48:262][928]LogTemp: Warning: Angle: -1.886386
+[2018.12.28-18.29.48:270][929]LogTemp: Warning: Angle: -1.885563
+[2018.12.28-18.29.48:279][930]LogTemp: Warning: Angle: -1.884741
+[2018.12.28-18.29.48:287][931]LogTemp: Warning: Angle: -1.883919
+[2018.12.28-18.29.48:295][932]LogTemp: Warning: Angle: -1.883098
+[2018.12.28-18.29.48:304][933]LogTemp: Warning: Angle: -1.882276
+[2018.12.28-18.29.48:312][934]LogTemp: Warning: Angle: -1.881455
+[2018.12.28-18.29.48:320][935]LogTemp: Warning: Angle: -1.880635
+[2018.12.28-18.29.48:329][936]LogTemp: Warning: Angle: -1.879814
+[2018.12.28-18.29.48:337][937]LogTemp: Warning: Angle: -1.878994
+[2018.12.28-18.29.48:345][938]LogTemp: Warning: Angle: -1.878175
+[2018.12.28-18.29.48:354][939]LogTemp: Warning: Angle: -1.877356
+[2018.12.28-18.29.48:362][940]LogTemp: Warning: Angle: -1.876537
+[2018.12.28-18.29.48:370][941]LogTemp: Warning: Angle: -1.875718
+[2018.12.28-18.29.48:378][942]LogTemp: Warning: Angle: -1.874900
+[2018.12.28-18.29.48:386][943]LogTemp: Warning: Angle: -1.874082
+[2018.12.28-18.29.48:394][944]LogTemp: Warning: Angle: -1.873265
+[2018.12.28-18.29.48:403][945]LogTemp: Warning: Angle: -1.872448
+[2018.12.28-18.29.48:411][946]LogTemp: Warning: Angle: -1.871631
+[2018.12.28-18.29.48:420][947]LogTemp: Warning: Angle: -1.870814
+[2018.12.28-18.29.48:428][948]LogTemp: Warning: Angle: -1.869998
+[2018.12.28-18.29.48:436][949]LogTemp: Warning: Angle: -1.869182
+[2018.12.28-18.29.48:445][950]LogTemp: Warning: Angle: -1.868367
+[2018.12.28-18.29.48:453][951]LogTemp: Warning: Angle: -1.867552
+[2018.12.28-18.29.48:461][952]LogTemp: Warning: Angle: -1.866737
+[2018.12.28-18.29.48:470][953]LogTemp: Warning: Angle: -1.865923
+[2018.12.28-18.29.48:478][954]LogTemp: Warning: Angle: -1.865109
+[2018.12.28-18.29.48:486][955]LogTemp: Warning: Angle: -1.864295
+[2018.12.28-18.29.48:495][956]LogTemp: Warning: Angle: -1.863482
+[2018.12.28-18.29.48:503][957]LogTemp: Warning: Angle: -1.862669
+[2018.12.28-18.29.48:511][958]LogTemp: Warning: Angle: -1.861856
+[2018.12.28-18.29.48:520][959]LogTemp: Warning: Angle: -1.861044
+[2018.12.28-18.29.48:528][960]LogTemp: Warning: Angle: -1.860233
+[2018.12.28-18.29.48:537][961]LogTemp: Warning: Angle: -1.859421
+[2018.12.28-18.29.48:545][962]LogTemp: Warning: Angle: -1.858610
+[2018.12.28-18.29.48:553][963]LogTemp: Warning: Angle: -1.857799
+[2018.12.28-18.29.48:562][964]LogTemp: Warning: Angle: -1.856989
+[2018.12.28-18.29.48:570][965]LogTemp: Warning: Angle: -1.856178
+[2018.12.28-18.29.48:578][966]LogTemp: Warning: Angle: -1.855368
+[2018.12.28-18.29.48:587][967]LogTemp: Warning: Angle: -1.854559
+[2018.12.28-18.29.48:595][968]LogTemp: Warning: Angle: -1.853750
+[2018.12.28-18.29.48:603][969]LogTemp: Warning: Angle: -1.852942
+[2018.12.28-18.29.48:612][970]LogTemp: Warning: Angle: -1.852133
+[2018.12.28-18.29.48:620][971]LogTemp: Warning: Angle: -1.851325
+[2018.12.28-18.29.48:628][972]LogTemp: Warning: Angle: -1.850517
+[2018.12.28-18.29.48:637][973]LogTemp: Warning: Angle: -1.849710
+[2018.12.28-18.29.48:645][974]LogTemp: Warning: Angle: -1.848903
+[2018.12.28-18.29.48:654][975]LogTemp: Warning: Angle: -1.848096
+[2018.12.28-18.29.48:662][976]LogTemp: Warning: Angle: -1.847290
+[2018.12.28-18.29.48:670][977]LogTemp: Warning: Angle: -1.846484
+[2018.12.28-18.29.48:678][978]LogTemp: Warning: Angle: -1.845678
+[2018.12.28-18.29.48:687][979]LogTemp: Warning: Angle: -1.844873
+[2018.12.28-18.29.48:695][980]LogTemp: Warning: Angle: -1.844068
+[2018.12.28-18.29.48:704][981]LogTemp: Warning: Angle: -1.843264
+[2018.12.28-18.29.48:712][982]LogTemp: Warning: Angle: -1.842460
+[2018.12.28-18.29.48:720][983]LogTemp: Warning: Angle: -1.841656
+[2018.12.28-18.29.48:729][984]LogTemp: Warning: Angle: -1.840853
+[2018.12.28-18.29.48:736][985]LogTemp: Warning: Angle: -1.840050
+[2018.12.28-18.29.48:745][986]LogTemp: Warning: Angle: -1.839247
+[2018.12.28-18.29.48:753][987]LogTemp: Warning: Angle: -1.838444
+[2018.12.28-18.29.48:762][988]LogTemp: Warning: Angle: -1.837643
+[2018.12.28-18.29.48:770][989]LogTemp: Warning: Angle: -1.836841
+[2018.12.28-18.29.48:778][990]LogTemp: Warning: Angle: -1.836039
+[2018.12.28-18.29.48:787][991]LogTemp: Warning: Angle: -1.835238
+[2018.12.28-18.29.48:795][992]LogTemp: Warning: Angle: -1.834437
+[2018.12.28-18.29.48:803][993]LogTemp: Warning: Angle: -1.833636
+[2018.12.28-18.29.48:812][994]LogTemp: Warning: Angle: -1.832836
+[2018.12.28-18.29.48:820][995]LogTemp: Warning: Angle: -1.832036
+[2018.12.28-18.29.48:828][996]LogTemp: Warning: Angle: -1.831237
+[2018.12.28-18.29.48:837][997]LogTemp: Warning: Angle: -1.830438
+[2018.12.28-18.29.48:845][998]LogTemp: Warning: Angle: -1.829639
+[2018.12.28-18.29.48:853][999]LogTemp: Warning: Angle: -1.828841
+[2018.12.28-18.29.48:862][  0]LogTemp: Warning: Angle: -1.828043
+[2018.12.28-18.29.48:870][  1]LogTemp: Warning: Angle: -1.827245
+[2018.12.28-18.29.48:878][  2]LogTemp: Warning: Angle: -1.826448
+[2018.12.28-18.29.48:887][  3]LogTemp: Warning: Angle: -1.825651
+[2018.12.28-18.29.48:895][  4]LogTemp: Warning: Angle: -1.824855
+[2018.12.28-18.29.48:904][  5]LogTemp: Warning: Angle: -1.824058
+[2018.12.28-18.29.48:912][  6]LogTemp: Warning: Angle: -1.823262
+[2018.12.28-18.29.48:920][  7]LogTemp: Warning: Angle: -1.822467
+[2018.12.28-18.29.48:929][  8]LogTemp: Warning: Angle: -1.821672
+[2018.12.28-18.29.48:937][  9]LogTemp: Warning: Angle: -1.820877
+[2018.12.28-18.29.48:946][ 10]LogTemp: Warning: Angle: -1.820083
+[2018.12.28-18.29.48:954][ 11]LogTemp: Warning: Angle: -1.819288
+[2018.12.28-18.29.48:962][ 12]LogTemp: Warning: Angle: -1.818495
+[2018.12.28-18.29.48:970][ 13]LogTemp: Warning: Angle: -1.817701
+[2018.12.28-18.29.48:978][ 14]LogTemp: Warning: Angle: -1.816908
+[2018.12.28-18.29.48:986][ 15]LogTemp: Warning: Angle: -1.816115
+[2018.12.28-18.29.48:995][ 16]LogTemp: Warning: Angle: -1.815322
+[2018.12.28-18.29.49:003][ 17]LogTemp: Warning: Angle: -1.814530
+[2018.12.28-18.29.49:011][ 18]LogTemp: Warning: Angle: -1.813738
+[2018.12.28-18.29.49:020][ 19]LogTemp: Warning: Angle: -1.812947
+[2018.12.28-18.29.49:028][ 20]LogTemp: Warning: Angle: -1.812156
+[2018.12.28-18.29.49:036][ 21]LogTemp: Warning: Angle: -1.811365
+[2018.12.28-18.29.49:045][ 22]LogTemp: Warning: Angle: -1.810575
+[2018.12.28-18.29.49:053][ 23]LogTemp: Warning: Angle: -1.809785
+[2018.12.28-18.29.49:061][ 24]LogTemp: Warning: Angle: -1.808996
+[2018.12.28-18.29.49:070][ 25]LogTemp: Warning: Angle: -1.808207
+[2018.12.28-18.29.49:078][ 26]LogTemp: Warning: Angle: -1.807418
+[2018.12.28-18.29.49:086][ 27]LogTemp: Warning: Angle: -1.806629
+[2018.12.28-18.29.49:095][ 28]LogTemp: Warning: Angle: -1.805840
+[2018.12.28-18.29.49:103][ 29]LogTemp: Warning: Angle: -1.805053
+[2018.12.28-18.29.49:112][ 30]LogTemp: Warning: Angle: -1.804265
+[2018.12.28-18.29.49:120][ 31]LogTemp: Warning: Angle: -1.803478
+[2018.12.28-18.29.49:128][ 32]LogTemp: Warning: Angle: -1.802691
+[2018.12.28-18.29.49:137][ 33]LogTemp: Warning: Angle: -1.801904
+[2018.12.28-18.29.49:146][ 34]LogTemp: Warning: Angle: -1.801114
+[2018.12.28-18.29.49:154][ 35]LogTemp: Warning: Angle: -1.800328
+[2018.12.28-18.29.49:162][ 36]LogTemp: Warning: Angle: -1.799543
+[2018.12.28-18.29.49:170][ 37]LogTemp: Warning: Angle: -1.798758
+[2018.12.28-18.29.49:179][ 38]LogTemp: Warning: Angle: -1.797973
+[2018.12.28-18.29.49:187][ 39]LogTemp: Warning: Angle: -1.797187
+[2018.12.28-18.29.49:195][ 40]LogTemp: Warning: Angle: -1.796403
+[2018.12.28-18.29.49:203][ 41]LogTemp: Warning: Angle: -1.795619
+[2018.12.28-18.29.49:211][ 42]LogTemp: Warning: Angle: -1.794836
+[2018.12.28-18.29.49:220][ 43]LogTemp: Warning: Angle: -1.794053
+[2018.12.28-18.29.49:228][ 44]LogTemp: Warning: Angle: -1.793270
+[2018.12.28-18.29.49:236][ 45]LogTemp: Warning: Angle: -1.792487
+[2018.12.28-18.29.49:245][ 46]LogTemp: Warning: Angle: -1.791705
+[2018.12.28-18.29.49:253][ 47]LogTemp: Warning: Angle: -1.790923
+[2018.12.28-18.29.49:262][ 48]LogTemp: Warning: Angle: -1.790142
+[2018.12.28-18.29.49:270][ 49]LogTemp: Warning: Angle: -1.789361
+[2018.12.28-18.29.49:278][ 50]LogTemp: Warning: Angle: -1.788580
+[2018.12.28-18.29.49:286][ 51]LogTemp: Warning: Angle: -1.787799
+[2018.12.28-18.29.49:295][ 52]LogTemp: Warning: Angle: -1.787019
+[2018.12.28-18.29.49:303][ 53]LogTemp: Warning: Angle: -1.786240
+[2018.12.28-18.29.49:311][ 54]LogTemp: Warning: Angle: -1.785460
+[2018.12.28-18.29.49:320][ 55]LogTemp: Warning: Angle: -1.784681
+[2018.12.28-18.29.49:328][ 56]LogTemp: Warning: Angle: -1.783903
+[2018.12.28-18.29.49:337][ 57]LogTemp: Warning: Angle: -1.783125
+[2018.12.28-18.29.49:345][ 58]LogTemp: Warning: Angle: -1.782347
+[2018.12.28-18.29.49:354][ 59]LogTemp: Warning: Angle: -1.781569
+[2018.12.28-18.29.49:362][ 60]LogTemp: Warning: Angle: -1.780791
+[2018.12.28-18.29.49:370][ 61]LogTemp: Warning: Angle: -1.780014
+[2018.12.28-18.29.49:379][ 62]LogTemp: Warning: Angle: -1.779237
+[2018.12.28-18.29.49:387][ 63]LogTemp: Warning: Angle: -1.778461
+[2018.12.28-18.29.49:396][ 64]LogTemp: Warning: Angle: -1.777685
+[2018.12.28-18.29.49:404][ 65]LogTemp: Warning: Angle: -1.776910
+[2018.12.28-18.29.49:413][ 66]LogTemp: Warning: Angle: -1.776135
+[2018.12.28-18.29.49:419][ 67]LogTemp: Warning: Angle: -1.775360
+[2018.12.28-18.29.49:428][ 68]LogTemp: Warning: Angle: -1.774585
+[2018.12.28-18.29.49:437][ 69]LogTemp: Warning: Angle: -1.773811
+[2018.12.28-18.29.49:446][ 70]LogTemp: Warning: Angle: -1.773037
+[2018.12.28-18.29.49:454][ 71]LogTemp: Warning: Angle: -1.772264
+[2018.12.28-18.29.49:462][ 72]LogTemp: Warning: Angle: -1.771490
+[2018.12.28-18.29.49:471][ 73]LogTemp: Warning: Angle: -1.770717
+[2018.12.28-18.29.49:479][ 74]LogTemp: Warning: Angle: -1.769945
+[2018.12.28-18.29.49:487][ 75]LogTemp: Warning: Angle: -1.769173
+[2018.12.28-18.29.49:495][ 76]LogTemp: Warning: Angle: -1.768401
+[2018.12.28-18.29.49:503][ 77]LogTemp: Warning: Angle: -1.767629
+[2018.12.28-18.29.49:511][ 78]LogTemp: Warning: Angle: -1.766858
+[2018.12.28-18.29.49:520][ 79]LogTemp: Warning: Angle: -1.766087
+[2018.12.28-18.29.49:528][ 80]LogTemp: Warning: Angle: -1.765317
+[2018.12.28-18.29.49:537][ 81]LogTemp: Warning: Angle: -1.764547
+[2018.12.28-18.29.49:545][ 82]LogTemp: Warning: Angle: -1.763777
+[2018.12.28-18.29.49:554][ 83]LogTemp: Warning: Angle: -1.763008
+[2018.12.28-18.29.49:562][ 84]LogTemp: Warning: Angle: -1.762238
+[2018.12.28-18.29.49:570][ 85]LogTemp: Warning: Angle: -1.761470
+[2018.12.28-18.29.49:579][ 86]LogTemp: Warning: Angle: -1.760701
+[2018.12.28-18.29.49:587][ 87]LogTemp: Warning: Angle: -1.759933
+[2018.12.28-18.29.49:595][ 88]LogTemp: Warning: Angle: -1.759165
+[2018.12.28-18.29.49:604][ 89]LogTemp: Warning: Angle: -1.758398
+[2018.12.28-18.29.49:612][ 90]LogTemp: Warning: Angle: -1.757631
+[2018.12.28-18.29.49:621][ 91]LogTemp: Warning: Angle: -1.756864
+[2018.12.28-18.29.49:629][ 92]LogTemp: Warning: Angle: -1.756097
+[2018.12.28-18.29.49:637][ 93]LogTemp: Warning: Angle: -1.755331
+[2018.12.28-18.29.49:645][ 94]LogTemp: Warning: Angle: -1.754566
+[2018.12.28-18.29.49:654][ 95]LogTemp: Warning: Angle: -1.753801
+[2018.12.28-18.29.49:662][ 96]LogTemp: Warning: Angle: -1.753035
+[2018.12.28-18.29.49:670][ 97]LogTemp: Warning: Angle: -1.752270
+[2018.12.28-18.29.49:679][ 98]LogTemp: Warning: Angle: -1.751506
+[2018.12.28-18.29.49:686][ 99]LogTemp: Warning: Angle: -1.750741
+[2018.12.28-18.29.49:695][100]LogTemp: Warning: Angle: -1.749978
+[2018.12.28-18.29.49:703][101]LogTemp: Warning: Angle: -1.749214
+[2018.12.28-18.29.49:711][102]LogTemp: Warning: Angle: -1.748451
+[2018.12.28-18.29.49:720][103]LogTemp: Warning: Angle: -1.747688
+[2018.12.28-18.29.49:728][104]LogTemp: Warning: Angle: -1.746926
+[2018.12.28-18.29.49:736][105]LogTemp: Warning: Angle: -1.746164
+[2018.12.28-18.29.49:745][106]LogTemp: Warning: Angle: -1.745402
+[2018.12.28-18.29.49:753][107]LogTemp: Warning: Angle: -1.744641
+[2018.12.28-18.29.49:762][108]LogTemp: Warning: Angle: -1.743880
+[2018.12.28-18.29.49:770][109]LogTemp: Warning: Angle: -1.743118
+[2018.12.28-18.29.49:778][110]LogTemp: Warning: Angle: -1.742358
+[2018.12.28-18.29.49:786][111]LogTemp: Warning: Angle: -1.741598
+[2018.12.28-18.29.49:795][112]LogTemp: Warning: Angle: -1.740838
+[2018.12.28-18.29.49:803][113]LogTemp: Warning: Angle: -1.740079
+[2018.12.28-18.29.49:811][114]LogTemp: Warning: Angle: -1.739319
+[2018.12.28-18.29.49:820][115]LogTemp: Warning: Angle: -1.738561
+[2018.12.28-18.29.49:828][116]LogTemp: Warning: Angle: -1.737803
+[2018.12.28-18.29.49:837][117]LogTemp: Warning: Angle: -1.737044
+[2018.12.28-18.29.49:845][118]LogTemp: Warning: Angle: -1.736287
+[2018.12.28-18.29.49:853][119]LogTemp: Warning: Angle: -1.735530
+[2018.12.28-18.29.49:862][120]LogTemp: Warning: Angle: -1.734772
+[2018.12.28-18.29.49:871][121]LogTemp: Warning: Angle: -1.734016
+[2018.12.28-18.29.49:878][122]LogTemp: Warning: Angle: -1.733259
+[2018.12.28-18.29.49:887][123]LogTemp: Warning: Angle: -1.732503
+[2018.12.28-18.29.49:895][124]LogTemp: Warning: Angle: -1.731748
+[2018.12.28-18.29.49:904][125]LogTemp: Warning: Angle: -1.730992
+[2018.12.28-18.29.49:912][126]LogTemp: Warning: Angle: -1.730237
+[2018.12.28-18.29.49:920][127]LogTemp: Warning: Angle: -1.729483
+[2018.12.28-18.29.49:929][128]LogTemp: Warning: Angle: -1.728728
+[2018.12.28-18.29.49:937][129]LogTemp: Warning: Angle: -1.727974
+[2018.12.28-18.29.49:945][130]LogTemp: Warning: Angle: -1.727220
+[2018.12.28-18.29.49:954][131]LogTemp: Warning: Angle: -1.726467
+[2018.12.28-18.29.49:962][132]LogTemp: Warning: Angle: -1.725714
+[2018.12.28-18.29.49:970][133]LogTemp: Warning: Angle: -1.724961
+[2018.12.28-18.29.49:979][134]LogTemp: Warning: Angle: -1.724208
+[2018.12.28-18.29.49:987][135]LogTemp: Warning: Angle: -1.723457
+[2018.12.28-18.29.49:995][136]LogTemp: Warning: Angle: -1.722705
+[2018.12.28-18.29.50:004][137]LogTemp: Warning: Angle: -1.721954
+[2018.12.28-18.29.50:013][138]LogTemp: Warning: Angle: -1.721203
+[2018.12.28-18.29.50:021][139]LogTemp: Warning: Angle: -1.720452
+[2018.12.28-18.29.50:029][140]LogTemp: Warning: Angle: -1.719702
+[2018.12.28-18.29.50:037][141]LogTemp: Warning: Angle: -1.718952
+[2018.12.28-18.29.50:046][142]LogTemp: Warning: Angle: -1.718202
+[2018.12.28-18.29.50:053][143]LogTemp: Warning: Angle: -1.717452
+[2018.12.28-18.29.50:061][144]LogTemp: Warning: Angle: -1.716703
+[2018.12.28-18.29.50:070][145]LogTemp: Warning: Angle: -1.715955
+[2018.12.28-18.29.50:078][146]LogTemp: Warning: Angle: -1.715207
+[2018.12.28-18.29.50:087][147]LogTemp: Warning: Angle: -1.714459
+[2018.12.28-18.29.50:095][148]LogTemp: Warning: Angle: -1.713711
+[2018.12.28-18.29.50:103][149]LogTemp: Warning: Angle: -1.712963
+[2018.12.28-18.29.50:111][150]LogTemp: Warning: Angle: -1.712216
+[2018.12.28-18.29.50:120][151]LogTemp: Warning: Angle: -1.711469
+[2018.12.28-18.29.50:128][152]LogTemp: Warning: Angle: -1.710723
+[2018.12.28-18.29.50:136][153]LogTemp: Warning: Angle: -1.709977
+[2018.12.28-18.29.50:145][154]LogTemp: Warning: Angle: -1.709231
+[2018.12.28-18.29.50:154][155]LogTemp: Warning: Angle: -1.708485
+[2018.12.28-18.29.50:161][156]LogTemp: Warning: Angle: -1.707740
+[2018.12.28-18.29.50:170][157]LogTemp: Warning: Angle: -1.706995
+[2018.12.28-18.29.50:178][158]LogTemp: Warning: Angle: -1.706251
+[2018.12.28-18.29.50:187][159]LogTemp: Warning: Angle: -1.705507
+[2018.12.28-18.29.50:195][160]LogTemp: Warning: Angle: -1.704763
+[2018.12.28-18.29.50:203][161]LogTemp: Warning: Angle: -1.704020
+[2018.12.28-18.29.50:212][162]LogTemp: Warning: Angle: -1.703277
+[2018.12.28-18.29.50:220][163]LogTemp: Warning: Angle: -1.702534
+[2018.12.28-18.29.50:229][164]LogTemp: Warning: Angle: -1.701792
+[2018.12.28-18.29.50:237][165]LogTemp: Warning: Angle: -1.701050
+[2018.12.28-18.29.50:246][166]LogTemp: Warning: Angle: -1.700308
+[2018.12.28-18.29.50:253][167]LogTemp: Warning: Angle: -1.699567
+[2018.12.28-18.29.50:262][168]LogTemp: Warning: Angle: -1.698826
+[2018.12.28-18.29.50:270][169]LogTemp: Warning: Angle: -1.698085
+[2018.12.28-18.29.50:279][170]LogTemp: Warning: Angle: -1.697345
+[2018.12.28-18.29.50:287][171]LogTemp: Warning: Angle: -1.696604
+[2018.12.28-18.29.50:295][172]LogTemp: Warning: Angle: -1.695865
+[2018.12.28-18.29.50:304][173]LogTemp: Warning: Angle: -1.695126
+[2018.12.28-18.29.50:312][174]LogTemp: Warning: Angle: -1.694386
+[2018.12.28-18.29.50:320][175]LogTemp: Warning: Angle: -1.693648
+[2018.12.28-18.29.50:329][176]LogTemp: Warning: Angle: -1.692909
+[2018.12.28-18.29.50:337][177]LogTemp: Warning: Angle: -1.692171
+[2018.12.28-18.29.50:345][178]LogTemp: Warning: Angle: -1.691433
+[2018.12.28-18.29.50:354][179]LogTemp: Warning: Angle: -1.690696
+[2018.12.28-18.29.50:363][180]LogTemp: Warning: Angle: -1.689959
+[2018.12.28-18.29.50:370][181]LogTemp: Warning: Angle: -1.689222
+[2018.12.28-18.29.50:379][182]LogTemp: Warning: Angle: -1.688485
+[2018.12.28-18.29.50:387][183]LogTemp: Warning: Angle: -1.687748
+[2018.12.28-18.29.50:395][184]LogTemp: Warning: Angle: -1.687012
+[2018.12.28-18.29.50:404][185]LogTemp: Warning: Angle: -1.686276
+[2018.12.28-18.29.50:412][186]LogTemp: Warning: Angle: -1.685541
+[2018.12.28-18.29.50:413][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.28-18.29.50:413][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.29.50:458][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.28-18.29.50:458][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.28-18.29.50:489][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-18.29.50:520][188]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.28-18.29.52:280][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-18.29.58:849][138]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Assets/Models/Character_Models/Stalchild/Stalchild_Animations/Stalchild_Animation_Controller.Stalchild_Animation_Controller
+[2018.12.28-18.29.59:011][138]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.28-18.29.59:422][138]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.28-18.29.59:447][138]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.12.28-18.30.00:329][138]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.28-18.30.01:222][138]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.28-18.30.01:751][138]LogSlate: Took 0.013111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.28-18.30.01:841][138]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.12.28-18.30.04:424][431]LogSlate: Took 0.015553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.28-18.30.24:411][808]BlueprintLog: New page: Compile Stalchild_Animation_Controller
+[2018.12.28-18.30.25:210][854]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Stalchild_Animation_Controller0D21752742BAB8B6FB68438A78B67377.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Assets/Models/Character_Models/Stalchild/Stalchild_Animations/Stalchild_Animation_Controller.uasset'
