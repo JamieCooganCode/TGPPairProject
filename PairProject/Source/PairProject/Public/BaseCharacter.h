@@ -91,6 +91,8 @@ protected:
 	virtual void RightBumperDown();
 	virtual void RightTriggerDown();
 
+	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -110,4 +112,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Statistics")
 		float CurrentAttackDamage;
 	
+
+	void MoveToPosition(FVector position);
 };

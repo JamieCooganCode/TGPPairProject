@@ -85,6 +85,13 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Right Trigger", IE_Pressed, this, &ABaseCharacter::RightTriggerDown);
 }
 
+void ABaseCharacter::MoveToPosition(FVector position)
+{
+	FVector direction = position - GetActorLocation();
+	CurrentVelocity.X = direction.X * 100;
+	CurrentVelocity.Y = direction.Y * 100;
+}
+
 void ABaseCharacter::SetUpCameraArm()
 {	
 	CameraSpringArm->AttachToComponent(PlayerBodyMeshComponent, FAttachmentTransformRules::KeepRelativeTransform, USpringArmComponent::SocketName);

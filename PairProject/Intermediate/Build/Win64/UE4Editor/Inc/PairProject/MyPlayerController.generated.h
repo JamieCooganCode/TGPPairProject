@@ -8,13 +8,50 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ABaseCharacter;
 #ifdef PAIRPROJECT_MyPlayerController_generated_h
 #error "MyPlayerController.generated.h already included, missing '#pragma once' in MyPlayerController.h"
 #endif
 #define PAIRPROJECT_MyPlayerController_generated_h
 
-#define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPossessPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PossessPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFindPossesedPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ABaseCharacter**)Z_Param__Result=P_THIS->FindPossesedPlayer(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPossessPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PossessPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFindPossesedPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ABaseCharacter**)Z_Param__Result=P_THIS->FindPossesedPlayer(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PairProject_Source_PairProject_Public_MyPlayerController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayerController(); \

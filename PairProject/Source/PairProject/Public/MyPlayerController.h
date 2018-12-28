@@ -22,5 +22,17 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		ABaseCharacter * possessedCharacter;
 
+	UFUNCTION(BlueprintCallable)
+		ABaseCharacter* FindPossesedPlayer();
+
+	UFUNCTION(BlueprintCallable)
+		void PossessPlayer();
+
 	virtual void Tick(float DeltaTime) override;
+
+	void SetupInputComponent(class UInputComponent* PlayerInputComponent);
+
+	void UpDPadDown();
+
+	void SendPlayerToLocation(FVector location);
 };
