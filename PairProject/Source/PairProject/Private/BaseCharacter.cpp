@@ -15,29 +15,42 @@ ABaseCharacter::ABaseCharacter()
 	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraSpringArm"));
 	CameraSpringArm->SetupAttachment(PlayerBodyMeshComponent);
 	CameraSpringArm->SetRelativeLocationAndRotation(FVector(-150.0f, 0.0f, 300.0f), FRotator(-35.0f, 0.0f, 0.0f));
-	CameraSpringArm->TargetArmLength = 200.0f;
+	CameraSpringArm->TargetArmLength = 600.0f;
 	ThirdPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Third Camera"));
 	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
+
+
+	CurrentHealth = MaxHealth;
+	CurrentStamina = MaxStamina;
 }
 
 // Called when the game starts or when spawned
 void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	CameraSpringArm->AttachToComponent(PlayerBodyMeshComponent, FAttachmentTransformRules::KeepRelativeTransform, NAME_None);
+	CameraSpringArm->SetRelativeLocationAndRotation(FVector(-150.0f, 0.0f, 300.0f), FRotator(-35.0f, 0.0f, 0.0f));
+	ThirdPersonCameraComponent->AttachToComponent(CameraSpringArm, FAttachmentTransformRules::KeepRelativeTransform, USpringArmComponent::SocketName);
+
 }
 
 // Called every frame
 void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//GetActorForwardVector() then GetActorRightVector()
+	AddMovementInput(ThirdPersonCameraComponent->GetForwardVector(), CurrentVelocity.X * DeltaTime);
+	AddMovementInput(ThirdPersonCameraComponent->GetRightVector(), CurrentVelocity.Y * DeltaTime);
 
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
-	
-	FRotator NewRotation = GetActorRotation(); //left and right : broken
-	NewRotation.Yaw += CameraInput.X;
-	SetActorRotation(NewRotation);
+	/*FRotator newYawRotation = CameraSpringArm->GetComponentRotation(); 
+	newYawRotation.Yaw = newYawRotation.Yaw + CameraInput.X; // FMath::Clamp(newYawRotation.Yaw + CameraInput.X, 0.0f, 360.0f);
+	CameraSpringArm->SetRelativeRotation(newYawRotation);*/
+
+	FTransform t = CameraSpringArm->GetRelativeTransform();
+	FRotator r = t.GetRotation().Rotator();
+	r.Yaw += 2 * CameraInput.X; //yaw scale
+	CameraSpringArm->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
+
 
 	FRotator newPitchRotation = CameraSpringArm->GetComponentRotation(); //in and out : works
 	newPitchRotation.Pitch = FMath::Clamp(newPitchRotation.Pitch + CameraInput.Y, -80.0f, -15.0f);
@@ -81,6 +94,11 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 void ABaseCharacter::MoveForward(float value)
 {
 	CurrentVelocity.X = value * -100;
+
+	FRotator newRotation = ThirdPersonCameraComponent->GetComponentRotation();
+	newRotation.Pitch = GetActorRotation().Pitch;
+	newRotation.Roll = GetActorRotation().Roll;
+	AddActorLocalRotation(newRotation, false, 0, ETeleportType::None);
 }
 
 void ABaseCharacter::MoveRight(float value)

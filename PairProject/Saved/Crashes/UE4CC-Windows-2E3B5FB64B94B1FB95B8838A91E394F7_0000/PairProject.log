@@ -1,0 +1,980 @@
+﻿Log file open, 12/27/18 21:51:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PairProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.391263
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.096s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 950
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.27-21.51.01:393][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.27-21.51.01:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.27-21.51.01:403][  0]LogHAL: Display: Platform has ~ 16 GB [17132584960 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.27-21.51.01:403][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.27-21.51.01:403][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.27-21.51.01:403][  0]LogInit: Computer: DESKTOP-D8L6EI8
+[2018.12.27-21.51.01:403][  0]LogInit: User: h017026h
+[2018.12.27-21.51.01:403][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.12.27-21.51.01:403][  0]LogInit: High frequency timer resolution =3.609379 MHz
+[2018.12.27-21.51.01:404][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.12.27-21.51.01:404][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.27-21.51.01:404][  0]LogMemory: Process Physical Memory: 102.36 MB used, 102.36 MB peak
+[2018.12.27-21.51.01:404][  0]LogMemory: Process Virtual Memory: 97.94 MB used, 97.94 MB peak
+[2018.12.27-21.51.01:404][  0]LogMemory: Physical Memory: 4286.46 MB used,  12052.45 MB free, 16338.91 MB total
+[2018.12.27-21.51.01:404][  0]LogMemory: Virtual Memory: 4664.66 MB used,  12052.45 MB free, 134217728.00 MB total
+[2018.12.27-21.51.01:416][  0]LogInit: Using OS detected language (en-GB).
+[2018.12.27-21.51.01:416][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.27-21.51.01:417][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.12.27-21.51.01:680][  0]LogStreaming: Display: Took  0.263s to InitEngineTextLocalization.
+[2018.12.27-21.51.01:680][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.27-21.51.01:706][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.27-21.51.01:706][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.27-21.51.01:919][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.27-21.51.01:919][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.27-21.51.01:960][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2018.12.27-21.51.01:960][  0]LogD3D11RHI:       2007/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.27-21.51.01:961][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.27-21.51.01:961][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.27-21.51.01:961][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.27-21.51.01:966][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.27-21.51.01:966][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.27-21.51.01:966][  0]LogWindows: EnumDisplayDevices:
+[2018.12.27-21.51.01:966][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2018.12.27-21.51.01:966][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.27-21.51.01:966][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.27-21.51.01:967][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.12.27-21.51.01:967][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.27-21.51.01:967][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2018.12.27-21.51.01:967][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.12.27-21.51.01:967][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.12.27-21.51.01:967][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.12.27-21.51.01:994][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.27-21.51.02:021][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.27-21.51.02:069][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Intermediate/Shaders/WorkingDirectory/16448/).
+[2018.12.27-21.51.02:069][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/483A60054890A45E506AAFBEB06DFF9E/'.
+[2018.12.27-21.51.02:446][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.27-21.51.02:456][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.27-21.51.02:465][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.27-21.51.02:474][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.27-21.51.02:483][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.27-21.51.02:492][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.27-21.51.02:501][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.27-21.51.02:511][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.27-21.51.02:515][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:570][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-21.51.02:571][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.27-21.51.02:623][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.27-21.51.02:623][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.27-21.51.02:640][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.27-21.51.02:640][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.27-21.51.02:649][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.27-21.51.02:658][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.27-21.51.02:666][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.27-21.51.02:676][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.27-21.51.02:683][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.27-21.51.02:683][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.27-21.51.02:714][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.27-21.51.02:714][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.27-21.51.02:714][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.27-21.51.02:714][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.27-21.51.03:221][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.27-21.51.03:262][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.27-21.51.03:272][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.27-21.51.03:284][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.27-21.51.03:284][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.27-21.51.03:284][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.27-21.51.03:297][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.27-21.51.03:298][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.27-21.51.03:299][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.27-21.51.03:365][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.12.27-21.51.03:593][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.27-21.51.03:686][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.27-21.51.03:688][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.27-21.51.03:688][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.27-21.51.03:688][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.27-21.51.03:688][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.27-21.51.03:698][  0]LogNetVersion: PairProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2248716754)
+[2018.12.27-21.51.04:080][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.084145 seconds
+[2018.12.27-21.51.04:084][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.27-21.51.04:084][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.27-21.51.04:084][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.27-21.51.04:753][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.27-21.51.04:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.27-21.51.04:892][  0]SourceControl: Source control is disabled
+[2018.12.27-21.51.04:892][  0]SourceControl: Source control is disabled
+[2018.12.27-21.51.04:893][  0]SourceControl: Source control is disabled
+[2018.12.27-21.51.04:894][  0]SourceControl: Source control is disabled
+[2018.12.27-21.51.05:034][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.27-21.51.05:081][  0]LogOcInput: OculusInput pre-init called
+[2018.12.27-21.51.05:127][  0]LogEngine: Initializing Engine...
+[2018.12.27-21.51.05:127][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.27-21.51.05:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.27-21.51.05:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.27-21.51.05:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.27-21.51.05:128][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.27-21.51.05:279][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.27-21.51.05:286][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.27-21.51.05:302][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.51.05:384][  0]LogInit: FAudioDevice initialized.
+[2018.12.27-21.51.05:384][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.27-21.51.05:448][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.27-21.51.05:457][  0]LogInit: Texture streaming: Enabled
+[2018.12.27-21.51.05:466][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.27-21.51.05:474][  0]LogInit: Transaction tracking system initialized
+[2018.12.27-21.51.05:485][  0]BlueprintLog: New page: Editor Load
+[2018.12.27-21.51.05:526][  0]LocalizationService: Localization service is disabled
+[2018.12.27-21.51.05:708][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.27-21.51.05:708][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.27-21.51.05:708][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.27-21.51.05:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.27-21.51.05:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.27-21.51.05:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.27-21.51.05:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.27-21.51.05:788][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/' took 0.01s
+[2018.12.27-21.51.05:789][  0]SourceControl: Source control is disabled
+[2018.12.27-21.51.05:789][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.27-21.51.05:789][  0]LightingResults: New page: Lighting Build
+[2018.12.27-21.51.05:790][  0]MapCheck: New page: Map Check
+[2018.12.27-21.51.05:791][  0]LightingResults: New page: Lighting Build
+[2018.12.27-21.51.05:947][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.27-21.51.05:952][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.27-21.51.05:975][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.27-21.51.06:016][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.952ms to complete.
+[2018.12.27-21.51.06:016][  0]LogFileHelpers: Loading map 'Template_Default' took 0.227
+[2018.12.27-21.51.06:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.51.06:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.51.06:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.51.06:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.51.06:124][  0]LogCollectionManager: Loaded 0 collections in 0.000725 seconds
+[2018.12.27-21.51.06:164][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Collections/' took 0.01s
+[2018.12.27-21.51.06:164][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Developers/h017026h/Collections/' took 0.01s
+[2018.12.27-21.51.06:164][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Collections/' took 0.01s
+[2018.12.27-21.51.06:164][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.27-21.51.06:171][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2579 classes and 606 folders.
+[2018.12.27-21.51.06:175][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.27-21.51.06:218][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.27-21.51.06:221][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.27-21.51.06:258][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.27-21.51.06:258][  0]LogLoad: (Engine Initialization) Total time: 6.51 seconds
+[2018.12.27-21.51.06:258][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.27-21.51.06:267][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.27-21.51.06:285][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.27-21.51.06:286][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.27-21.51.06:288][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.27-21.51.06:291][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.27-21.51.06:375][  0]LogRenderer: Reallocating scene render targets to support 1064x452 Format 10 NumSamples 1 (Frame:1).
+[2018.12.27-21.51.06:405][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.27-21.51.06:433][  1]LogAssetRegistry: Asset discovery search completed in 3.0901 seconds
+[2018.12.27-21.51.06:434][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.27-21.51.06:434][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.12.27-21.51.30:355][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.51.30:524][301]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:4).
+[2018.12.27-21.51.32:447][520]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.27-21.51.32:582][520]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.51.32:590][520]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/CameraTestScene.CameraTestScene
+[2018.12.27-21.51.32:618][520]Cmd: MAP LOAD FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.27-21.51.32:618][520]LightingResults: New page: Lighting Build
+[2018.12.27-21.51.32:618][520]LoadErrors: New page: Loading map: CameraTestScene.umap
+[2018.12.27-21.51.32:619][520]MapCheck: New page: Map Check
+[2018.12.27-21.51.32:619][520]LightingResults: New page: Lighting Build
+[2018.12.27-21.51.32:644][520]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.27-21.51.32:687][520]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.27-21.51.32:740][520]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.258ms to complete.
+[2018.12.27-21.51.32:740][520]LogFileHelpers: Loading map 'CameraTestScene' took 0.124
+[2018.12.27-21.55.11:733][324]LogHotReload: New module detected: UE4Editor-PairProject-3596.dll
+[2018.12.27-21.55.12:396][327]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-21.55.12:467][327]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-21.55.12:469][327]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-21.55.12:626][327]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.55.12:730][327]Display: HotReload took  0.3s.
+[2018.12.27-21.55.31:067][598]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.55.31:083][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.55.31:083][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.55.31:095][598]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:55:31)
+[2018.12.27-21.55.31:095][598]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.55.31:098][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003048s)
+[2018.12.27-21.55.31:099][598]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.55.31:099][598]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2018.12.27-21.55.31:099][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.004251s)
+[2018.12.27-21.55.31:127][598]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.55.31:204][598]LogInit: FAudioDevice initialized.
+[2018.12.27-21.55.31:246][598]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.55.31:247][598]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.55.31
+[2018.12.27-21.55.31:248][598]LogWorld: Bringing up level for play took: 0.002343
+[2018.12.27-21.55.31:278][598]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.12.27-21.55.31:279][598]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.297
+[2018.12.27-21.55.31:279][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.55.48:194][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.55.48:194][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.55.48:229][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.55.48:229][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.55.48:252][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.55.48:296][627]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.12.27-21.55.49:713][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.55.49:905][817]Candidate modules for hot reload:
+[2018.12.27-21.55.49:905][817]  PairProject
+[2018.12.27-21.55.49:905][817]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,5070 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-21.55.49:908][817]Warning: Starting HotReload took  0.0s.
+[2018.12.27-21.55.54:215][335]CompilerResultsLog: New page: Compilation - 27 Dec 2018 21:55:54
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Target is up to date
+[2018.12.27-21.55.54:219][335]CompilerResultsLog: Total build time: 4.12 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-21.55.54:219][335]LogMainFrame: MainFrame: Module compiling took 4.316 seconds
+[2018.12.27-21.55.54:249][335]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.55.54:249][335]Display: HotReload took  4.4s.
+[2018.12.27-21.55.56:342][586]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.55.56:357][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.55.56:357][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.55.56:357][586]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:55:56)
+[2018.12.27-21.55.56:357][586]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.55.56:359][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002298s)
+[2018.12.27-21.55.56:360][586]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.55.56:361][586]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2018.12.27-21.55.56:361][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003728s)
+[2018.12.27-21.55.56:386][586]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.55.56:466][586]LogInit: FAudioDevice initialized.
+[2018.12.27-21.55.56:495][586]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.55.56:498][586]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.55.56
+[2018.12.27-21.55.56:498][586]LogWorld: Bringing up level for play took: 0.002077
+[2018.12.27-21.55.56:511][586]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.471
+[2018.12.27-21.55.56:511][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.01:121][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.01:121][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.56.01:150][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.56.01:150][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.01:171][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.56.01:223][136]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.27-21.56.03:140][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.56.38:217][481]LogHotReload: New module detected: UE4Editor-PairProject-7761.dll
+[2018.12.27-21.56.38:890][484]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-21.56.38:939][484]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-21.56.38:940][484]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-21.56.38:983][484]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.56.38:987][484]Display: HotReload took  0.1s.
+[2018.12.27-21.56.42:086][626]Candidate modules for hot reload:
+[2018.12.27-21.56.42:086][626]  PairProject
+[2018.12.27-21.56.42:086][626]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,5083 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-21.56.42:088][626]Warning: Starting HotReload took  0.0s.
+[2018.12.27-21.56.43:135][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: New page: Compilation - 27 Dec 2018 21:56:46
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Target is up to date
+[2018.12.27-21.56.46:549][143]CompilerResultsLog: Total build time: 4.27 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-21.56.46:549][143]LogMainFrame: MainFrame: Module compiling took 4.466 seconds
+[2018.12.27-21.56.46:581][143]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.56.46:581][143]Display: HotReload took  4.5s.
+[2018.12.27-21.56.47:307][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.56.47:440][246]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.56.47:454][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.47:454][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.56.47:455][246]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:56:47)
+[2018.12.27-21.56.47:455][246]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.56.47:457][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002017s)
+[2018.12.27-21.56.47:457][246]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.56.47:457][246]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2018.12.27-21.56.47:457][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.002601s)
+[2018.12.27-21.56.47:483][246]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.56.47:572][246]LogInit: FAudioDevice initialized.
+[2018.12.27-21.56.47:607][246]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.56.47:608][246]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.56.47
+[2018.12.27-21.56.47:609][246]LogWorld: Bringing up level for play took: 0.002103
+[2018.12.27-21.56.47:622][246]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.64
+[2018.12.27-21.56.47:622][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.55:279][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.55:279][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.56.55:308][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.56.55:308][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.56.55:329][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.56.55:381][166]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.27-21.58.04:286][629]LogHotReload: New module detected: UE4Editor-PairProject-4839.dll
+[2018.12.27-21.58.04:963][632]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-21.58.05:005][632]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-21.58.05:006][632]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-21.58.05:049][632]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.58.05:052][632]Display: HotReload took  0.1s.
+[2018.12.27-21.58.09:776][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.58.09:916][835]Candidate modules for hot reload:
+[2018.12.27-21.58.09:916][835]  PairProject
+[2018.12.27-21.58.09:916][835]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,6664 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-21.58.09:918][835]Warning: Starting HotReload took  0.0s.
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: New page: Compilation - 27 Dec 2018 21:58:14
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Target is up to date
+[2018.12.27-21.58.14:302][362]CompilerResultsLog: Total build time: 4.20 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-21.58.14:302][362]LogMainFrame: MainFrame: Module compiling took 4.389 seconds
+[2018.12.27-21.58.14:333][362]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.58.14:333][362]Display: HotReload took  4.4s.
+[2018.12.27-21.58.15:083][452]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.58.15:097][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.58.15:097][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.58.15:097][452]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:58:15)
+[2018.12.27-21.58.15:097][452]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.58.15:100][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002086s)
+[2018.12.27-21.58.15:100][452]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.58.15:100][452]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2018.12.27-21.58.15:100][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.002962s)
+[2018.12.27-21.58.15:126][452]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.58.15:207][452]LogInit: FAudioDevice initialized.
+[2018.12.27-21.58.15:234][452]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.58.15:236][452]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.58.15
+[2018.12.27-21.58.15:237][452]LogWorld: Bringing up level for play took: 0.001979
+[2018.12.27-21.58.15:249][452]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.266
+[2018.12.27-21.58.15:249][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.58.37:407][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.58.37:407][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.58.37:438][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.58.37:438][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.58.37:459][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.58.37:512][105]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.27-21.59.13:625][385]LogHotReload: New module detected: UE4Editor-PairProject-9448.dll
+[2018.12.27-21.59.14:298][388]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-21.59.14:346][388]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-21.59.14:348][388]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-21.59.14:392][388]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.59.14:394][388]Display: HotReload took  0.1s.
+[2018.12.27-21.59.19:964][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.59.20:096][535]Candidate modules for hot reload:
+[2018.12.27-21.59.20:096][535]  PairProject
+[2018.12.27-21.59.20:096][535]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,657 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-21.59.20:099][535]Warning: Starting HotReload took  0.0s.
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: New page: Compilation - 27 Dec 2018 21:59:24
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Target is up to date
+[2018.12.27-21.59.24:407][ 53]CompilerResultsLog: Total build time: 4.13 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-21.59.24:407][ 53]LogMainFrame: MainFrame: Module compiling took 4.314 seconds
+[2018.12.27-21.59.24:437][ 53]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-21.59.24:437][ 53]Display: HotReload took  4.3s.
+[2018.12.27-21.59.25:062][128]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.59.25:076][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.25:077][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.59.25:077][128]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:59:25)
+[2018.12.27-21.59.25:077][128]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.59.25:079][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002137s)
+[2018.12.27-21.59.25:080][128]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.59.25:080][128]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2018.12.27-21.59.25:080][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003318s)
+[2018.12.27-21.59.25:106][128]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.59.25:182][128]LogInit: FAudioDevice initialized.
+[2018.12.27-21.59.25:214][128]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.59.25:217][128]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.59.25
+[2018.12.27-21.59.25:217][128]LogWorld: Bringing up level for play took: 0.002023
+[2018.12.27-21.59.25:230][128]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.247
+[2018.12.27-21.59.25:230][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.35:826][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.35:826][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.59.35:855][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.59.35:855][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.35:876][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.59.35:929][394]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.27-21.59.36:462][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.27-21.59.37:073][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-21.59.37:172][538]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-21.59.37:186][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.37:186][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-21.59.37:186][538]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 21:59:37)
+[2018.12.27-21.59.37:186][538]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-21.59.37:189][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002427s)
+[2018.12.27-21.59.37:189][538]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-21.59.37:190][538]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.12.27-21.59.37:190][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003373s)
+[2018.12.27-21.59.37:217][538]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-21.59.37:296][538]LogInit: FAudioDevice initialized.
+[2018.12.27-21.59.37:326][538]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-21.59.37:329][538]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-21.59.37
+[2018.12.27-21.59.37:329][538]LogWorld: Bringing up level for play took: 0.002031
+[2018.12.27-21.59.37:342][538]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.359
+[2018.12.27-21.59.37:342][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.46:135][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.46:135][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.59.46:163][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-21.59.46:163][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-21.59.46:185][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-21.59.46:237][596]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.27-21.59.46:304][604]Cmd: SELECT NONE
+[2018.12.27-22.02.06:478][590]LogHotReload: New module detected: UE4Editor-PairProject-3727.dll
+[2018.12.27-22.02.07:153][593]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.02.07:199][593]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.02.07:201][593]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.02.07:241][593]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.02.07:244][593]Display: HotReload took  0.1s.
+[2018.12.27-22.02.12:483][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.02.12:566][735]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.02.12:580][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.02.12:580][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.02.12:580][735]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:02:12)
+[2018.12.27-22.02.12:580][735]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.02.12:583][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2018.12.27-22.02.12:584][735]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.02.12:584][735]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2018.12.27-22.02.12:584][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003557s)
+[2018.12.27-22.02.12:612][735]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.02.12:693][735]LogInit: FAudioDevice initialized.
+[2018.12.27-22.02.12:723][735]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.02.12:725][735]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.02.12
+[2018.12.27-22.02.12:726][735]LogWorld: Bringing up level for play took: 0.002236
+[2018.12.27-22.02.12:739][735]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.244
+[2018.12.27-22.02.12:739][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.02.20:191][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.02.20:191][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.02.20:223][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.02.20:223][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.02.20:246][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.02.20:300][628]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.27-22.02.20:327][628]LogSlate: Took 0.014771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.27-22.02.20:329][629]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.27-22.02.46:621][836]LogHotReload: New module detected: UE4Editor-PairProject-6114.dll
+[2018.12.27-22.02.47:306][839]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.02.47:354][839]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.02.47:356][839]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.02.47:400][839]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.02.47:402][839]Display: HotReload took  0.1s.
+[2018.12.27-22.02.51:961][ 85]MapCheck: New page: Map Check
+[2018.12.27-22.02.52:005][ 85]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.27-22.02.52:016][ 85]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.27-22.02.52:123][ 85]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.27-22.02.52:138][ 85]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.27-22.02.52:138][ 85]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.27-22.02.52:143][ 85]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.12.27-22.02.52:148][ 85]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy tex, compiling. 
+[2018.12.27-22.02.52:153][ 85]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.12.27-22.02.52:783][ 85]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.27-22.02.52:784][ 85]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.27-22.02.52:784][ 85]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.27-22.02.52:784][ 85]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.27-22.02.52:784][ 85]TextureStreamingBuild: Display: Compiling optional shaders took 0.672 seconds.
+[2018.12.27-22.02.52:804][ 85]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2018.12.27-22.02.52:824][ 85]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2018.12.27-22.02.52:864][ 85]LightingResults: New page: Lighting Build - 27 Dec 2018 22:02:52
+[2018.12.27-22.02.53:004][ 85]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.27-22.02.53:126][ 85]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.27-22.02.53:135][ 85]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.27-22.02.53:644][ 85]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.27-22.02.53:645][ 85]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16448
+[2018.12.27-22.02.56:056][ 85]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.12.27-22.02.56:069][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.27-22.02.56:069][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.27-22.02.56:069][ 85]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.27-22.02.56:069][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.27-22.02.56:069][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.27-22.02.56:200][ 85]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.27-22.02.56:200][ 85]MapCheck: New page: CameraTestScene - 27 Dec 2018 22:02:56
+[2018.12.27-22.02.56:208][ 85]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.12.27-22.02.56:239][ 85]MapCheck: Warning: MyLinkCharacter_2 Static mesh actor has NULL StaticMesh property 
+[2018.12.27-22.02.56:239][ 85]MapCheck: Warning: MyLinkCharacter2_5 Static mesh actor has NULL StaticMesh property 
+[2018.12.27-22.02.56:286][ 85]MapCheck: Map check complete: 1 Error(s), 2 Warning(s), took 85.835ms to complete.
+[2018.12.27-22.02.56:309][ 85]LogEditorBuildUtils: Build time 0:04
+[2018.12.27-22.02.58:266][212]Job is a success!
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:      BrickData 550x5x5 = 0.5Mb
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:          0: 0.9% covering 100.0% of volume
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:          1: 8.2% covering 14.1% of volume
+[2018.12.27-22.02.58:321][213]LogVolumetricLightmapImport:          2: 90.9% covering 2.4% of volume
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.12.27-22.02.58:393][213]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2018.12.27-22.02.58:412][213]Lightmass on DESKTOP-D8L6EI8: 1.35 sec total, 127 ms importing, 25 ms setup, 701 ms photons, 472 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.69 sec total, 180 ms processing.
+[2018.12.27-22.02.58:455][213]LogStaticLightingSystem: Illumination: 5.57 sec (25 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2018.12.27-22.02.58:455][213]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.27-22.02.58:455][213]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.27-22.02.59:048][213]DumpUnbuiltLightIteractions
+[2018.12.27-22.02.59:049][213]Lights with unbuilt interactions: 0
+[2018.12.27-22.02.59:049][213]
+[2018.12.27-22.02.59:049][213]Primitives with unbuilt interactions: 0
+[2018.12.27-22.02.59:195][214]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.27-22.02.59:195][214]MapCheck: New page: CameraTestScene - 27 Dec 2018 22:02:59
+[2018.12.27-22.02.59:196][214]MapCheck: Warning: MyLinkCharacter_2 Static mesh actor has NULL StaticMesh property 
+[2018.12.27-22.02.59:196][214]MapCheck: Warning: MyLinkCharacter2_5 Static mesh actor has NULL StaticMesh property 
+[2018.12.27-22.02.59:243][214]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 47.431ms to complete.
+[2018.12.27-22.03.00:440][357]LogSlate: Window 'Message Log' being destroyed
+[2018.12.27-22.03.00:444][357]LogSlate: Window 'Message Log' being destroyed
+[2018.12.27-22.03.01:582][493]Candidate modules for hot reload:
+[2018.12.27-22.03.01:582][493]  PairProject
+[2018.12.27-22.03.01:582][493]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,1290 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.03.01:585][493]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:03:06
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Target is up to date
+[2018.12.27-22.03.06:160][ 43]CompilerResultsLog: Total build time: 4.38 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.03.06:160][ 43]LogMainFrame: MainFrame: Module compiling took 4.581 seconds
+[2018.12.27-22.03.06:191][ 43]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.03.06:191][ 43]Display: HotReload took  4.6s.
+[2018.12.27-22.03.06:892][127]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.03.06:906][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.03.06:906][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.03.06:906][127]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:03:06)
+[2018.12.27-22.03.06:906][127]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.03.06:908][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002162s)
+[2018.12.27-22.03.06:908][127]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.03.06:909][127]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2018.12.27-22.03.06:909][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.002762s)
+[2018.12.27-22.03.06:934][127]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.03.07:017][127]LogInit: FAudioDevice initialized.
+[2018.12.27-22.03.07:051][127]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.03.07:054][127]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.03.07
+[2018.12.27-22.03.07:054][127]LogWorld: Bringing up level for play took: 0.002097
+[2018.12.27-22.03.07:067][127]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.084
+[2018.12.27-22.03.07:067][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.03.33:229][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.03.33:229][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.03.33:259][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.03.33:259][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.03.33:282][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.03.33:334][265]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.27-22.03.58:693][495]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestScene_Auto16F4B236C4E11D1641811AF95DA4B6A52.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Autosaves/Game/Scenes/CameraTestScene_Auto1.umap'
+[2018.12.27-22.03.58:698][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/CameraTestScene' took 0.130
+[2018.12.27-22.03.58:698][495]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2018.12.27-22.03.58:706][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scenes/CameraTestScene_BuiltData] ([1] browsable assets)...
+[2018.12.27-22.03.58:706][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scenes/CameraTestScene_BuiltData]
+[2018.12.27-22.03.58:722][495]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestScene_BuiltData_Auto140E78A4449D3B1810B364495C1208057.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Autosaves/Game/Scenes/CameraTestScene_BuiltData_Auto1.uasset'
+[2018.12.27-22.03.58:723][495]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.12.27-22.07.41:067][156]LogHotReload: New module detected: UE4Editor-PairProject-3242.dll
+[2018.12.27-22.07.41:748][159]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.07.41:796][159]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.07.41:798][159]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.07.41:840][159]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.07.41:844][159]Display: HotReload took  0.1s.
+[2018.12.27-22.07.43:487][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.07.43:569][260]Candidate modules for hot reload:
+[2018.12.27-22.07.43:569][260]  PairProject
+[2018.12.27-22.07.43:569][260]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,1365 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.07.43:574][260]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.07.48:164][812]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:07:48
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Target is up to date
+[2018.12.27-22.07.48:165][812]CompilerResultsLog: Total build time: 4.40 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.07.48:165][812]LogMainFrame: MainFrame: Module compiling took 4.598 seconds
+[2018.12.27-22.07.48:196][812]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.07.48:196][812]Display: HotReload took  4.6s.
+[2018.12.27-22.07.48:970][905]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.07.48:984][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.07.48:985][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.07.48:985][905]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:07:48)
+[2018.12.27-22.07.48:985][905]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.07.48:987][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002434s)
+[2018.12.27-22.07.48:988][905]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.07.48:988][905]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2018.12.27-22.07.48:988][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003402s)
+[2018.12.27-22.07.49:015][905]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.07.49:093][905]LogInit: FAudioDevice initialized.
+[2018.12.27-22.07.49:121][905]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.07.49:123][905]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.07.49
+[2018.12.27-22.07.49:124][905]LogWorld: Bringing up level for play took: 0.002476
+[2018.12.27-22.07.49:137][905]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.154
+[2018.12.27-22.07.49:137][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.08.25:724][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.08.25:724][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.08.25:753][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.08.25:753][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.08.25:774][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.08.25:826][289]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.27-22.11.12:759][ 62]LogHotReload: New module detected: UE4Editor-PairProject-7104.dll
+[2018.12.27-22.11.13:437][ 65]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.11.13:486][ 65]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.11.13:487][ 65]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.11.13:530][ 65]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.11.13:533][ 65]Display: HotReload took  0.1s.
+[2018.12.27-22.11.37:655][136]LogHotReload: New module detected: UE4Editor-PairProject-2654.dll
+[2018.12.27-22.11.38:328][139]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.11.38:370][139]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.11.38:372][139]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.11.38:415][139]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.11.38:418][139]Display: HotReload took  0.1s.
+[2018.12.27-22.11.39:865][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.11.39:972][257]Candidate modules for hot reload:
+[2018.12.27-22.11.39:972][257]  PairProject
+[2018.12.27-22.11.39:972][257]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,6561 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.11.39:975][257]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.11.42:755][591]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:11:44
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Target is up to date
+[2018.12.27-22.11.44:422][780]CompilerResultsLog: Total build time: 4.26 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.11.44:422][780]LogMainFrame: MainFrame: Module compiling took 4.453 seconds
+[2018.12.27-22.11.44:454][780]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.11.44:454][780]Display: HotReload took  4.5s.
+[2018.12.27-22.11.45:412][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.11.45:512][907]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.11.45:527][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.11.45:527][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.11.45:527][907]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:11:45)
+[2018.12.27-22.11.45:527][907]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.11.45:529][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002222s)
+[2018.12.27-22.11.45:530][907]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.11.45:530][907]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.12.27-22.11.45:530][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003242s)
+[2018.12.27-22.11.45:557][907]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.11.45:634][907]LogInit: FAudioDevice initialized.
+[2018.12.27-22.11.45:662][907]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.11.45:665][907]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.11.45
+[2018.12.27-22.11.45:665][907]LogWorld: Bringing up level for play took: 0.002202
+[2018.12.27-22.11.45:678][907]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.696
+[2018.12.27-22.11.45:678][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.12.15:032][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.12.15:032][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.12.15:067][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.12.15:067][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.12.15:088][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.12.15:132][430]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.12.27-22.12.16:573][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.12.16:762][611]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestSceneC46DB3BB48F28318BD993593FB131305.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene.umap'
+[2018.12.27-22.12.16:812][611]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestScene_BuiltData05BE3D024F5F0E24116A62BD416860B6.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene_BuiltData.uasset'
+[2018.12.27-22.12.24:819][900]LogActor: Warning: MyBPBaseKeep_C /Engine/Transient.World_3:PersistentLevel.MyBPBaseKeep_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.12.27-22.12.25:644][975]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MyLinkCharacter.MyLinkCharacter
+[2018.12.27-22.12.26:179][975]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.27-22.12.28:409][125]LogSlate: Window 'Class Defaults' being destroyed
+[2018.12.27-22.12.28:411][125]LogSlate: Window 'Class Defaults' being destroyed
+[2018.12.27-22.12.28:471][125]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MyLinkCharacter.MyLinkCharacter
+[2018.12.27-22.12.28:729][125]LogSlate: Took 0.011769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.27-22.12.30:213][295]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2018.12.27-22.12.32:062][514]LogSlate: Took 0.010915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.27-22.12.35:986][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.12.45:715][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.13.08:829][369]LogHotReload: New module detected: UE4Editor-PairProject-7990.dll
+[2018.12.27-22.13.09:171][371]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.13.09:300][371]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.12.27-22.13.09:398][371]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.13.09:401][371]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.13.09:640][371]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.13.09:644][371]Display: HotReload took  0.5s.
+[2018.12.27-22.13.12:212][482]Candidate modules for hot reload:
+[2018.12.27-22.13.12:212][482]  PairProject
+[2018.12.27-22.13.12:212][482]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,6761 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.13.12:215][482]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:13:16
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Target is up to date
+[2018.12.27-22.13.16:716][ 23]CompilerResultsLog: Total build time: 4.30 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.13.16:716][ 23]LogMainFrame: MainFrame: Module compiling took 4.507 seconds
+[2018.12.27-22.13.16:959][ 23]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.13.16:959][ 23]Display: HotReload took  4.8s.
+[2018.12.27-22.13.18:193][171]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.13.18:208][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.13.18:208][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.13.18:208][171]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:13:18)
+[2018.12.27-22.13.18:208][171]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.13.18:210][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002120s)
+[2018.12.27-22.13.18:210][171]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.13.18:210][171]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2018.12.27-22.13.18:210][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003647s)
+[2018.12.27-22.13.18:277][171]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.13.18:353][171]LogInit: FAudioDevice initialized.
+[2018.12.27-22.13.18:385][171]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.13.18:388][171]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.13.18
+[2018.12.27-22.13.18:388][171]LogWorld: Bringing up level for play took: 0.002380
+[2018.12.27-22.13.18:401][171]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.582
+[2018.12.27-22.13.18:401][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.13.30:462][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.13.30:462][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.13.30:494][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.13.30:495][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.13.30:517][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.13.30:563][598]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.12.27-22.13.45:903][788]LogHotReload: New module detected: UE4Editor-PairProject-345.dll
+[2018.12.27-22.13.46:586][791]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.13.46:635][791]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.12.27-22.13.46:709][791]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.13.46:712][791]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.13.46:971][791]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.13.46:974][791]Display: HotReload took  0.4s.
+[2018.12.27-22.13.48:973][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.13.49:199][937]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MyLinkCharacter.MyLinkCharacter
+[2018.12.27-22.13.58:804][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.13.58:818][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.13.58:818][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.13.58:818][ 38]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:13:58)
+[2018.12.27-22.13.58:818][ 38]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.13.58:821][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002317s)
+[2018.12.27-22.13.58:821][ 38]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.13.58:821][ 38]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2018.12.27-22.13.58:821][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.002958s)
+[2018.12.27-22.13.58:879][ 38]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.13.58:968][ 38]LogInit: FAudioDevice initialized.
+[2018.12.27-22.13.58:996][ 38]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.13.58:999][ 38]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.13.58
+[2018.12.27-22.13.58:999][ 38]LogWorld: Bringing up level for play took: 0.002122
+[2018.12.27-22.13.59:010][ 38]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.029
+[2018.12.27-22.13.59:011][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.18:506][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.18:506][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.14.18:541][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.14.18:541][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.18:569][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.14.18:610][356]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.12.27-22.14.27:262][568]LogHotReload: New module detected: UE4Editor-PairProject-4512.dll
+[2018.12.27-22.14.27:688][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.14.27:937][571]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.14.28:029][571]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.12.27-22.14.28:108][571]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.14.28:111][571]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.14.28:356][571]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.14.28:360][571]Display: HotReload took  0.4s.
+[2018.12.27-22.14.29:273][674]Candidate modules for hot reload:
+[2018.12.27-22.14.29:273][674]  PairProject
+[2018.12.27-22.14.29:273][674]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,4394 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.14.29:276][674]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.14.33:902][230]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:14:33
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Target is up to date
+[2018.12.27-22.14.33:903][230]CompilerResultsLog: Total build time: 4.44 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.14.33:903][230]LogMainFrame: MainFrame: Module compiling took 4.632 seconds
+[2018.12.27-22.14.34:136][230]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.14.34:137][230]Display: HotReload took  4.9s.
+[2018.12.27-22.14.34:903][322]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.14.34:920][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.34:920][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.14.34:920][322]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:14:34)
+[2018.12.27-22.14.34:920][322]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.14.34:922][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002297s)
+[2018.12.27-22.14.34:923][322]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.14.34:924][322]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2018.12.27-22.14.34:924][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.003548s)
+[2018.12.27-22.14.34:978][322]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.14.35:055][322]LogInit: FAudioDevice initialized.
+[2018.12.27-22.14.35:082][322]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.14.35:085][322]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.14.35
+[2018.12.27-22.14.35:085][322]LogWorld: Bringing up level for play took: 0.002073
+[2018.12.27-22.14.35:098][322]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.116
+[2018.12.27-22.14.35:098][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.53:260][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.53:260][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.14.53:298][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-22.14.53:298][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.14.53:329][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-22.14.53:366][501]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.12.27-22.14.55:446][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.15.03:611][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.16.54:552][ 82]LogHotReload: New module detected: UE4Editor-PairProject-4539.dll
+[2018.12.27-22.16.55:229][ 85]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.27-22.16.55:290][ 85]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2018.12.27-22.16.55:390][ 85]LogHotReload: Re-instancing LinkCharacter after hot-reload.
+[2018.12.27-22.16.55:631][ 85]LogContentBrowser: Native class hierarchy updated for 'PairProject' in 0.0004 seconds. Added 7 classes and 3 folders.
+[2018.12.27-22.16.55:635][ 85]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.12.27-22.16.55:904][ 85]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.16.55:907][ 85]Display: HotReload took  0.7s.
+[2018.12.27-22.16.58:141][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-22.16.58:221][241]Candidate modules for hot reload:
+[2018.12.27-22.16.58:221][241]  PairProject
+[2018.12.27-22.16.58:222][241]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PairProject,3435 Win64 Development -TargetType=Editor -Project="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" -canskiplink "D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/PairProject.uproject" ]
+[2018.12.27-22.16.58:224][241]Warning: Starting HotReload took  0.0s.
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: New page: Compilation - 27 Dec 2018 22:17:02
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Creating makefile for hot reloading PairProjectEditor (modules to compile have changed)
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Target is up to date
+[2018.12.27-22.17.02:663][774]CompilerResultsLog: Total build time: 4.25 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-22.17.02:663][774]LogMainFrame: MainFrame: Module compiling took 4.444 seconds
+[2018.12.27-22.17.02:905][774]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2580 classes and 608 folders.
+[2018.12.27-22.17.02:905][774]Display: HotReload took  4.7s.
+[2018.12.27-22.17.05:264][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-22.17.05:283][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2018.12.27-22.17.05:283][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-22.17.05:283][ 57]PIE: New page: PIE session: CameraTestScene (27 Dec 2018 22:17:05)
+[2018.12.27-22.17.05:283][ 57]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2018.12.27-22.17.05:285][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002127s)
+[2018.12.27-22.17.05:289][ 57]LogAIModule: Creating AISystem for world CameraTestScene
+[2018.12.27-22.17.05:289][ 57]LogPlayLevel: PIE: World Init took: (0.003910s)
+[2018.12.27-22.17.05:289][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006150s)
+[2018.12.27-22.17.05:357][ 57]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.27-22.17.05:435][ 57]LogInit: FAudioDevice initialized.
+[2018.12.27-22.17.05:469][ 57]LogLoad: Game class is 'GameModeBase'
+[2018.12.27-22.17.05:471][ 57]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2018.12.27-22.17.05
+[2018.12.27-22.17.05:472][ 57]LogWorld: Bringing up level for play took: 0.001984
+[2018.12.27-22.17.05:484][ 57]LogWindows: Windows GetLastError: The operation completed successfully. (0)
