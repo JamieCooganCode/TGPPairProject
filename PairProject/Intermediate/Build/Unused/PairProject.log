@@ -1,4 +1,28 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Creating makefile for PairProjectEditor (game project files are newer)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for PairProjectEditor
+    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\PairProject.uproject" "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PairProjectEditor in 7.6730468 seconds
+  Building 17 actions with 12 processes...
+    [1/17] SharedPCH.Engine.cpp
+    [2/17] PairProject.cpp
+    [3/17] IAttackable.cpp
+    [4/17] PairProject.init.gen.cpp
+    [5/17] IAttackable.gen.cpp
+    [6/17] BaseEnemy.cpp
+    [7/17] BaseEnemy.gen.cpp
+    [8/17] BaseAttack.cpp
+    [9/17] PairProjectGameModeBase.cpp
+    [10/17] BaseAttack.gen.cpp
+    [11/17] LinkCharacter.gen.cpp
+    [12/17] BaseCharacter.gen.cpp
+    [13/17] LinkCharacter.cpp
+    [14/17] PairProjectGameModeBase.gen.cpp
+    [15/17] BaseCharacter.cpp
+    [16/17] UE4Editor-PairProject.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
+    [17/17] UE4Editor-PairProject.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 0.91 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 57.31 seconds (Parallel executor: 24.50 seconds)
