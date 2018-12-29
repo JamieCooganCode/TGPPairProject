@@ -10,8 +10,12 @@ void AMyPlayerController::Tick(float delta)
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABaseCharacter::StaticClass(), characterArray); //fiinds all player
 	
 	//PossessPlayer();
-	possessedCharacter = FindPossesedPlayer();
-	SendPlayerToLocation(FVector(1000.0f, 0.0f, 0.0f));
+	if (characterArray.Num() != 0)
+	{
+		possessedCharacter = FindPossesedPlayer();
+		SendPlayerToLocation(FVector(1000.0f, 0.0f, 0.0f));
+	}
+	
 }
 
 void AMyPlayerController::PossessPlayer() //hardcode currently

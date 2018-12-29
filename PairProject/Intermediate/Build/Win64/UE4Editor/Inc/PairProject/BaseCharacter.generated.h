@@ -8,12 +8,22 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef PAIRPROJECT_BaseCharacter_generated_h
 #error "BaseCharacter.generated.h already included, missing '#pragma once' in BaseCharacter.h"
 #endif
 #define PAIRPROJECT_BaseCharacter_generated_h
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCreateAttackCollider) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_playerposition); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreateAttackCollider(Z_Param_playerposition); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRotatePlayer) \
 	{ \
@@ -41,6 +51,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCreateAttackCollider) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_playerposition); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CreateAttackCollider(Z_Param_playerposition); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRotatePlayer) \
 	{ \

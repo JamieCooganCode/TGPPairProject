@@ -8,7 +8,7 @@
 
 class StaticMeshComponenet;
 class UCharacterMovementComponent;
-
+class UBoxComponent;
 
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
@@ -20,6 +20,9 @@ public:
 	ABaseCharacter();
 
 	UCharacterMovementComponent* CharacterMovementComponent = GetCharacterMovement();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attack")
+		UBoxComponent * AttackCollider;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Management")
 		bool isPossessed = false;
@@ -66,6 +69,8 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
 		void RotatePlayer();
 
+	UFUNCTION(BlueprintCallable, Category = "Player_Attack")
+		void CreateAttackCollider(FVector playerposition);
 
 	//Controller Input functions
 	virtual void MoveForward(float value);
