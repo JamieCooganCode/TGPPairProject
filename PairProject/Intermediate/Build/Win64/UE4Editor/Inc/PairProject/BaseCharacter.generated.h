@@ -132,6 +132,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	FORCEINLINE static uint32 __PPO__StartButtonHit() { return STRUCT_OFFSET(ABaseCharacter, StartButtonHit); } \
 	FORCEINLINE static uint32 __PPO__AButtonHit() { return STRUCT_OFFSET(ABaseCharacter, AButtonHit); } \
 	FORCEINLINE static uint32 __PPO__CurrentVelocity() { return STRUCT_OFFSET(ABaseCharacter, CurrentVelocity); } \
+	FORCEINLINE static uint32 __PPO__CurrentRotation() { return STRUCT_OFFSET(ABaseCharacter, CurrentRotation); } \
 	FORCEINLINE static uint32 __PPO__PlayerBodyMeshComponent() { return STRUCT_OFFSET(ABaseCharacter, PlayerBodyMeshComponent); } \
 	FORCEINLINE static uint32 __PPO__ThirdPersonCameraComponent() { return STRUCT_OFFSET(ABaseCharacter, ThirdPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraSpringArm() { return STRUCT_OFFSET(ABaseCharacter, CameraSpringArm); }

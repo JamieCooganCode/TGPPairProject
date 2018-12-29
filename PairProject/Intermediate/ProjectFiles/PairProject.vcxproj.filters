@@ -1,97 +1,106 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\PairProject.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{0245C364-B531-4068-BD61-73002073D78D}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\PairProject.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\PairProjectEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{4D819677-7524-47B0-AFF5-071066CCE679}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\PairProject">
-			<UniqueIdentifier>{972248FA-CD7F-411F-AC09-5942835C3F92}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\PairProject\PairProject.Build.cs">
-			<Filter>Source\PairProject</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\PairProject\PairProject.cpp">
-			<Filter>Source\PairProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PairProject\PairProject.h">
-			<Filter>Source\PairProject</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\PairProject\PairProjectGameModeBase.cpp">
-			<Filter>Source\PairProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PairProject\PairProjectGameModeBase.h">
-			<Filter>Source\PairProject</Filter>
-		</ClInclude >
-		<Filter Include="Source\PairProject\Private">
-			<UniqueIdentifier>{4E85AD9D-A612-4305-9364-92E61FB9D770}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\BaseCharacter.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\BaseEnemy.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\BaseKeep.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\LinkCharacter.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\PairProject\Private\MyPlayerController.cpp">
-			<Filter>Source\PairProject\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\PairProject\Public">
-			<UniqueIdentifier>{343F4807-00F6-41E4-8AC2-173145D6FA8F}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\BaseCharacter.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\BaseEnemy.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\BaseKeep.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\LinkCharacter.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\PairProject\Public\MyPlayerController.h">
-			<Filter>Source\PairProject\Public</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\PairProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0245C364-B531-4068-BD61-73002073D78D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PairProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PairProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4D819677-7524-47B0-AFF5-071066CCE679}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PairProject">
+      <UniqueIdentifier>{972248FA-CD7F-411F-AC09-5942835C3F92}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PairProject\PairProject.Build.cs">
+      <Filter>Source\PairProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PairProject\PairProject.cpp">
+      <Filter>Source\PairProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PairProject\PairProject.h">
+      <Filter>Source\PairProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PairProject\PairProjectGameModeBase.cpp">
+      <Filter>Source\PairProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PairProject\PairProjectGameModeBase.h">
+      <Filter>Source\PairProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\PairProject\Private">
+      <UniqueIdentifier>{4E85AD9D-A612-4305-9364-92E61FB9D770}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseCharacter.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseEnemy.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BaseKeep.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\LinkCharacter.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\MyPlayerController.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PairProject\Public">
+      <UniqueIdentifier>{343F4807-00F6-41E4-8AC2-173145D6FA8F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseCharacter.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseEnemy.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BaseKeep.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\LinkCharacter.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\MyPlayerController.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

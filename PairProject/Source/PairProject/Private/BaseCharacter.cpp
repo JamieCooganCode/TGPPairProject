@@ -39,8 +39,8 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//GetActorForwardVector() then GetActorRightVector() ThirdPersonCameraComponent->GetForwardVector() ThirdPersonCameraComponent->GetRightVector()
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
+	AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
+	AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
 
 	
 	FTransform t = CameraSpringArm->GetRelativeTransform();
@@ -110,7 +110,7 @@ void ABaseCharacter::SetUpCamera()
 
 void ABaseCharacter::MoveForward(float value)
 {
-	CurrentVelocity.X = value * -100;
+	CurrentVelocity.Y = value * -100;
 }
 
 void ABaseCharacter::RotatePlayer()
@@ -120,7 +120,8 @@ void ABaseCharacter::RotatePlayer()
 
 void ABaseCharacter::MoveRight(float value)
 {
-	CurrentVelocity.Y = value * 100;
+	CurrentVelocity.X = value * 100;
+	CurrentRotation = value;
 }
 
 void ABaseCharacter::YawCamera(float value)

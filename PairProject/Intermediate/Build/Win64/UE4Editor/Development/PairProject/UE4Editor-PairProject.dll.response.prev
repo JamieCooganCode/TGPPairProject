@@ -36,15 +36,6 @@
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseAttack.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseCharacter.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseEnemy.cpp.obj"
-<<<<<<< HEAD
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseAttack.gen.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseCharacter.gen.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseEnemy.gen.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.gen.cpp.obj"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.gen.cpp.obj"
-=======
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseKeep.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.cpp.obj"
@@ -56,7 +47,6 @@
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\MyPlayerController.gen.cpp.obj"
->>>>>>> Player_Camera_UI
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProject.init.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProjectGameModeBase.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PCLaunch.rc.res"

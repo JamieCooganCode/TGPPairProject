@@ -47,6 +47,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		float CurrentRotation = 0;
+
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent * PlayerBodyMeshComponent;
 
@@ -76,6 +79,7 @@ protected:
 		void CreateAttackCollider(FVector playerposition);
 
 	//Controller Input functions
+
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
 
