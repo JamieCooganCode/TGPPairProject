@@ -55,6 +55,9 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	if (Attacking)
 		Attacking = false;
+
+	if (StartButtonHit)
+		StartButtonHit = false;
 }
 
 // Called to bind functionality to input
@@ -175,7 +178,7 @@ void ABaseCharacter::BackButtonDown()
 
 void ABaseCharacter::StartButtonDown()
 {
-
+	StartButtonHit = true;
 }
 
 void ABaseCharacter::XButtonDown()

@@ -38,8 +38,11 @@ protected:
 	const float SpecialAttackDamage = 10.0f;
 	
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
+		bool StartButtonHit = false;
 	
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
+		bool AButtonHit = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;

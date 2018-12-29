@@ -189,6 +189,16 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CurrentVelocity;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AButtonHit_MetaData[];
+#endif
+		static void NewProp_AButtonHit_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AButtonHit;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartButtonHit_MetaData[];
+#endif
+		static void NewProp_StartButtonHit_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_StartButtonHit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isPossessed_MetaData[];
 #endif
 		static void NewProp_isPossessed_SetBit(void* Obj);
@@ -290,6 +300,28 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "CurrentVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, CurrentVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_MetaData[] = {
+		{ "Category", "Player_Input" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_SetBit(void* Obj)
+	{
+		((ABaseCharacter*)Obj)->AButtonHit = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit = { UE4CodeGen_Private::EPropertyClass::Bool, "AButtonHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_MetaData[] = {
+		{ "Category", "Player_Input" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_SetBit(void* Obj)
+	{
+		((ABaseCharacter*)Obj)->StartButtonHit = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit = { UE4CodeGen_Private::EPropertyClass::Bool, "StartButtonHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed_MetaData[] = {
 		{ "Category", "Player_Management" },
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
@@ -318,6 +350,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_ThirdPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_PlayerBodyMeshComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AttackCollider,
 	};
@@ -344,7 +378,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3090894047);
+	IMPLEMENT_CLASS(ABaseCharacter, 2808302673);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
