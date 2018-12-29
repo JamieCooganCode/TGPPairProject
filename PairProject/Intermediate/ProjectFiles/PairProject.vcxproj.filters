@@ -97,9 +97,15 @@
     <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BasePlayerWeapon.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BasePlayerWeapon.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
   </ItemGroup>
