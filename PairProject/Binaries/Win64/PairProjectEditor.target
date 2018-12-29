@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PairProject-7268.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PairProject-8717.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PairProject-7268.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PairProject-8717.pdb",
 			"Type": "SymbolFile"
 		},
 		{

@@ -3,6 +3,7 @@
 #include "BaseCharacter.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
@@ -21,6 +22,8 @@ ABaseCharacter::ABaseCharacter()
 
 	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
 
+	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Attack_Collider"));
+	
 	CurrentHealth = MaxHealth;
 	CurrentStamina = MaxStamina;
 }
@@ -36,8 +39,8 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//GetActorForwardVector() then GetActorRightVector() ThirdPersonCameraComponent->GetForwardVector() ThirdPersonCameraComponent->GetRightVector()
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.X * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.Y * DeltaTime);
+	AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
+	AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
 
 	
 	FTransform t = CameraSpringArm->GetRelativeTransform();
@@ -52,6 +55,9 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	if (Attacking)
 		Attacking = false;
+
+	if (StartButtonHit)
+		StartButtonHit = false;
 }
 
 // Called to bind functionality to input
@@ -104,7 +110,7 @@ void ABaseCharacter::SetUpCamera()
 
 void ABaseCharacter::MoveForward(float value)
 {
-	CurrentVelocity.X = value * -100;
+	CurrentVelocity.Y = value * -100;
 }
 
 void ABaseCharacter::RotatePlayer()
@@ -114,7 +120,8 @@ void ABaseCharacter::RotatePlayer()
 
 void ABaseCharacter::MoveRight(float value)
 {
-	CurrentVelocity.Y = value * 100;
+	CurrentVelocity.X = value * 100;
+	CurrentRotation = value;
 }
 
 void ABaseCharacter::YawCamera(float value)
@@ -125,6 +132,14 @@ void ABaseCharacter::YawCamera(float value)
 void ABaseCharacter::PitchCamera(float value)
 {
 	CameraInput.Y = value;
+}
+
+void ABaseCharacter::CreateAttackCollider(FVector playerposition)
+{
+	FVector boxPosition;
+	boxPosition = playerposition + GetActorForwardVector();
+	AttackCollider->SetWorldLocation(boxPosition);
+	AttackCollider->SetCollisionProfileName(TEXT("Attack"));
 }
 
 void ABaseCharacter::LeftTriggerDown()
@@ -164,7 +179,7 @@ void ABaseCharacter::BackButtonDown()
 
 void ABaseCharacter::StartButtonDown()
 {
-
+	StartButtonHit = true;
 }
 
 void ABaseCharacter::XButtonDown()
