@@ -8,7 +8,7 @@
 
 class StaticMeshComponenet;
 class UCharacterMovementComponent;
-class UBoxComponent;
+
 
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
@@ -21,8 +21,7 @@ public:
 
 	UCharacterMovementComponent* CharacterMovementComponent = GetCharacterMovement();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attack")
-		UBoxComponent * AttackCollider;
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Management")
 		bool isPossessed = false;

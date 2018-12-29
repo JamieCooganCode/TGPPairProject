@@ -3,7 +3,7 @@
 #include "BaseCharacter.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "Components/BoxComponent.h"
+
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
@@ -22,7 +22,7 @@ ABaseCharacter::ABaseCharacter()
 
 	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
 
-	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Attack_Collider"));
+	
 	
 	CurrentHealth = MaxHealth;
 	CurrentStamina = MaxStamina;
@@ -136,10 +136,7 @@ void ABaseCharacter::PitchCamera(float value)
 
 void ABaseCharacter::CreateAttackCollider(FVector playerposition)
 {
-	FVector boxPosition;
-	boxPosition = playerposition + GetActorForwardVector();
-	AttackCollider->SetWorldLocation(boxPosition);
-	AttackCollider->SetCollisionProfileName(TEXT("Attack"));
+	
 }
 
 void ABaseCharacter::LeftTriggerDown()

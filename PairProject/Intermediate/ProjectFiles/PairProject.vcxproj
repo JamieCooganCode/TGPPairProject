@@ -427,6 +427,7 @@
     <ClCompile Include="..\..\Source\PairProject\Private\BaseEnemy.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\BaseKeep.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp" />
+    <ClCompile Include="..\..\Source\PairProject\Private\BasePlayerWeapon.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\LinkCharacter.cpp" />
     <ClCompile Include="..\..\Source\PairProject\Private\MyPlayerController.cpp" />
@@ -435,6 +436,7 @@
     <ClInclude Include="..\..\Source\PairProject\Public\BaseEnemy.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\BaseKeep.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h" />
+    <ClInclude Include="..\..\Source\PairProject\Public\BasePlayerWeapon.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\LinkCharacter.h" />
     <ClInclude Include="..\..\Source\PairProject\Public\MyPlayerController.h" />
