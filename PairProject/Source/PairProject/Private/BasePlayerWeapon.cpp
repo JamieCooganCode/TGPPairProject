@@ -14,10 +14,10 @@ ABasePlayerWeapon::ABasePlayerWeapon()
 	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Attack_Collider"));
 	SwordMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Sword_Mesh"));
 
-	AttackCollider->InitBoxExtent(FVector(32.0f, 32.0f, 32.0f));
+	/*AttackCollider->InitBoxExtent(FVector(32.0f, 32.0f, 32.0f));
 	AttackCollider->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 	AttackCollider->BodyInstance.SetCollisionProfileName("Overlap blade");
-	AttackCollider->SetGenerateOverlapEvents(true);
+	AttackCollider->SetGenerateOverlapEvents(true);*/
 }
 
 // Called when the game starts or when spawned
