@@ -126,5 +126,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
 		bool Attacking;
 
+
+	UFUNCTION(BlueprintCallable)
+		void DealDamage(float attackValue);
+
+
 	void MoveToPosition(FVector position);
 };

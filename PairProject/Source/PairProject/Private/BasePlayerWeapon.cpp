@@ -11,6 +11,9 @@ ABasePlayerWeapon::ABasePlayerWeapon()
 	PrimaryActorTick.bCanEverTick = true;
 	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Attack_Collider"));
 	SwordMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Sword_Mesh"));
+
+	AttackCollider->SetCollisionProfileName(TEXT("Sword_Hit"));
+	WeaponDamage = 5.0f;
 }
 
 // Called when the game starts or when spawned
@@ -25,5 +28,16 @@ void ABasePlayerWeapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	
+	
+}
+
+void ABasePlayerWeapon::OnBeginSwordOverlap(TArray<AActor*> otheractors)
+{
+	for (int i = 0; i < otheractors.Num(); i++)
+	{
+		ABaseEnemy * enemy = Cast<ABaseEnemy>(otheractors[i]);
+		enemy->DealDamage(WeaponDamage);
+	}	
 }
 

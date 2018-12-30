@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_PairProject();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_CreateAttackCollider();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_DealDamage();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_RotatePlayer();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCamera();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		UClass* Class = ABaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CreateAttackCollider", &ABaseCharacter::execCreateAttackCollider },
+			{ "DealDamage", &ABaseCharacter::execDealDamage },
 			{ "RotatePlayer", &ABaseCharacter::execRotatePlayer },
 			{ "SetUpCamera", &ABaseCharacter::execSetUpCamera },
 			{ "SetUpCameraArm", &ABaseCharacter::execSetUpCameraArm },
@@ -68,6 +70,38 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_CreateAttackCollider_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics
+	{
+		struct BaseCharacter_eventDealDamage_Parms
+		{
+			float attackValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_attackValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::NewProp_attackValue = { UE4CodeGen_Private::EPropertyClass::Float, "attackValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventDealDamage_Parms, attackValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::NewProp_attackValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "DealDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventDealDamage_Parms), Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_DealDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -221,6 +255,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABaseCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABaseCharacter_CreateAttackCollider, "CreateAttackCollider" }, // 1922859719
+		{ &Z_Construct_UFunction_ABaseCharacter_DealDamage, "DealDamage" }, // 1074226128
 		{ &Z_Construct_UFunction_ABaseCharacter_RotatePlayer, "RotatePlayer" }, // 518970199
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCamera, "SetUpCamera" }, // 4095290072
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm, "SetUpCameraArm" }, // 135692383
@@ -390,7 +425,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3206678973);
+	IMPLEMENT_CLASS(ABaseCharacter, 299177855);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -115,7 +115,8 @@ void ABaseCharacter::MoveForward(float value)
 
 void ABaseCharacter::RotatePlayer()
 {
-	
+	//not used
+
 }
 
 void ABaseCharacter::MoveRight(float value)
@@ -140,6 +141,16 @@ void ABaseCharacter::CreateAttackCollider(FVector playerposition)
 	boxPosition = playerposition + GetActorForwardVector();
 	AttackCollider->SetWorldLocation(boxPosition);
 	AttackCollider->SetCollisionProfileName(TEXT("Attack"));
+}
+
+void ABaseCharacter::DealDamage(float attackValue)
+{
+	CurrentHealth -= attackValue;
+
+	if (CurrentHealth <= 0)
+	{
+		//game over
+	}
 }
 
 void ABaseCharacter::LeftTriggerDown()

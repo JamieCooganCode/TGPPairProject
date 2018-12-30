@@ -16,6 +16,15 @@ struct FVector;
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_attackValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(Z_Param_attackValue); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCreateAttackCollider) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_playerposition); \
@@ -51,6 +60,15 @@ struct FVector;
 
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_attackValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(Z_Param_attackValue); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execCreateAttackCollider) \
 	{ \

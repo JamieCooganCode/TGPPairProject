@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PairProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0245C364-B531-4068-BD61-73002073D78D}</UniqueIdentifier>
+      <UniqueIdentifier>{77A7CEBB-A570-49EA-AA9C-83F4DD56E90A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PairProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4D819677-7524-47B0-AFF5-071066CCE679}</UniqueIdentifier>
+      <UniqueIdentifier>{C5BE42D2-1613-41CB-8008-51B3D37683C2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PairProject">
-      <UniqueIdentifier>{972248FA-CD7F-411F-AC09-5942835C3F92}</UniqueIdentifier>
+      <UniqueIdentifier>{8CB835F8-7D27-4599-ABDD-2716CCF81F7C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PairProject\PairProject.Build.cs">
       <Filter>Source\PairProject</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\PairProject</Filter>
     </ClInclude>
     <Filter Include="Source\PairProject\Private">
-      <UniqueIdentifier>{4E85AD9D-A612-4305-9364-92E61FB9D770}</UniqueIdentifier>
+      <UniqueIdentifier>{152D6C30-2FF7-4189-B48B-84AEA0CC931B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
       <Filter>Source\PairProject\Private</Filter>
@@ -59,17 +59,20 @@
     <ClCompile Include="..\..\Source\PairProject\Private\BaseKeep.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\BasePlayerWeapon.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PairProject\Private\LinkCharacter.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PairProject\Private\MyPlayerController.cpp">
-      <Filter>Source\PairProject\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\PairProject\Public">
-      <UniqueIdentifier>{343F4807-00F6-41E4-8AC2-173145D6FA8F}</UniqueIdentifier>
+      <UniqueIdentifier>{6522E856-6F6A-40B0-A0CF-878708777AFC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
       <Filter>Source\PairProject\Public</Filter>
@@ -83,6 +86,12 @@
     <ClInclude Include="..\..\Source\PairProject\Public\BaseKeep.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\BasePlayerWeapon.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
@@ -94,18 +103,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h">
-      <Filter>Source\PairProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PairProject\Public\BasePlayerWeapon.h">
-      <Filter>Source\PairProject\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp">
-      <Filter>Source\PairProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PairProject\Private\BasePlayerWeapon.cpp">
+    <ClCompile Include="..\..\Source\PairProject\Private\MyPlayerController.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
   </ItemGroup>

@@ -8,14 +8,37 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef PAIRPROJECT_BasePlayerWeapon_generated_h
 #error "BasePlayerWeapon.generated.h already included, missing '#pragma once' in BasePlayerWeapon.h"
 #endif
 #define PAIRPROJECT_BasePlayerWeapon_generated_h
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_INCLASS_NO_PURE_DECLS \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBeginSwordOverlap) \
+	{ \
+		P_GET_TARRAY(AActor*,Z_Param_otheractors); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBeginSwordOverlap(Z_Param_otheractors); \
+		P_NATIVE_END; \
+	}
+
+
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBeginSwordOverlap) \
+	{ \
+		P_GET_TARRAY(AActor*,Z_Param_otheractors); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBeginSwordOverlap(Z_Param_otheractors); \
+		P_NATIVE_END; \
+	}
+
+
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasePlayerWeapon(); \
 	friend struct Z_Construct_UClass_ABasePlayerWeapon_Statics; \
@@ -24,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePlayerWeapon)
 
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_INCLASS \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesABasePlayerWeapon(); \
 	friend struct Z_Construct_UClass_ABasePlayerWeapon_Statics; \
@@ -33,7 +56,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePlayerWeapon)
 
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_STANDARD_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABasePlayerWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABasePlayerWeapon) \
@@ -46,7 +69,7 @@ private: \
 public:
 
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_ENHANCED_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABasePlayerWeapon(ABasePlayerWeapon&&); \
@@ -57,26 +80,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasePlayerWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasePlayerWeapon)
 
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_PRIVATE_PROPERTY_OFFSET
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_13_PROLOG
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_GENERATED_BODY_LEGACY \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_PRIVATE_PROPERTY_OFFSET
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_14_PROLOG
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_RPC_WRAPPERS \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_INCLASS \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_STANDARD_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_RPC_WRAPPERS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_INCLASS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_GENERATED_BODY \
+#define PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_INCLASS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_16_ENHANCED_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_INCLASS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BasePlayerWeapon_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
