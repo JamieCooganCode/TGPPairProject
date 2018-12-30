@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PAIRPROJECT_IAttackable_generated_h
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_STANDARD_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_RPC_WRAPPERS
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PAIRPROJECT_API UIAttackable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIAttackable) \
@@ -28,7 +28,7 @@ private: \
 public:
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_ENHANCED_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PAIRPROJECT_API UIAttackable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -41,7 +41,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIAttackable); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIAttackable)
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_GENERATED_UINTERFACE_BODY() \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUIAttackable(); \
 	friend struct Z_Construct_UClass_UIAttackable_Statics; \
@@ -50,22 +50,22 @@ public: \
 	DECLARE_SERIALIZER(UIAttackable)
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_GENERATED_BODY_LEGACY \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_GENERATED_UINTERFACE_BODY() \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_STANDARD_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_UINTERFACE_BODY() \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_GENERATED_BODY \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_GENERATED_UINTERFACE_BODY() \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_ENHANCED_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_UINTERFACE_BODY() \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IIAttackable() {} \
 public: \
@@ -74,7 +74,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_13_INCLASS_IINTERFACE \
+#define PairProject_Source_PairProject_Public_IAttackable_h_21_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IIAttackable() {} \
 public: \
@@ -83,21 +83,21 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_10_PROLOG
-#define PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_BODY_LEGACY \
+#define PairProject_Source_PairProject_Public_IAttackable_h_18_PROLOG
+#define PairProject_Source_PairProject_Public_IAttackable_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_RPC_WRAPPERS \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_INCLASS_IINTERFACE \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_RPC_WRAPPERS \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_IAttackable_h_21_GENERATED_BODY \
+#define PairProject_Source_PairProject_Public_IAttackable_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_IAttackable_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_IAttackable_h_21_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -106,4 +106,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID PairProject_Source_PairProject_Public_IAttackable_h
 
 
+#define FOREACH_ENUM_TEAM(op) \
+	op(Team::blue) \
+	op(Team::red) \
+	op(Team::yellow) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

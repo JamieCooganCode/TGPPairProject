@@ -11,10 +11,14 @@ ABaseEnemy::ABaseEnemy()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	_movementComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MovementComponent"));
+	_movementComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MovementComponent"));
 	RootComponent = _movementComponent;
 	_sightSphere = CreateDefaultSubobject<USphereComponent>(FName("SightSphere"));
 	_sightSphere->SetupAttachment(RootComponent);
+	_sightSphere->OnComponentBeginOverlap.AddDynamic(this, &ABaseEnemy::OverlapTriggered);
+	_sightSphere->SetGenerateOverlapEvents(true);
+	_sightSphere->SetHiddenInGame(false);
+	_sightSphere->SetCollisionProfileName("OverlapAll");
 }
 
 // Called when the game starts or when spawned
@@ -23,9 +27,10 @@ void ABaseEnemy::BeginPlay()
 	Super::BeginPlay();
 	if (_movementComponentMesh != nullptr)
 	{
-		_movementComponent->SetStaticMesh(_movementComponentMesh);
+		_movementComponent->SetSkeletalMesh(_movementComponentMesh);
 	}
-	_sightSphere->InitSphereRadius(_sightRange);
+	_sightSphere->SetSphereRadius(_sightRange);
+	_team = _startTeam;
 }
 
 // Called every frame
@@ -85,7 +90,7 @@ void ABaseEnemy::DealDamage(float damageDealt)
 	}
 }
 
-IIAttackable::Team ABaseEnemy::GetTeam()
+Team ABaseEnemy::GetTeam()
 {
 	return _team;
 }
@@ -103,4 +108,19 @@ void ABaseEnemy::Rotate(float deltaTime, FVector desiredForwardVector, float len
 	FRotator rotation = FRotator(0.0f, 0.0f, 0.0f);
 	rotation.Yaw += ((angle) * deltaTime * _rotationSpeed);
 	this->AddActorLocalRotation(rotation);
+}
+
+void ABaseEnemy::OverlapTriggered(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (Cast<IIAttackable>(OtherActor) != nullptr)
+	{
+		IIAttackable* overlapped = Cast<IIAttackable>(OtherActor);
+		if (overlapped->_team != this->_team)
+		{
+			if (_attackTarget == nullptr || overlapped->_prioritory > Cast<IIAttackable>(_attackTarget)->_prioritory)
+			{
+				_attackTarget = OtherActor;
+			}
+		}
+	}
 }

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "PairProject/Public/IAttackable.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -42,9 +43,9 @@ protected:
 	
 
 	//////////////////////////////
-	UStaticMeshComponent* _movementComponent;
+	USkeletalMeshComponent* _movementComponent;
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	UStaticMesh* _movementComponentMesh;
+	USkeletalMesh* _movementComponentMesh;
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	class USphereComponent* _sightSphere;
 
@@ -59,10 +60,14 @@ public:
 	virtual void DealDamage(float damageDealt);
 	virtual Team GetTeam();
 
+	UPROPERTY(EditAnywhere, Category = "IAttackable")
+	Team _startTeam;
 	//Animation Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
-		bool _attacking;
+	bool _attacking;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
-		float _currentMovementSpeed;
+	float _currentMovementSpeed;
 	
+	UFUNCTION()
+	virtual void OverlapTriggered(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 };

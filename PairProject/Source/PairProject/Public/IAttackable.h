@@ -6,6 +6,14 @@
 #include "UObject/Interface.h"
 #include "IAttackable.generated.h"
 
+UENUM(BlueprintType)
+enum class Team : uint8
+{
+	blue = 0 UMETA(DisplayName = "Blue"),
+	red UMETA(DisplayName = "Red"),
+	yellow UMETA(DisplayName = "Yellow")
+};
+
 // This class does not need to be modified.
 UINTERFACE(MinimalAPI)
 class UIAttackable : public UInterface
@@ -20,16 +28,13 @@ class PAIRPROJECT_API IIAttackable
 {
 	GENERATED_BODY()
 public:
-	enum Team
-	{
-		blue = 0,
-		red,
-		yellow
-	};
+	
 protected:
-	Team _team;
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+	Team _team;
+	//The higher the prioritory, the more important it is to attack.
+	int _prioritory = 0;
 	virtual void DealDamage(float damageDealt) = 0;
 	virtual Team GetTeam() = 0;
 };
