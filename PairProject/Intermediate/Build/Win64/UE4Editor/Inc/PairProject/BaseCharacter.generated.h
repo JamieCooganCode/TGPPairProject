@@ -16,12 +16,66 @@ struct FVector;
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execDealDamage) \
+	DECLARE_FUNCTION(execDecreaseCurrentStamina) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentStamina(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDecreaseCurrentMana) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentMana(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDecreaseCurrentHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentHealth(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseCurrentStamina) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseCurrentStamina(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreseCurrentMana) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreseCurrentMana(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseCurrentHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseCurrentHealth(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_attackValue); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DealDamage(Z_Param_attackValue); \
+		P_THIS->TakeDamage(Z_Param_attackValue); \
 		P_NATIVE_END; \
 	} \
  \
@@ -61,12 +115,66 @@ struct FVector;
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execDealDamage) \
+	DECLARE_FUNCTION(execDecreaseCurrentStamina) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentStamina(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDecreaseCurrentMana) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentMana(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDecreaseCurrentHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DecreaseCurrentHealth(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseCurrentStamina) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseCurrentStamina(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreseCurrentMana) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreseCurrentMana(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseCurrentHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseCurrentHealth(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_attackValue); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DealDamage(Z_Param_attackValue); \
+		P_THIS->TakeDamage(Z_Param_attackValue); \
 		P_NATIVE_END; \
 	} \
  \

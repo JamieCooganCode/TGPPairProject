@@ -143,7 +143,7 @@ void ABaseCharacter::CreateAttackCollider(FVector playerposition)
 	AttackCollider->SetCollisionProfileName(TEXT("Attack"));
 }
 
-void ABaseCharacter::DealDamage(float attackValue)
+void ABaseCharacter::TakeDamage(float attackValue)
 {
 	CurrentHealth -= attackValue;
 
@@ -151,6 +151,55 @@ void ABaseCharacter::DealDamage(float attackValue)
 	{
 		//game over
 	}
+}
+
+void ABaseCharacter::IncreaseCurrentHealth(float value)
+{
+	CurrentHealth += value;
+
+	if (CurrentHealth > MaxHealth)
+		CurrentHealth = MaxHealth;
+}
+
+void ABaseCharacter::IncreaseCurrentStamina(float value)
+{
+	CurrentStamina += value;
+
+	if (CurrentStamina > MaxStamina)
+		CurrentStamina = MaxStamina;
+}
+
+void ABaseCharacter::IncreseCurrentMana(float value)
+{
+	CurrentMana += value;
+
+	if (CurrentMana > MaxMana)
+		CurrentMana = MaxMana;
+}
+
+void ABaseCharacter::DecreaseCurrentHealth(float value)
+{
+	CurrentHealth -= value;
+
+	if (CurrentHealth < 0)
+		CurrentHealth = 0;
+		//gameover
+
+}
+
+void ABaseCharacter::DecreaseCurrentStamina(float value)
+{
+	CurrentStamina -= value;
+	if (CurrentStamina < 0)
+		CurrentStamina = 0;
+}
+
+void ABaseCharacter::DecreaseCurrentMana(float value)
+{
+	CurrentMana -= value;
+
+	if (CurrentMana < 0)
+		CurrentMana = 0;
 }
 
 void ABaseCharacter::LeftTriggerDown()

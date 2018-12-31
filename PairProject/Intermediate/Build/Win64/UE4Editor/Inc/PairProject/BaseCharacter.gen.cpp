@@ -19,10 +19,16 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_PairProject();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_CreateAttackCollider();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_DealDamage();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_RotatePlayer();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCamera();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_TakeDamage();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -33,10 +39,16 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		UClass* Class = ABaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CreateAttackCollider", &ABaseCharacter::execCreateAttackCollider },
-			{ "DealDamage", &ABaseCharacter::execDealDamage },
+			{ "DecreaseCurrentHealth", &ABaseCharacter::execDecreaseCurrentHealth },
+			{ "DecreaseCurrentMana", &ABaseCharacter::execDecreaseCurrentMana },
+			{ "DecreaseCurrentStamina", &ABaseCharacter::execDecreaseCurrentStamina },
+			{ "IncreaseCurrentHealth", &ABaseCharacter::execIncreaseCurrentHealth },
+			{ "IncreaseCurrentStamina", &ABaseCharacter::execIncreaseCurrentStamina },
+			{ "IncreseCurrentMana", &ABaseCharacter::execIncreseCurrentMana },
 			{ "RotatePlayer", &ABaseCharacter::execRotatePlayer },
 			{ "SetUpCamera", &ABaseCharacter::execSetUpCamera },
 			{ "SetUpCameraArm", &ABaseCharacter::execSetUpCameraArm },
+			{ "TakeDamage", &ABaseCharacter::execTakeDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -73,35 +85,196 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics
+	struct Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics
 	{
-		struct BaseCharacter_eventDealDamage_Parms
+		struct BaseCharacter_eventDecreaseCurrentHealth_Parms
 		{
-			float attackValue;
+			float value;
 		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_attackValue;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::NewProp_attackValue = { UE4CodeGen_Private::EPropertyClass::Float, "attackValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventDealDamage_Parms, attackValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::NewProp_attackValue,
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventDecreaseCurrentHealth_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::NewProp_value,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "DealDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventDealDamage_Parms), Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ABaseCharacter_DealDamage()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "DecreaseCurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventDecreaseCurrentHealth_Parms), Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_DealDamage_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics
+	{
+		struct BaseCharacter_eventDecreaseCurrentMana_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventDecreaseCurrentMana_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "DecreaseCurrentMana", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventDecreaseCurrentMana_Parms), Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics
+	{
+		struct BaseCharacter_eventDecreaseCurrentStamina_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventDecreaseCurrentStamina_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "DecreaseCurrentStamina", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventDecreaseCurrentStamina_Parms), Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics
+	{
+		struct BaseCharacter_eventIncreaseCurrentHealth_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventIncreaseCurrentHealth_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+		{ "ToolTip", "improve" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "IncreaseCurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventIncreaseCurrentHealth_Parms), Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics
+	{
+		struct BaseCharacter_eventIncreaseCurrentStamina_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventIncreaseCurrentStamina_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "IncreaseCurrentStamina", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventIncreaseCurrentStamina_Parms), Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics
+	{
+		struct BaseCharacter_eventIncreseCurrentMana_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventIncreseCurrentMana_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "IncreseCurrentMana", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventIncreseCurrentMana_Parms), Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -171,6 +344,38 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics
+	{
+		struct BaseCharacter_eventTakeDamage_Parms
+		{
+			float attackValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_attackValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::NewProp_attackValue = { UE4CodeGen_Private::EPropertyClass::Float, "attackValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BaseCharacter_eventTakeDamage_Parms, attackValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::NewProp_attackValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "TakeDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventTakeDamage_Parms), Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_TakeDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_TakeDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -255,10 +460,16 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABaseCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABaseCharacter_CreateAttackCollider, "CreateAttackCollider" }, // 1922859719
-		{ &Z_Construct_UFunction_ABaseCharacter_DealDamage, "DealDamage" }, // 1074226128
+		{ &Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentHealth, "DecreaseCurrentHealth" }, // 3546191391
+		{ &Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana, "DecreaseCurrentMana" }, // 1075561474
+		{ &Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina, "DecreaseCurrentStamina" }, // 1419206577
+		{ &Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth, "IncreaseCurrentHealth" }, // 2550605413
+		{ &Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina, "IncreaseCurrentStamina" }, // 3399477435
+		{ &Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana, "IncreseCurrentMana" }, // 666444885
 		{ &Z_Construct_UFunction_ABaseCharacter_RotatePlayer, "RotatePlayer" }, // 518970199
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCamera, "SetUpCamera" }, // 4095290072
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm, "SetUpCameraArm" }, // 135692383
+		{ &Z_Construct_UFunction_ABaseCharacter_TakeDamage, "TakeDamage" }, // 2179754920
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::Class_MetaDataParams[] = {
@@ -425,7 +636,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 299177855);
+	IMPLEMENT_CLASS(ABaseCharacter, 965889637);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

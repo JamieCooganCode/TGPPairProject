@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PAIRPROJECT_BasePickup_generated_h
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_INCLASS_NO_PURE_DECLS \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasePickup(); \
 	friend struct Z_Construct_UClass_ABasePickup_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePickup)
 
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_INCLASS \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesABasePickup(); \
 	friend struct Z_Construct_UClass_ABasePickup_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePickup)
 
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_STANDARD_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABasePickup(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABasePickup) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_ENHANCED_CONSTRUCTORS \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABasePickup(ABasePickup&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasePickup); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasePickup)
 
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_PRIVATE_PROPERTY_OFFSET
-#define PairProject_Source_PairProject_Public_BasePickup_h_9_PROLOG
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_GENERATED_BODY_LEGACY \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_PRIVATE_PROPERTY_OFFSET
+#define PairProject_Source_PairProject_Public_BasePickup_h_12_PROLOG
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_RPC_WRAPPERS \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_INCLASS \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_STANDARD_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_INCLASS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_12_GENERATED_BODY \
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_PRIVATE_PROPERTY_OFFSET \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_INCLASS_NO_PURE_DECLS \
-	PairProject_Source_PairProject_Public_BasePickup_h_12_ENHANCED_CONSTRUCTORS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_PRIVATE_PROPERTY_OFFSET \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_INCLASS_NO_PURE_DECLS \
+	PairProject_Source_PairProject_Public_BasePickup_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

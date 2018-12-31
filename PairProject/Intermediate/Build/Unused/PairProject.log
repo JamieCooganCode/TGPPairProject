@@ -1,19 +1,43 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Parsing headers for PairProjectEditor
     Running UnrealHeaderTool "D:\Git\Ang\TGPPairProject\PairProject\PairProject.uproject" "D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 7.8912248 seconds
+  Reflection code generated for PairProjectEditor in 7.9034504 seconds
   Building 9 actions with 8 processes...
     [1/9] PairProject.init.gen.cpp
     [2/9] LinkCharacter.cpp
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
     [3/9] LinkCharacter.gen.cpp
-    [4/9] BaseCharacter.gen.cpp
-    [5/9] MyPlayerController.gen.cpp
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [4/9] MyPlayerController.gen.cpp
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
 D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
 D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
     D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
     D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+    [5/9] BaseCharacter.gen.cpp
+D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
     [6/9] BaseCharacter.cpp
+D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject\Public\BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject\Public\BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
     [7/9] MyPlayerController.cpp
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(131): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\git\ang\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(153): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
 D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
 D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
     D:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
@@ -23,4 +47,4 @@ D:\Git\Ang\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerControll
     [9/9] UE4Editor-PairProject.dll
        Creating library D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 12.05 seconds (Parallel executor: 2.08 seconds)
+  Total build time: 15.54 seconds (Parallel executor: 5.43 seconds)

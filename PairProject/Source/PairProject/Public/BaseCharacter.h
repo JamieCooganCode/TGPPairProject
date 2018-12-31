@@ -128,8 +128,26 @@ public:
 
 
 	UFUNCTION(BlueprintCallable)
-		void DealDamage(float attackValue);
+		void TakeDamage(float attackValue);
 
 
-	void MoveToPosition(FVector position);
+	void MoveToPosition(FVector position); //improve
+
+	UFUNCTION(BlueprintCallable)
+	void IncreaseCurrentHealth(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void IncreseCurrentMana(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void IncreaseCurrentStamina(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentHealth(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentMana(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentStamina(float value);
 };
