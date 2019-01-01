@@ -17,11 +17,39 @@ void EmptyLinkFunctionForGeneratedCodeBasePickup() {}
 	PAIRPROJECT_API UClass* Z_Construct_UClass_ABasePickup();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PairProject();
+	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABasePickup_AfterPickedUp();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	void ABasePickup::StaticRegisterNativesABasePickup()
 	{
+		UClass* Class = ABasePickup::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "AfterPickedUp", &ABasePickup::execAfterPickedUp },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BasePickup.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasePickup, "AfterPickedUp", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABasePickup_AfterPickedUp()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABasePickup_AfterPickedUp_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ABasePickup_NoRegister()
 	{
@@ -30,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePickup() {}
 	struct Z_Construct_UClass_ABasePickup_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -48,6 +77,9 @@ void EmptyLinkFunctionForGeneratedCodeBasePickup() {}
 	UObject* (*const Z_Construct_UClass_ABasePickup_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_PairProject,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABasePickup_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABasePickup_AfterPickedUp, "AfterPickedUp" }, // 827594892
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePickup_Statics::Class_MetaDataParams[] = {
@@ -82,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePickup() {}
 		&ABasePickup::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_ABasePickup_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ABasePickup_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -98,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePickup, 2001236174);
+	IMPLEMENT_CLASS(ABasePickup, 3329092472);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABasePickup(Z_Construct_UClass_ABasePickup, &ABasePickup::StaticClass, TEXT("/Script/PairProject"), TEXT("ABasePickup"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABasePickup);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

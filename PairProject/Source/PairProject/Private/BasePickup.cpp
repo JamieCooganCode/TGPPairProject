@@ -28,3 +28,7 @@ void ABasePickup::Tick(float DeltaTime)
 
 }
 
+void ABasePickup::AfterPickedUp()
+{
+	this->Destroy();
+}

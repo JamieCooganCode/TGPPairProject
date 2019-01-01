@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PAIRPROJECT_BasePickup_generated_h
 
-#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS
-#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAfterPickedUp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AfterPickedUp(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PairProject_Source_PairProject_Public_BasePickup_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAfterPickedUp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AfterPickedUp(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PairProject_Source_PairProject_Public_BasePickup_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasePickup(); \
