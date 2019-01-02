@@ -1,9 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Building 3 actions with 8 processes...
-    [1/3] BasePickup.cpp
-    [2/3] UE4Editor-PairProject.lib
-       Creating library D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [3/3] UE4Editor-PairProject.dll
-       Creating library D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Target is up to date
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 5.24 seconds (Parallel executor: 3.52 seconds)
+  Total build time: 0.76 seconds (NoActionsToExecute executor: 0.00 seconds)
