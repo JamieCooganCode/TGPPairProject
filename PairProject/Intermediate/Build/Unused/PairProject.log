@@ -1,13 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Parsing headers for PairProjectEditor
-    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\PairProject.uproject" "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PairProjectEditor in 7.8052707 seconds
-  Building 4 actions with 12 processes...
-    [1/4] BaseKeep.cpp
-    [2/4] BaseKeep.gen.cpp
-    [3/4] UE4Editor-PairProject.lib
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [4/4] UE4Editor-PairProject.dll
-       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Target is up to date
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 9.95 seconds (Parallel executor: 1.23 seconds)
+  Total build time: 0.83 seconds (NoActionsToExecute executor: 0.00 seconds)
