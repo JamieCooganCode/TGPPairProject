@@ -2,8 +2,9 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Core.h"
 #include "GameFramework/Actor.h"
+#include "BaseEnemy.h"
 #include "BasePlayerWeapon.generated.h"
 
 
@@ -29,10 +30,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	float WeaponDamage;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
-	
+	UFUNCTION(BlueprintCallable)
+		void OnBeginSwordOverlap(TArray<AActor*> otheractors);
 };

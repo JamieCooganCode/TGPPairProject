@@ -10,6 +10,18 @@ class StaticMeshComponenet;
 class UCharacterMovementComponent;
 class UBoxComponent;
 
+UENUM(BlueprintType)
+enum AttackType
+{
+	none UMETA(DisplayName = "None"),
+	basic UMETA(DisplayName = "basic"),
+	comboOne UMETA(DisplayName = "comboOne"),
+	comboTwo UMETA(DisplayName = "comboTwo"),
+	SpecialB UMETA(DisplayName = "SpecialB"),
+	Block UMETA(DisplayName = "Block"),
+	YAttack UMETA(DisplayName = "Yattack"),
+};
+
 UCLASS()
 class PAIRPROJECT_API ABaseCharacter : public ACharacter
 {
@@ -21,11 +33,15 @@ public:
 
 	UCharacterMovementComponent* CharacterMovementComponent = GetCharacterMovement();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attack")
-		UBoxComponent * AttackCollider;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Management")
 		bool isPossessed = false;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player current Attack")
+		TEnumAsByte<AttackType> CurrentAttack = none;
+
+	FString AttackList;
 
 protected:
 	// Called when the game starts or when spawned
@@ -75,8 +91,7 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
 		void RotatePlayer();
 
-	UFUNCTION(BlueprintCallable, Category = "Player_Attack")
-		void CreateAttackCollider(FVector playerposition);
+	
 
 	//Controller Input functions
 
@@ -126,5 +141,31 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
 		bool Attacking;
 
-	void MoveToPosition(FVector position);
+
+	UFUNCTION(BlueprintCallable)
+		void TakeDamage(float attackValue);
+
+
+	void MoveToPosition(FVector position); //improve
+
+	UFUNCTION(BlueprintCallable)
+	void IncreaseCurrentHealth(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void IncreseCurrentMana(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void IncreaseCurrentStamina(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentHealth(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentMana(float value);
+
+	UFUNCTION(BlueprintCallable)
+	void DecreaseCurrentStamina(float value);
+
+	UFUNCTION(BlueprintCallable)
+		void FreezePlayerInPlace();
 };
