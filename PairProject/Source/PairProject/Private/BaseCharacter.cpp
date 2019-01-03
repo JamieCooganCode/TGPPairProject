@@ -22,7 +22,7 @@ ABaseCharacter::ABaseCharacter()
 
 	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
 
-	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Attack_Collider"));
+	
 	
 	CurrentHealth = MaxHealth;
 	CurrentStamina = MaxStamina;
@@ -54,10 +54,46 @@ void ABaseCharacter::Tick(float DeltaTime)
 	CameraSpringArm->SetWorldRotation(newPitchRotation);
 
 	if (Attacking)
+	{
+		CurrentAttack = basic;
 		Attacking = false;
+	}
+	else
+	{
+		CurrentAttack = none;
+	}
+		
 
 	if (StartButtonHit)
 		StartButtonHit = false;
+
+	/*if (AttackList.Find("B"))
+	{
+		CurrentAttack = SpecialB;
+	}*/
+
+
+	if (AttackList.Len() == 5)
+	{
+		if (AttackList.Find("Y"))
+		{
+			if (AttackList.Find("XXXXY"))
+			{
+				CurrentAttack = comboTwo;
+			}
+			else if (AttackList.Find("XXXY"))
+			{
+				CurrentAttack = comboOne;
+			}
+			else
+			{
+				CurrentAttack = YAttack;
+			}
+		}
+
+		AttackList.Empty();
+	}
+
 }
 
 // Called to bind functionality to input
@@ -91,11 +127,17 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Right Trigger", IE_Pressed, this, &ABaseCharacter::RightTriggerDown);
 }
 
+void ABaseCharacter::FreezePlayerInPlace()
+{
+	//set movement to zero for 3 seconds
+
+}
+
 void ABaseCharacter::MoveToPosition(FVector position)
 {
-	FVector direction = position - GetActorLocation();
+	/*FVector direction = position - GetActorLocation();
 	CurrentVelocity.X = direction.X * 100;
-	CurrentVelocity.Y = direction.Y * 100;
+	CurrentVelocity.Y = direction.Y * 100;*/
 }
 
 void ABaseCharacter::SetUpCameraArm()
@@ -135,13 +177,6 @@ void ABaseCharacter::PitchCamera(float value)
 	CameraInput.Y = value;
 }
 
-void ABaseCharacter::CreateAttackCollider(FVector playerposition)
-{
-	FVector boxPosition;
-	boxPosition = playerposition + GetActorForwardVector();
-	AttackCollider->SetWorldLocation(boxPosition);
-	AttackCollider->SetCollisionProfileName(TEXT("Attack"));
-}
 
 void ABaseCharacter::TakeDamage(float attackValue)
 {
@@ -151,7 +186,7 @@ void ABaseCharacter::TakeDamage(float attackValue)
 	{
 		//game over
 	}
-}
+} //needs game over ui
 
 void ABaseCharacter::IncreaseCurrentHealth(float value)
 {
@@ -245,16 +280,18 @@ void ABaseCharacter::StartButtonDown()
 void ABaseCharacter::XButtonDown()
 {
 	Attacking = true;
+	AttackList.Append("X");
 }
 
 void ABaseCharacter::YButtonDown()
 {
-
+	AttackList.Append("Y");
 }
 
 void ABaseCharacter::BButtonDown()
 {
-
+	AttackList.Append("B");
+	CurrentAttack = SpecialB;
 }
 
 void ABaseCharacter::AButtonDown()
@@ -264,10 +301,8 @@ void ABaseCharacter::AButtonDown()
 
 void ABaseCharacter::RightBumperDown()
 {
-
 }
 
 void ABaseCharacter::RightTriggerDown()
 {
-
 }

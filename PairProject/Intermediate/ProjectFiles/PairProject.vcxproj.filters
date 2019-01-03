@@ -109,9 +109,15 @@
     <ClInclude Include="..\..\Source\PairProject\Public\BasePot.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PairProject\Public\ImpaCharacter.h">
+      <Filter>Source\PairProject\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PairProject\Private\BasePot.cpp">
+      <Filter>Source\PairProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PairProject\Private\ImpaCharacter.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
   </ItemGroup>
