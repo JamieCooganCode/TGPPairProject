@@ -27,6 +27,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		UBoxComponent* KeepBoxCollider;
 
+	//array of enemies
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
