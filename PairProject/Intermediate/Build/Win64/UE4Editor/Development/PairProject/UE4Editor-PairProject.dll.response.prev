@@ -16,7 +16,7 @@
 /ignore:4199
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
-/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\lib\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\um\x64"
@@ -42,6 +42,7 @@
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BasePlayerWeapon.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BasePot.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.cpp.obj"
+"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\ImpaCharacter.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\MyPlayerController.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BaseAttack.gen.cpp.obj"
@@ -52,6 +53,7 @@
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BasePlayerWeapon.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\BasePot.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\IAttackable.gen.cpp.obj"
+"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\ImpaCharacter.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\LinkCharacter.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\MyPlayerController.gen.cpp.obj"
 "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\PairProject.init.gen.cpp.obj"
@@ -103,21 +105,11 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-<<<<<<< HEAD
-"D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
-/OUT:"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Binaries\Win64\UE4Editor-PairProject.dll"
-/IMPLIB:"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib"
-/PDB:"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Binaries\Win64\UE4Editor-PairProject.pdb"
-=======
-"C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 /OUT:"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Binaries\Win64\UE4Editor-PairProject.dll"
 /IMPLIB:"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib"
 /PDB:"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Binaries\Win64\UE4Editor-PairProject.pdb"
->>>>>>> FinishingEnemies
 /ignore:4078

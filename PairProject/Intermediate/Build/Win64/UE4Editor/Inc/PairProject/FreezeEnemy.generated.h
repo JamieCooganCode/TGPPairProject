@@ -35,7 +35,7 @@ public: \
 
 #define PairProject_Source_PairProject_Public_FreezeEnemy_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AFreezeEnemy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AFreezeEnemy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFreezeEnemy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFreezeEnemy); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFreezeEnemy); \
@@ -47,8 +47,6 @@ public:
 
 
 #define PairProject_Source_PairProject_Public_FreezeEnemy_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AFreezeEnemy() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFreezeEnemy(AFreezeEnemy&&); \

@@ -10,8 +10,8 @@ UENUM(BlueprintType)
 enum class Team : uint8
 {
 	blue = 0 UMETA(DisplayName = "Blue"),
-	red UMETA(DisplayName = "Red"),
-	yellow UMETA(DisplayName = "Yellow")
+	red = 1 UMETA(DisplayName = "Red"),
+	yellow = 2 UMETA(DisplayName = "Yellow")
 };
 
 // This class does not need to be modified.

@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeImpaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AImpaCharacter, 3206703342);
+	IMPLEMENT_CLASS(AImpaCharacter, 2863092301);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AImpaCharacter(Z_Construct_UClass_AImpaCharacter, &AImpaCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("AImpaCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AImpaCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

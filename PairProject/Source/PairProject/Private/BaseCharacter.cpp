@@ -31,6 +31,7 @@ ABaseCharacter::ABaseCharacter()
 // Called when the game starts or when spawned
 void ABaseCharacter::BeginPlay()
 {
+	_team = _startTeam;
 	Super::BeginPlay();
 }
 
@@ -130,7 +131,7 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 void ABaseCharacter::FreezePlayerInPlace()
 {
 	//set movement to zero for 3 seconds
-
+	UE_LOG(LogTemp, Error, TEXT("FROZEN"));
 }
 
 void ABaseCharacter::MoveToPosition(FVector position)
@@ -305,4 +306,15 @@ void ABaseCharacter::RightBumperDown()
 
 void ABaseCharacter::RightTriggerDown()
 {
+}
+
+//IAttackable Interface Stuff
+void ABaseCharacter::DealDamage(float damageDealt)
+{
+	this->DecreaseCurrentHealth(damageDealt);
+}
+
+Team ABaseCharacter::GetTeam()
+{
+	return _team;
 }

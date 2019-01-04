@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "PairProject/Public/IAttackable.h"
 #include "BaseCharacter.generated.h"
 
 class StaticMeshComponenet;
@@ -23,7 +24,7 @@ enum AttackType
 };
 
 UCLASS()
-class PAIRPROJECT_API ABaseCharacter : public ACharacter
+class PAIRPROJECT_API ABaseCharacter : public ACharacter, public IIAttackable
 {
 	GENERATED_BODY()
 
@@ -168,4 +169,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void FreezePlayerInPlace();
+
+
+
+	// IAttackable Interface Stuff
+	UPROPERTY(EditAnywhere, Category = "IAttackable")
+	Team _startTeam;
+	virtual void DealDamage(float damageDealt);
+	virtual Team GetTeam();
 };

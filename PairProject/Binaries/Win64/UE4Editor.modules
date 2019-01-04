@@ -2,10 +2,6 @@
 	"BuildId": "4212847",
 	"Modules": 
 	{
-<<<<<<< HEAD
 		"PairProject": "UE4Editor-PairProject.dll"
-=======
-		"PairProject": "UE4Editor-PairProject-1730.dll"
->>>>>>> FinishingEnemies
 	}
 }

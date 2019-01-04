@@ -1,11 +1,40 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "FreezeEnemy.h"
+#include "Components/SphereComponent.h"
 #include "PairProject/Public/BaseCharacter.h"
+
+
+AFreezeEnemy::AFreezeEnemy() : ABaseEnemy()
+{
+}
+void AFreezeEnemy::BeginPlay()
+{
+	_team = _startTeam;
+	Super::BeginPlay();
+}
 
 void AFreezeEnemy::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	if (_attackTarget != nullptr)
+	{
+		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
+		Rotate(DeltaTime, directionToTarget, 10.0f);
+		float angle = acos((Dot3(directionToTarget, this->GetActorForwardVector())) / (directionToTarget.Size() * this->GetActorForwardVector().Size()));
+		if (angle < 0.261799f)
+		{
+
+			if (directionToTarget.Size() <= _attackRange)
+			{
+				Attack(DeltaTime, directionToTarget);
+				_currentMovementSpeed = 0.0f;
+			}
+			else
+			{
+				Move(DeltaTime, directionToTarget);
+			}
+		}
+	}
 }
 
 void AFreezeEnemy::Move(float deltaTime, FVector directionToTarget)
@@ -17,11 +46,19 @@ void AFreezeEnemy::Attack(float deltaTime, FVector directionToTarget)
 {
 	if (Cast<ABaseCharacter>(_attackTarget))
 	{
-		//TODO: Call Player Freeze Function.
+		if (_timeSinceLastAttack > _attackCooldown)
+		{
+			Cast<ABaseCharacter>(_attackTarget)->FreezePlayerInPlace();
+			_timeSinceLastAttack = 0.0f;
+		}
+		else
+		{
+			_timeSinceLastAttack += deltaTime;
+		}
 	}
 }
 
-void AFreezeEnemy::Rotate(float deltaTime, FVector desiredForwardVector, float leniance = 10.0f)
+void AFreezeEnemy::Rotate(float deltaTime, FVector desiredForwardVector, float leniance)
 {
 	Super::Rotate(deltaTime, desiredForwardVector, leniance);
 }
@@ -41,10 +78,12 @@ void AFreezeEnemy::OverlapTriggered(UPrimitiveComponent* OverlappedComponent, AA
 	if (Cast<ABaseCharacter>(OtherActor) != nullptr)
 	{
 		IIAttackable* overlapped = Cast<IIAttackable>(OtherActor);
+
 		if (overlapped->_team != this->_team)
 		{
 			if (_attackTarget == nullptr || overlapped->_prioritory > Cast<IIAttackable>(_attackTarget)->_prioritory)
 			{
+				UE_LOG(LogTemp, Error, TEXT("Found Target"));
 				_attackTarget = OtherActor;
 			}
 		}

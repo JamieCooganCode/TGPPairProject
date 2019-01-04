@@ -29,10 +29,12 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCamera();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_TakeDamage();
+	PAIRPROJECT_API UEnum* Z_Construct_UEnum_PairProject_Team();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PAIRPROJECT_API UClass* Z_Construct_UClass_UIAttackable_NoRegister();
 // End Cross Module References
 	static UEnum* AttackType_StaticEnum()
 	{
@@ -439,6 +441,11 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__startTeam_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp__startTeam;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp__startTeam_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attacking_MetaData[];
 #endif
 		static void NewProp_Attacking_SetBit(void* Obj);
@@ -499,6 +506,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		static void NewProp_isPossessed_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isPossessed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -526,6 +534,15 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_MetaData[] = {
+		{ "Category", "IAttackable" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+		{ "ToolTip", "IAttackable Interface Stuff" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam = { UE4CodeGen_Private::EPropertyClass::Enum, "_startTeam", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, _startTeam), Z_Construct_UEnum_PairProject_Team, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_MetaData[] = {
 		{ "Category", "Player_Attacks" },
@@ -645,6 +662,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed = { UE4CodeGen_Private::EPropertyClass::Bool, "isPossessed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentAttackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentStamina,
@@ -660,6 +679,9 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentAttack,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed,
 	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABaseCharacter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UIAttackable_NoRegister, (int32)VTABLE_OFFSET(ABaseCharacter, IIAttackable), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABaseCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABaseCharacter>::IsAbstract,
 	};
@@ -671,7 +693,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		Z_Construct_UClass_ABaseCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		InterfaceParams, ARRAY_COUNT(InterfaceParams),
 		METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABaseCharacter()
@@ -683,7 +705,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 250980826);
+	IMPLEMENT_CLASS(ABaseCharacter, 3249800797);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

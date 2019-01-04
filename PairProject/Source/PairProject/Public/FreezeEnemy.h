@@ -14,6 +14,11 @@ class PAIRPROJECT_API AFreezeEnemy : public ABaseEnemy
 {
 	GENERATED_BODY()
 public:
+	AFreezeEnemy();
+protected:
+	virtual void BeginPlay() override;
+
+public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void Move(float deltaTime, FVector directionToTarget);
 	virtual void Attack(float deltaTime, FVector directionToTarget);
@@ -21,7 +26,6 @@ public:
 	virtual void DealDamage(float damageDealt);
 	virtual Team GetTeam();
 
-	UFUNCTION()
 	virtual void OverlapTriggered(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 };
