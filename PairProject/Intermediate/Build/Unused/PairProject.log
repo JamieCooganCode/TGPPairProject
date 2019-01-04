@@ -1,11 +1,87 @@
-﻿  Building 3 actions with 4 processes...
-    [1/3] FreezeEnemy.cpp
-E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Source\PairProject/Public/BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
-E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Source\PairProject/Public/BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
-    C:\Epic\UE4\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
-    C:\Epic\UE4\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
-    [2/3] UE4Editor-PairProject.lib
-       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
-    [3/3] UE4Editor-PairProject.dll
-       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\TGPPairProject-master\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
-  Total build time: 5.67 seconds (Parallel executor: 2.44 seconds)
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for PairProjectEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for PairProjectEditor
+    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\PairProject.uproject" "D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PairProjectEditor in 8.7204317 seconds
+  Building 31 actions with 12 processes...
+    [1/31] SharedPCH.Engine.cpp
+    [2/31] PairProject.init.gen.cpp
+    [3/31] BaseKeep.gen.cpp
+    [4/31] BaseEnemy.gen.cpp
+    [5/31] FreezeEnemy.gen.cpp
+    [6/31] BasePickup.gen.cpp
+    [7/31] BasePot.gen.cpp
+    [8/31] IAttackable.gen.cpp
+    [9/31] ImpaCharacter.gen.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [10/31] MyPlayerController.gen.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+    [11/31] BaseCharacter.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [12/31] BasePlayerWeapon.gen.cpp
+    [13/31] LinkCharacter.gen.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [14/31] BaseAttack.gen.cpp
+    [15/31] IAttackable.cpp
+    [16/31] BaseKeep.cpp
+    [17/31] BasePot.cpp
+    [18/31] ImpaCharacter.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [19/31] BasePickup.cpp
+    [20/31] LinkCharacter.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [21/31] FreezeEnemy.cpp
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject/Public/BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [22/31] PairProject.cpp
+    [23/31] BasePlayerWeapon.cpp
+    [24/31] BaseEnemy.cpp
+    [25/31] BaseAttack.cpp
+    [26/31] PairProjectGameModeBase.cpp
+    [27/31] PairProjectGameModeBase.gen.cpp
+    [28/31] MyPlayerController.cpp
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+d:\users\h017026h\documents\gitkraken\tgppairproject\pairproject\source\pairproject\public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(33): warning C4263: 'void AMyPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\MyPlayerController.h(38): warning C4264: 'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1633): note: see declaration of 'APlayerController::SetupInputComponent'
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+    [29/31] BaseCharacter.cpp
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\BaseCharacter.h(147): warning C4263: 'void ABaseCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Source\PairProject\Public\BaseCharacter.h(180): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    D:\Program Files (x86)\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    D:\Program Files (x86)\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+    [30/31] UE4Editor-PairProject.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
+    [31/31] UE4Editor-PairProject.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
+  Deploying PairProjectEditor Win64 Development...
+  Total build time: 90.45 seconds (Parallel executor: 25.14 seconds)
