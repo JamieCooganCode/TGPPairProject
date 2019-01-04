@@ -1,4 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Parsing headers for PairProjectEditor
+    Running UnrealHeaderTool "E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\PairProject.uproject" "E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\PairProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PairProjectEditor in 13.0078192 seconds
+  Building 5 actions with 4 processes...
+    [1/5] BaseEnemy.gen.cpp
+    [2/5] PairProject.init.gen.cpp
+    [3/5] BaseEnemy.cpp
+    [4/5] UE4Editor-PairProject.lib
+       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.exp
+    [5/5] UE4Editor-PairProject.dll
+       Creating library E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.lib and object E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\UE4Editor\Development\PairProject\UE4Editor-PairProject.suppressed.exp
   Deploying PairProjectEditor Win64 Development...
-  Total build time: 2.74 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 20.42 seconds (Parallel executor: 4.18 seconds)
