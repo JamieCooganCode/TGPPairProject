@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\PairProject.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{01DE4694-71DF-4269-84DA-C99F1553B46C}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{6FEEB76A-9629-4DF3-B181-706ADFFFC699}</UniqueIdentifier>
+>>>>>>> FinishingEnemies
     </Filter>
     <None Include="..\..\Source\PairProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{B1C5E0EF-9F4E-42BF-A2E9-52043C6D1062}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{64E4EF6A-103E-4BE9-AF6C-8C69205C7CA2}</UniqueIdentifier>
+>>>>>>> FinishingEnemies
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +35,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PairProject">
+<<<<<<< HEAD
       <UniqueIdentifier>{49ADB07A-0D42-4796-BE6A-9A7D9B4A0660}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{55BC87DC-1919-4541-9036-98DF4802D191}</UniqueIdentifier>
+>>>>>>> FinishingEnemies
     </Filter>
     <None Include="..\..\Source\PairProject\PairProject.Build.cs">
       <Filter>Source\PairProject</Filter>
@@ -45,7 +57,11 @@
       <Filter>Source\PairProject</Filter>
     </ClInclude>
     <Filter Include="Source\PairProject\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{06C4C7AC-3865-47CB-B897-3532550596C6}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{2365FFE5-4C2C-4E0A-8242-2AAB01DD0EAE}</UniqueIdentifier>
+>>>>>>> FinishingEnemies
     </Filter>
     <ClCompile Include="..\..\Source\PairProject\Private\BaseAttack.cpp">
       <Filter>Source\PairProject\Private</Filter>
@@ -59,12 +75,15 @@
     <ClCompile Include="..\..\Source\PairProject\Private\BaseKeep.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\PairProject\Private\BasePickup.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PairProject\Private\BasePlayerWeapon.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
+=======
+>>>>>>> FinishingEnemies
     <ClCompile Include="..\..\Source\PairProject\Private\IAttackable.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
@@ -75,7 +94,11 @@
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\PairProject\Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{43DB568C-5A38-4D50-B2D6-8D85F1902242}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{B33A21DB-7416-4D23-8BF9-9196C7AC4420}</UniqueIdentifier>
+>>>>>>> FinishingEnemies
     </Filter>
     <ClInclude Include="..\..\Source\PairProject\Public\BaseAttack.h">
       <Filter>Source\PairProject\Public</Filter>
@@ -89,12 +112,15 @@
     <ClInclude Include="..\..\Source\PairProject\Public\BaseKeep.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\..\Source\PairProject\Public\BasePickup.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PairProject\Public\BasePlayerWeapon.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
+=======
+>>>>>>> FinishingEnemies
     <ClInclude Include="..\..\Source\PairProject\Public\IAttackable.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
@@ -106,18 +132,26 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="..\..\Source\PairProject\Public\BasePot.h">
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PairProject\Public\ImpaCharacter.h">
+=======
+    <ClInclude Include="..\..\Source\PairProject\Public\FreezeEnemy.h">
+>>>>>>> FinishingEnemies
       <Filter>Source\PairProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\PairProject\Private\BasePot.cpp">
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PairProject\Private\ImpaCharacter.cpp">
+=======
+    <ClCompile Include="..\..\Source\PairProject\Private\FreezeEnemy.cpp">
+>>>>>>> FinishingEnemies
       <Filter>Source\PairProject\Private</Filter>
     </ClCompile>
   </ItemGroup>

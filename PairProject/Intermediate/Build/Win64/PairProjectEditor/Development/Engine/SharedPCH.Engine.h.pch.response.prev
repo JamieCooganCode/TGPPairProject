@@ -181,6 +181,7 @@
 /I ThirdParty\libSampleRate\Public
 /I "D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+<<<<<<< HEAD
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
@@ -190,6 +191,17 @@
 /Fp"D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
 /Fo"D:\Git\Ang\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+=======
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/I "E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine"
+/Yc"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"E:\Staffs Uni\Level 5\Technical Games Production\Pair\NEW\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+>>>>>>> FinishingEnemies
 /TP
 /GR-
 /W4
