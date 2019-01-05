@@ -40,9 +40,20 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//GetActorForwardVector() then GetActorRightVector() ThirdPersonCameraComponent->GetForwardVector() ThirdPersonCameraComponent->GetRightVector()
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
 
+	if (!frozen)
+	{
+		AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
+		AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
+	}
+	
+	frozenTimer += 1;
+	if (frozenTimer >= 200)
+	{
+		frozen = false;
+		frozenTimer = 0;
+	}
+		
 	
 	FTransform t = CameraSpringArm->GetRelativeTransform();
 	FRotator r = t.GetRotation().Rotator();
@@ -132,6 +143,9 @@ void ABaseCharacter::FreezePlayerInPlace()
 {
 	//set movement to zero for 3 seconds
 	UE_LOG(LogTemp, Error, TEXT("FROZEN"));
+	CurrentVelocity.X = 0.0f;
+	CurrentVelocity.Y = 0.0f;
+	frozen = true;
 }
 
 void ABaseCharacter::MoveToPosition(FVector position)

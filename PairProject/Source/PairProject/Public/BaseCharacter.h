@@ -54,6 +54,8 @@ protected:
 	const float BasicAttackDamage = 5.0f;
 	const float SpecialAttackDamage = 10.0f;
 	
+	bool frozen = false;
+	float frozenTimer = 0;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
 		bool StartButtonHit = false;
