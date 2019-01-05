@@ -43,8 +43,15 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	if (!frozen)
 	{
-		AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
-		AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
+		if (movingToPosition)
+		{
+			AddMovementInput(DirectionToGo, CurrentVelocity.Y * DeltaTime);
+		}
+		else
+		{
+			AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
+			AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
+		}	
 	}
 	
 	frozenTimer += 1;
@@ -79,6 +86,8 @@ void ABaseCharacter::Tick(float DeltaTime)
 	if (StartButtonHit)
 		StartButtonHit = false;
 
+	if (BackButtonHit)
+		BackButtonHit = false;
 	/*if (AttackList.Find("B"))
 	{
 		CurrentAttack = SpecialB;
@@ -153,6 +162,33 @@ void ABaseCharacter::MoveToPosition(FVector position)
 	/*FVector direction = position - GetActorLocation();
 	CurrentVelocity.X = direction.X * 100;
 	CurrentVelocity.Y = direction.Y * 100;*/
+
+	if (GetActorLocation().Y > position.Y)
+	{
+		CurrentVelocity.Y = -100;
+		DirectionToGo.Y = -1;
+	}
+	else
+	{
+		CurrentVelocity.Y = 100;
+		DirectionToGo.Y = 1;
+	}
+
+	if (GetActorLocation().X > position.X)
+	{
+		CurrentVelocity.X = -100;
+		DirectionToGo.X = -1;
+	}
+	else
+	{
+		CurrentVelocity.X = 100;
+		DirectionToGo.X = 1;
+	}
+	
+	movingToPosition = true;
+
+	DirectionToGo.Z = GetActorForwardVector().Z;
+
 }
 
 void ABaseCharacter::SetUpCameraArm()
@@ -284,7 +320,7 @@ void ABaseCharacter::LeftDPadDown()
 
 void ABaseCharacter::BackButtonDown()
 {
-
+	BackButtonHit = true;
 }
 
 void ABaseCharacter::StartButtonDown()

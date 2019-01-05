@@ -492,6 +492,11 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		static void NewProp_AButtonHit_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AButtonHit;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BackButtonHit_MetaData[];
+#endif
+		static void NewProp_BackButtonHit_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_BackButtonHit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartButtonHit_MetaData[];
 #endif
 		static void NewProp_StartButtonHit_SetBit(void* Obj);
@@ -633,6 +638,17 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit = { UE4CodeGen_Private::EPropertyClass::Bool, "AButtonHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit_MetaData[] = {
+		{ "Category", "Player_Input" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit_SetBit(void* Obj)
+	{
+		((ABaseCharacter*)Obj)->BackButtonHit = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit = { UE4CodeGen_Private::EPropertyClass::Bool, "BackButtonHit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit_MetaData[] = {
 		{ "Category", "Player_Input" },
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
@@ -675,6 +691,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentRotation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentVelocity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_AButtonHit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_BackButtonHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_StartButtonHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentAttack,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_isPossessed,
@@ -705,7 +722,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3249800797);
+	IMPLEMENT_CLASS(ABaseCharacter, 3197635362);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

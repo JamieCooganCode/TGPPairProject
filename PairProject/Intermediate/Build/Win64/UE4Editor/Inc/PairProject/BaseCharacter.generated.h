@@ -255,6 +255,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 
 #define PairProject_Source_PairProject_Public_BaseCharacter_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__StartButtonHit() { return STRUCT_OFFSET(ABaseCharacter, StartButtonHit); } \
+	FORCEINLINE static uint32 __PPO__BackButtonHit() { return STRUCT_OFFSET(ABaseCharacter, BackButtonHit); } \
 	FORCEINLINE static uint32 __PPO__AButtonHit() { return STRUCT_OFFSET(ABaseCharacter, AButtonHit); } \
 	FORCEINLINE static uint32 __PPO__CurrentVelocity() { return STRUCT_OFFSET(ABaseCharacter, CurrentVelocity); } \
 	FORCEINLINE static uint32 __PPO__CurrentRotation() { return STRUCT_OFFSET(ABaseCharacter, CurrentRotation); } \
