@@ -1,0 +1,1306 @@
+﻿Log file open, 01/05/19 20:45:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PairProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.547475
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.159s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 950
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.05-20.45.32:313][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-20.45.32:313][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.05-20.45.32:326][  0]LogHAL: Display: Platform has ~ 16 GB [17132584960 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.05-20.45.32:326][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.05-20.45.32:326][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.05-20.45.32:327][  0]LogInit: Computer: DESKTOP-D8L6EI8
+[2019.01.05-20.45.32:327][  0]LogInit: User: h017026h
+[2019.01.05-20.45.32:327][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.05-20.45.32:327][  0]LogInit: High frequency timer resolution =3.609380 MHz
+[2019.01.05-20.45.32:327][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.05-20.45.32:327][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.05-20.45.32:327][  0]LogMemory: Process Physical Memory: 104.59 MB used, 104.59 MB peak
+[2019.01.05-20.45.32:328][  0]LogMemory: Process Virtual Memory: 88.46 MB used, 88.46 MB peak
+[2019.01.05-20.45.32:328][  0]LogMemory: Physical Memory: 7514.04 MB used,  8824.87 MB free, 16338.91 MB total
+[2019.01.05-20.45.32:328][  0]LogMemory: Virtual Memory: 4655.16 MB used,  8824.87 MB free, 134217728.00 MB total
+[2019.01.05-20.45.32:416][  0]LogInit: Using OS detected language (en-GB).
+[2019.01.05-20.45.32:416][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.05-20.45.32:418][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.01.05-20.45.32:696][  0]LogStreaming: Display: Took  0.279s to InitEngineTextLocalization.
+[2019.01.05-20.45.32:697][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.05-20.45.32:738][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.05-20.45.32:738][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.05-20.45.33:013][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.05-20.45.33:013][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.05-20.45.33:085][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2019.01.05-20.45.33:085][  0]LogD3D11RHI:       2007/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.05-20.45.33:089][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.05-20.45.33:089][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.05-20.45.33:089][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.05-20.45.33:095][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.05-20.45.33:095][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.05-20.45.33:095][  0]LogWindows: EnumDisplayDevices:
+[2019.01.05-20.45.33:096][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2019.01.05-20.45.33:096][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2019.01.05-20.45.33:096][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2019.01.05-20.45.33:097][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2019.01.05-20.45.33:097][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.05-20.45.33:097][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2019.01.05-20.45.33:097][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.01.05-20.45.33:097][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.01.05-20.45.33:097][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.01.05-20.45.33:130][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.05-20.45.33:162][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.05-20.45.33:212][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Intermediate/Shaders/WorkingDirectory/16500/).
+[2019.01.05-20.45.33:212][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/60DE0E204BB74215367FE99995E8C7D9/'.
+[2019.01.05-20.45.33:441][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.05-20.45.33:454][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.05-20.45.33:468][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.05-20.45.33:480][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.05-20.45.33:492][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.05-20.45.33:505][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.05-20.45.33:517][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.05-20.45.33:529][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.05-20.45.33:535][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:601][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.05-20.45.33:606][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.05-20.45.33:678][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.05-20.45.33:678][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.05-20.45.33:702][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.05-20.45.33:702][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.05-20.45.33:715][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.05-20.45.33:728][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.05-20.45.33:741][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.05-20.45.33:754][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.05-20.45.33:763][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.05-20.45.33:763][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.05-20.45.33:862][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.05-20.45.33:862][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.05-20.45.33:862][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.05-20.45.33:862][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.05-20.45.34:416][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.05-20.45.34:466][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.05-20.45.34:466][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.05-20.45.34:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.05-20.45.34:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.05-20.45.34:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.05-20.45.34:467][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.05-20.45.34:477][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.05-20.45.34:490][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.05-20.45.34:490][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.05-20.45.34:490][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.05-20.45.34:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.05-20.45.34:506][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.05-20.45.34:507][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.05-20.45.34:579][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2019.01.05-20.45.34:831][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.05-20.45.34:963][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.05-20.45.34:970][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.05-20.45.34:970][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.05-20.45.34:970][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.05-20.45.34:970][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.05-20.45.34:983][  0]LogNetVersion: PairProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2248716754)
+[2019.01.05-20.45.35:469][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.156861 seconds
+[2019.01.05-20.45.35:476][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.05-20.45.35:476][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.05-20.45.35:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.05-20.45.36:372][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.05-20.45.36:389][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.05-20.45.36:595][  0]SourceControl: Source control is disabled
+[2019.01.05-20.45.36:595][  0]SourceControl: Source control is disabled
+[2019.01.05-20.45.36:598][  0]SourceControl: Source control is disabled
+[2019.01.05-20.45.36:602][  0]SourceControl: Source control is disabled
+[2019.01.05-20.45.36:845][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.05-20.45.36:955][  0]LogOcInput: OculusInput pre-init called
+[2019.01.05-20.45.37:015][  0]LogEngine: Initializing Engine...
+[2019.01.05-20.45.37:016][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.05-20.45.37:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.05-20.45.37:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.05-20.45.37:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.05-20.45.37:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.05-20.45.37:181][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.05-20.45.37:196][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.05-20.45.37:217][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.45.37:326][  0]LogInit: FAudioDevice initialized.
+[2019.01.05-20.45.37:327][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.05-20.45.37:400][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.05-20.45.37:403][  0]LogInit: Texture streaming: Enabled
+[2019.01.05-20.45.37:425][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.05-20.45.37:434][  0]LogInit: Transaction tracking system initialized
+[2019.01.05-20.45.37:464][  0]BlueprintLog: New page: Editor Load
+[2019.01.05-20.45.37:564][  0]LocalizationService: Localization service is disabled
+[2019.01.05-20.45.37:816][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.05-20.45.37:817][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.05-20.45.37:817][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.05-20.45.37:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.05-20.45.37:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.05-20.45.37:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.05-20.45.37:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.05-20.45.37:975][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/' took 0.02s
+[2019.01.05-20.45.37:975][  0]SourceControl: Source control is disabled
+[2019.01.05-20.45.37:976][  0]Cmd: MAP LOAD FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-20.45.37:976][  0]LightingResults: New page: Lighting Build
+[2019.01.05-20.45.37:978][  0]MapCheck: New page: Map Check
+[2019.01.05-20.45.37:978][  0]LightingResults: New page: Lighting Build
+[2019.01.05-20.45.38:070][  0]LogAIModule: Creating AISystem for world StartScreen
+[2019.01.05-20.45.38:071][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.05-20.45.38:092][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.05-20.45.38:144][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.409ms to complete.
+[2019.01.05-20.45.38:144][  0]LogFileHelpers: Loading map 'StartScreen' took 0.168
+[2019.01.05-20.45.38:240][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.45.38:246][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.45.38:252][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.45.38:258][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.45.38:264][  0]LogCollectionManager: Loaded 0 collections in 0.001114 seconds
+[2019.01.05-20.45.38:309][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Collections/' took 0.01s
+[2019.01.05-20.45.38:309][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Developers/h017026h/Collections/' took 0.01s
+[2019.01.05-20.45.38:309][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Collections/' took 0.01s
+[2019.01.05-20.45.38:310][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.05-20.45.38:318][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2594 classes and 611 folders.
+[2019.01.05-20.45.38:322][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.05-20.45.38:378][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.05-20.45.38:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.05-20.45.38:430][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.05-20.45.38:430][  0]LogLoad: (Engine Initialization) Total time: 8.45 seconds
+[2019.01.05-20.45.38:430][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.05-20.45.38:440][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.05-20.45.38:460][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.05-20.45.38:461][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.05-20.45.38:463][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.05-20.45.38:467][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.05-20.45.38:557][  0]LogRenderer: Reallocating scene render targets to support 1028x408 Format 10 NumSamples 1 (Frame:1).
+[2019.01.05-20.45.38:589][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.05-20.45.38:616][  1]LogAssetRegistry: Asset discovery search completed in 4.0617 seconds
+[2019.01.05-20.45.38:618][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.05-20.45.38:618][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000109 seconds (updated 0 objects)
+[2019.01.05-20.45.41:358][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.45.48:348][152]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.48:386][152]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.45.48:386][152]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.45.48:386][152]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.45.49:569][291]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.05-20.45.49:578][291]LogAssetEditorManager: Opening Asset editor for Material /Game/UIs/MiniMapTexture2D_Mat.MiniMapTexture2D_Mat
+[2019.01.05-20.45.49:581][291]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.49:599][291]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.45.49:599][291]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.45.49:599][291]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.45.49:599][291]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.45.49:599][291]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.45.49:600][291]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.45.49:829][291]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.49:840][291]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.45.49:843][291]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.49:889][291]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.45.49:947][291]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.05-20.45.50:086][292]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.45.50:210][300]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.45.50:241][302]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.45.50:263][304]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.45.50:287][306]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.45.50:319][309]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.45.50:332][310]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.45.50:342][311]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.45.50:458][321]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.45.50:494][323]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.45.50:507][324]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.45.50:507][324]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.45.50:519][325]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.45.50:534][326]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.45.50:569][329]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.45.50:700][342]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.45.50:865][353]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.45.50:878][354]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.45.51:039][367]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.45.51:050][368]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.45.51:073][370]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.45.51:095][372]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.45.51:221][384]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.45.51:531][410]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.01.05-20.45.51:532][410]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.01.05-20.45.51:532][410]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.45.51:532][410]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.45.51:532][410]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.45.51:532][410]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.45.52:914][575]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.52:932][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.45.52:946][575]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.45.52:946][575]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.45.52:946][575]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.45.52:946][575]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.45.52:947][575]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.45.52:947][575]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.45.52:947][575]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.45.52:947][575]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.45.53:166][594]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.45.53:178][595]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.45.53:188][596]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.45.53:189][596]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.45.53:189][596]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.45.53:207][598]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.45.53:207][598]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.45.53:207][598]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.45.53:331][611]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.45.53:461][621]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.45.53:495][623]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.45.53:622][632]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.45.53:645][634]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.45.53:656][635]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.45.53:656][635]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.45.53:987][667]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.01.05-20.45.53:987][667]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.01.05-20.45.53:987][667]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.45.53:987][667]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.45.53:987][667]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.45.53:988][667]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.45.57:136][ 44]LogMaterialEditor: Applying material MiniMapTexture2D_Mat
+[2019.01.05-20.45.57:533][ 44]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.57:572][ 44]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.45.57:572][ 44]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.45.57:573][ 44]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.45.57:581][ 44]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.57:599][ 44]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.57:637][ 44]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.05-20.45.58:388][ 44]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.45.58:389][ 44]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.45.58:391][ 44]TextureStreamingBuild: Display: Compiling optional shaders took 0.761 seconds.
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.46.00:514][289]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.46.01:443][400]LogMaterialEditor: Saving and Compiling material MiniMapTexture2D_Mat
+[2019.01.05-20.46.01:469][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/MiniMapTexture2D_Mat" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/MiniMapTexture2D_Mat.uasset" SILENT=true
+[2019.01.05-20.46.01:486][400]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/MiniMapTexture2D_MatDE1C1BED4EB69136366CB8BA4718D8BD.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/MiniMapTexture2D_Mat.uasset'
+[2019.01.05-20.46.02:692][542]LogSlate: Window 'MiniMapTexture2D_Mat' being destroyed
+[2019.01.05-20.46.09:290][319]LogRenderer: Reallocating scene render targets to support 1028x468 Format 10 NumSamples 1 (Frame:13).
+[2019.01.05-20.46.20:433][465]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.46.20:447][465]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/CameraTestScene.CameraTestScene
+[2019.01.05-20.46.20:471][465]Cmd: MAP LOAD FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-20.46.20:471][465]LightingResults: New page: Lighting Build
+[2019.01.05-20.46.20:471][465]LoadErrors: New page: Loading map: CameraTestScene.umap
+[2019.01.05-20.46.20:472][465]MapCheck: New page: Map Check
+[2019.01.05-20.46.20:472][465]LightingResults: New page: Lighting Build
+[2019.01.05-20.46.20:507][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.05-20.46.20:569][465]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.05-20.46.20:660][465]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.362ms to complete.
+[2019.01.05-20.46.20:661][465]LogFileHelpers: Loading map 'CameraTestScene' took 0.190
+[2019.01.05-20.46.25:328][ 13]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIs/Map_Overlay.Map_Overlay
+[2019.01.05-20.46.25:661][ 13]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.01.05-20.46.43:897][903]BlueprintLog: New page: Compile Map_Overlay
+[2019.01.05-20.46.45:208][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.46.45:236][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.46.45:237][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.46.45:251][ 46]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:46:45)
+[2019.01.05-20.46.45:252][ 46]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.46.45:258][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005811s)
+[2019.01.05-20.46.45:259][ 46]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.46.45:259][ 46]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2019.01.05-20.46.45:259][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.007574s)
+[2019.01.05-20.46.45:292][ 46]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.46.45:392][ 46]LogInit: FAudioDevice initialized.
+[2019.01.05-20.46.45:399][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.46.45:457][ 46]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.46.45:464][ 46]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.46.45
+[2019.01.05-20.46.45:465][ 46]LogWorld: Bringing up level for play took: 0.006504
+[2019.01.05-20.46.45:479][ 46]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.46.45:482][ 46]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.01.05-20.46.45:482][ 46]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.46.45:482][ 46]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.46.45:483][ 46]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.46.45:484][ 46]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.46.45:485][ 46]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.46.45:486][ 46]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.46.45:487][ 46]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.316
+[2019.01.05-20.46.45:488][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.46.45:496][ 46]LogSlate: Took 0.002163 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.01.05-20.46.45:511][ 46]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.01.05-20.46.51:143][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.46.51:143][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.46.51:169][709]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.46.51:208][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.46.51:208][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.46.51:247][710]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.05-20.46.54:394][927]LogSlate: Window 'Save Asset As' being destroyed
+[2019.01.05-20.47.05:418][237]BlueprintLog: New page: Compile Map_Overlay
+[2019.01.05-20.47.06:589][364]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.47.06:613][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.47.06:613][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.47.06:614][364]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:47:06)
+[2019.01.05-20.47.06:614][364]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.47.06:619][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005181s)
+[2019.01.05-20.47.06:619][364]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.47.06:619][364]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2019.01.05-20.47.06:620][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006883s)
+[2019.01.05-20.47.06:652][364]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.47.06:743][364]LogInit: FAudioDevice initialized.
+[2019.01.05-20.47.06:750][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.47.06:784][364]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.47.06:792][364]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.47.06
+[2019.01.05-20.47.06:793][364]LogWorld: Bringing up level for play took: 0.008111
+[2019.01.05-20.47.06:805][364]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.47.06:806][364]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.47.06:806][364]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.47.06:806][364]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.47.06:807][364]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.47.06:808][364]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.47.06:809][364]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.47.06:812][364]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.359
+[2019.01.05-20.47.06:812][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.47.13:015][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.47.13:016][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.47.13:038][ 95]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.47.13:078][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.47.13:078][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.47.13:117][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.05-20.47.45:193][932]LogAssetEditorManager: Opening Asset editor for Material /Game/UIs/MiniMapTexture2D_Mat.MiniMapTexture2D_Mat
+[2019.01.05-20.47.45:195][932]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.47.45:243][932]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.47.45:257][932]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.47.45:286][932]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.47.45:286][932]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.47.45:286][932]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.47.45:286][932]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.47.45:286][932]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.47.45:287][932]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.47.45:287][932]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.47.45:287][932]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.47.45:301][932]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.47.45:935][977]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.47.45:994][982]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.47.45:994][982]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.47.46:006][983]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.47.46:006][983]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.47.46:025][985]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.47.46:035][986]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.47.46:035][986]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.47.46:105][994]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.47.46:269][  7]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.47.46:336][ 12]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.47.46:480][ 24]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.47.46:481][ 24]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.47.46:534][ 29]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.47.46:547][ 30]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.47.46:843][ 58]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.01.05-20.47.46:843][ 58]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.01.05-20.47.46:843][ 58]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.47.46:843][ 58]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.47.46:843][ 58]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.47.46:844][ 58]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.48.04:157][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.48.19:675][506]LogSlate: Window 'MiniMapTexture2D_Mat' being destroyed
+[2019.01.05-20.48.43:823][227]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat2, compiling. 
+[2019.01.05-20.48.43:844][228]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.48.43:845][228]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.48.43:845][228]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.48.45:319][404]LogAssetEditorManager: Opening Asset editor for Material /Game/UIs/MiniMapTexture2D_Mat2.MiniMapTexture2D_Mat2
+[2019.01.05-20.48.45:321][404]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat2, compiling. 
+[2019.01.05-20.48.45:331][404]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.48.45:331][404]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.48.45:331][404]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.48.45:332][404]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.48.45:332][404]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.48.45:332][404]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.48.45:373][404]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat2, compiling. 
+[2019.01.05-20.48.45:393][404]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat2, compiling. 
+[2019.01.05-20.48.45:445][404]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.48.45:564][405]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.48.45:564][405]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.48.45:687][418]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.48.45:729][423]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.48.45:938][441]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.48.45:957][442]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.48.46:016][446]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.48.46:017][446]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.48.46:032][447]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.48.46:046][448]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.48.46:063][449]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.48.46:128][454]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.48.46:141][455]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.48.46:178][458]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.48.46:202][460]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.48.46:215][461]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.48.46:431][477]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.48.46:521][483]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.48.46:548][485]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.48.46:572][487]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.48.46:636][493]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.48.46:705][499]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.48.46:765][504]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.48.47:045][527]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.48.54:103][371]LogSlate: Window 'MiniMapTexture2D_Mat2*' being destroyed
+[2019.01.05-20.48.56:886][533]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.05-20.49.47:627][593]LogMaterial: Display: Missing cached shader map for material MiniMapTexture2D_Mat, compiling. 
+[2019.01.05-20.49.47:644][594]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.49.47:644][594]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.49.52:197][139]BlueprintLog: New page: Compile Map_Overlay
+[2019.01.05-20.49.53:190][245]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.49.53:214][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.49.53:215][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.49.53:215][245]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:49:53)
+[2019.01.05-20.49.53:215][245]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.49.53:220][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004794s)
+[2019.01.05-20.49.53:221][245]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.49.53:222][245]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2019.01.05-20.49.53:222][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006740s)
+[2019.01.05-20.49.53:256][245]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.49.53:343][245]LogInit: FAudioDevice initialized.
+[2019.01.05-20.49.53:351][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.49.53:387][245]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.49.53:393][245]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.49.53
+[2019.01.05-20.49.53:394][245]LogWorld: Bringing up level for play took: 0.005723
+[2019.01.05-20.49.53:407][245]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.49.53:407][245]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.49.53:407][245]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.49.53:408][245]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.49.53:409][245]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.49.53:410][245]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.49.53:411][245]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.49.53:413][245]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.242
+[2019.01.05-20.49.53:414][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.49.58:955][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.49.58:956][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.49.58:979][886]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.49.59:013][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.49.59:013][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.49.59:060][888]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.05-20.50.01:388][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/Map_Overlay" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/Map_Overlay.uasset" SILENT=true
+[2019.01.05-20.50.01:424][166]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Map_OverlayE60B6D5B49834B905457ED84CB547DEC.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/Map_Overlay.uasset'
+[2019.01.05-20.50.11:427][355]LogActor: Warning: MyBPBaseKeep_C /Engine/Transient.World_6:PersistentLevel.MyBPBaseKeep_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.50.15:322][819]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character_BPs/MyLinkCharacter.MyLinkCharacter
+[2019.01.05-20.50.19:403][264]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.05-20.50.24:170][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.50.24:295][843]BlueprintLog: New page: Compile MyLinkCharacter
+[2019.01.05-20.50.28:929][330]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.50.28:957][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.50.28:957][330]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.05-20.50.28:965][330]LogPlayLevel: [PlayLevel] Compiling Map_Overlay before play...
+[2019.01.05-20.50.29:112][330]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2019.01.05-20.50.29:113][330]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:50:29)
+[2019.01.05-20.50.29:113][330]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.50.29:118][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005173s)
+[2019.01.05-20.50.29:119][330]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.50.29:119][330]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2019.01.05-20.50.29:120][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006395s)
+[2019.01.05-20.50.29:155][330]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.50.29:254][330]LogInit: FAudioDevice initialized.
+[2019.01.05-20.50.29:261][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.50.29:295][330]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.50.29:300][330]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.50.29
+[2019.01.05-20.50.29:301][330]LogWorld: Bringing up level for play took: 0.004771
+[2019.01.05-20.50.29:313][330]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.50.29:314][330]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.50.29:314][330]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.50.29:314][330]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.50.29:315][330]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.50.29:316][330]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.50.29:317][330]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.50.29:320][330]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.149
+[2019.01.05-20.50.29:320][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.50.29:432][331]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062042 > MaxSimulationTimeStep (0.050) for 'MyImpaCharacter_17', movement 'Walking'
+[2019.01.05-20.50.50:601][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.50.50:601][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.50.50:626][868]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.50.50:667][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.50.50:667][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.50.50:769][869]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.05-20.50.57:895][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.50.57:970][723]BlueprintLog: New page: Compile MyLinkCharacter
+[2019.01.05-20.50.58:839][801]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.50.58:867][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.50.58:867][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.50.58:868][801]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:50:58)
+[2019.01.05-20.50.58:868][801]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.50.58:873][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005547s)
+[2019.01.05-20.50.58:874][801]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.50.58:875][801]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2019.01.05-20.50.58:875][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006838s)
+[2019.01.05-20.50.58:913][801]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.50.59:008][801]LogInit: FAudioDevice initialized.
+[2019.01.05-20.50.59:016][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.50.59:051][801]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.50.59:056][801]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.50.59
+[2019.01.05-20.50.59:057][801]LogWorld: Bringing up level for play took: 0.004909
+[2019.01.05-20.50.59:070][801]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.50.59:070][801]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.50.59:070][801]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.50.59:071][801]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.50.59:072][801]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.50.59:073][801]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.50.59:074][801]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.50.59:076][801]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.096
+[2019.01.05-20.50.59:076][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.09:575][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.09:576][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.09:598][ 43]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.51.09:639][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.51.09:639][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.09:741][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.05-20.51.14:281][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.51.14:355][593]BlueprintLog: New page: Compile MyLinkCharacter
+[2019.01.05-20.51.15:264][677]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.51.15:291][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.15:291][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.51.15:291][677]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:51:15)
+[2019.01.05-20.51.15:292][677]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.51.15:297][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005517s)
+[2019.01.05-20.51.15:298][677]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.51.15:298][677]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.01.05-20.51.15:299][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006870s)
+[2019.01.05-20.51.15:335][677]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.51.15:429][677]LogInit: FAudioDevice initialized.
+[2019.01.05-20.51.15:437][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.15:473][677]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.51.15:479][677]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.51.15
+[2019.01.05-20.51.15:480][677]LogWorld: Bringing up level for play took: 0.005946
+[2019.01.05-20.51.15:493][677]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.51.15:494][677]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.15:494][677]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.15:494][677]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.15:495][677]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.15:497][677]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.15:497][677]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.15:499][677]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.328
+[2019.01.05-20.51.15:500][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.21:687][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.21:687][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.21:709][403]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.51.21:749][403]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.51.21:749][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.21:848][404]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.05-20.51.24:992][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.51.25:092][787]BlueprintLog: New page: Compile MyLinkCharacter
+[2019.01.05-20.51.25:841][852]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.51.25:867][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.25:868][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.51.25:868][852]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:51:25)
+[2019.01.05-20.51.25:868][852]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.51.25:874][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005996s)
+[2019.01.05-20.51.25:875][852]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.51.25:875][852]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2019.01.05-20.51.25:876][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.007568s)
+[2019.01.05-20.51.25:917][852]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.51.26:026][852]LogInit: FAudioDevice initialized.
+[2019.01.05-20.51.26:033][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.26:067][852]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.51.26:073][852]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.51.26
+[2019.01.05-20.51.26:074][852]LogWorld: Bringing up level for play took: 0.005568
+[2019.01.05-20.51.26:087][852]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.51.26:088][852]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.26:088][852]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.26:088][852]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.26:089][852]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.26:090][852]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.26:091][852]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.26:093][852]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.922
+[2019.01.05-20.51.26:093][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.32:339][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.32:340][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.32:363][581]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.51.32:404][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.51.32:405][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.32:508][582]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.05-20.51.34:336][799]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.05-20.51.34:863][854]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.05-20.51.35:913][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.51.36:038][993]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.51.36:060][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.36:060][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.51.36:060][993]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:51:36)
+[2019.01.05-20.51.36:061][993]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.51.36:067][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005926s)
+[2019.01.05-20.51.36:068][993]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.51.36:068][993]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2019.01.05-20.51.36:068][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.007615s)
+[2019.01.05-20.51.36:103][993]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.51.36:206][993]LogInit: FAudioDevice initialized.
+[2019.01.05-20.51.36:213][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.36:251][993]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.51.36:257][993]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.51.36
+[2019.01.05-20.51.36:258][993]LogWorld: Bringing up level for play took: 0.005606
+[2019.01.05-20.51.36:271][993]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.51.36:271][993]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.36:271][993]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.51.36:271][993]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.36:273][993]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.36:274][993]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.51.36:275][993]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.51.36:276][993]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 1.104
+[2019.01.05-20.51.36:276][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.43:024][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.43:025][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.51.43:047][795]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.51.43:090][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.51.43:090][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.51.43:141][796]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.05-20.52.01:849][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.52.03:334][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/Map_Overlay" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/Map_Overlay.uasset" SILENT=true
+[2019.01.05-20.52.03:365][209]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/Map_Overlay362B19314DF9E497ECD164B321B310C7.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/Map_Overlay.uasset'
+[2019.01.05-20.52.05:452][449]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character_BPs/MyImpaCharacter.MyImpaCharacter
+[2019.01.05-20.52.32:764][637]BlueprintLog: New page: Compile MyImpaCharacter
+[2019.01.05-20.52.44:561][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.52.49:653][618]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.05-20.52.51:174][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.52.56:626][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.53.23:771][607]LogSlate: Window 'Save Asset As' being destroyed
+[2019.01.05-20.53.27:501][ 39]BlueprintLog: New page: Compile MyImpaCharacter
+[2019.01.05-20.53.27:661][ 39]BlueprintLog: New page: Compile MyImpaCharacter
+[2019.01.05-20.53.30:514][347]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/MyImpaCharacter9B06754D49B1BD7AD7042A82E6298C7B.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Blueprints/Character_BPs/MyImpaCharacter.uasset'
+[2019.01.05-20.53.31:810][492]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/MyLinkCharacter7024A76E4B464A3028156DAA92FA55B1.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Blueprints/Character_BPs/MyLinkCharacter.uasset'
+[2019.01.05-20.53.36:736][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.53.36:765][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.53.36:765][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.53.36:765][ 78]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:53:36)
+[2019.01.05-20.53.36:765][ 78]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.53.36:771][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005739s)
+[2019.01.05-20.53.36:772][ 78]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.53.36:772][ 78]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2019.01.05-20.53.36:772][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.006926s)
+[2019.01.05-20.53.36:813][ 78]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.53.36:912][ 78]LogInit: FAudioDevice initialized.
+[2019.01.05-20.53.36:949][ 78]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.53.36:954][ 78]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.53.36
+[2019.01.05-20.53.36:955][ 78]LogWorld: Bringing up level for play took: 0.005003
+[2019.01.05-20.53.36:969][ 78]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.53.36:969][ 78]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.53.36:969][ 78]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.53.36:971][ 78]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.53.36:972][ 78]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.53.36:972][ 78]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.53.36:972][ 78]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.198
+[2019.01.05-20.53.36:972][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.53.46:512][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.53.46:513][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.53.46:553][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.53.46:554][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.53.46:586][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.53.46:618][222]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.05-20.53.50:030][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.54.02:424][111]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.02:444][112]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.54.02:445][112]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.54.02:445][112]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.54.04:041][301]LogAssetEditorManager: Opening Asset editor for Material /Game/UIs/ImpaMiniMap_Texture2D.ImpaMiniMap_Texture2D
+[2019.01.05-20.54.04:043][301]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.04:054][301]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.54.04:054][301]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.54.04:054][301]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.54.04:055][301]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.54.04:055][301]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.54.04:055][301]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.54.04:106][301]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.04:121][301]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.54.04:123][301]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.04:173][301]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.54.04:246][301]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.54.04:293][302]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.54.04:405][312]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.54.04:479][319]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.54.04:624][330]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.54.04:698][335]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.54.04:713][336]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.54.04:727][337]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.54.04:739][338]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.54.04:753][339]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.54.04:765][340]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.54.04:824][345]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.54.04:884][350]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.54.04:896][351]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.54.04:896][351]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.54.04:923][353]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.54.05:121][366]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.54.05:222][372]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.54.05:238][373]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.54.05:264][375]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.54.05:423][386]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.54.05:442][387]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.54.05:462][388]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.54.05:706][404]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.01.05-20.54.05:706][404]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.01.05-20.54.05:706][404]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.54.05:706][404]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.54.05:707][404]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.54.05:707][404]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.54.07:251][587]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.07:265][587]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.54.07:265][587]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.54.07:265][587]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.54.07:265][587]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.54.07:265][587]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.54.07:266][587]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.54.07:266][587]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.54.07:266][587]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.54.07:268][587]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.05-20.54.07:465][601]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.54.07:493][603]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.54.07:493][603]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.05-20.54.07:507][604]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.54.07:507][604]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.05-20.54.07:516][605]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.05-20.54.07:517][605]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.05-20.54.07:529][606]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.05-20.54.07:629][615]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.05-20.54.07:769][623]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.05-20.54.07:800][625]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.05-20.54.07:919][634]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.54.07:935][635]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.05-20.54.07:965][637]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.54.07:965][637]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: Texture samplers: 4/16
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.01.05-20.54.08:264][663]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.05-20.54.08:456][686]LogMaterialEditor: Saving and Compiling material ImpaMiniMap_Texture2D
+[2019.01.05-20.54.08:867][686]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.08:905][686]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.05-20.54.08:905][686]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.05-20.54.08:905][686]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.05-20.54.08:906][686]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.05-20.54.08:906][686]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.05-20.54.08:906][686]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.05-20.54.08:906][686]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.05-20.54.08:906][686]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.54.08:911][686]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.08:929][686]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.08:983][686]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.05-20.54.09:722][686]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.05-20.54.09:723][686]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.05-20.54.09:725][686]TextureStreamingBuild: Display: Compiling optional shaders took 0.748 seconds.
+[2019.01.05-20.54.11:563][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/ImpaMiniMap_Texture2D" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap_Texture2D.uasset" SILENT=true
+[2019.01.05-20.54.11:586][686]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/ImpaMiniMap_Texture2D5A2BF39D45AADF5E3FFA4F879DA82D73.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap_Texture2D.uasset'
+[2019.01.05-20.54.13:302][880]LogSlate: Window 'ImpaMiniMap_Texture2D' being destroyed
+[2019.01.05-20.54.56:858][ 53]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIs/ImpaMap_Overlay.ImpaMap_Overlay
+[2019.01.05-20.55.01:620][491]LogSlate: Window 'ImpaMap_Overlay*' being destroyed
+[2019.01.05-20.55.11:434][634]LogMaterial: Display: Missing cached shader map for material ImpaMiniMap_Texture2D, compiling. 
+[2019.01.05-20.55.11:451][635]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.05-20.55.11:452][635]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.05-20.55.14:820][ 37]BlueprintLog: New page: Compile ImpaMap_Overlay
+[2019.01.05-20.55.15:788][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/ImpaMap_Overlay" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMap_Overlay.uasset" SILENT=true
+[2019.01.05-20.55.15:810][129]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/ImpaMap_Overlay96AE24DD4F64BDC1CB69E1BC0ADA242E.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMap_Overlay.uasset'
+[2019.01.05-20.55.29:085][694]BlueprintLog: New page: Compile MyImpaCharacter
+[2019.01.05-20.55.29:245][694]BlueprintLog: New page: Compile MyImpaCharacter
+[2019.01.05-20.55.30:085][754]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/MyImpaCharacter3B1348ED4F00C5490262E8B2A6B7353F.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Blueprints/Character_BPs/MyImpaCharacter.uasset'
+[2019.01.05-20.55.30:877][847]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.55.30:911][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.55.30:912][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.55.30:912][847]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:55:30)
+[2019.01.05-20.55.30:912][847]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.55.30:918][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005719s)
+[2019.01.05-20.55.30:919][847]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.55.30:919][847]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2019.01.05-20.55.30:919][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.007088s)
+[2019.01.05-20.55.30:957][847]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.55.31:046][847]LogInit: FAudioDevice initialized.
+[2019.01.05-20.55.31:052][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.55.31:085][847]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.55.31:090][847]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.55.31
+[2019.01.05-20.55.31:091][847]LogWorld: Bringing up level for play took: 0.005434
+[2019.01.05-20.55.31:104][847]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.55.31:105][847]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.55.31:105][847]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.55.31:105][847]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.55.31:108][847]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.55.31:108][847]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.55.31:109][847]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.55.31:110][847]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.061
+[2019.01.05-20.55.31:111][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.01:114][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.01:115][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.56.01:138][192]LogSlate: Window 'PairProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.05-20.56.01:191][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.56.01:191][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.01:324][193]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.05-20.56.06:628][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.05-20.56.11:652][387]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.01.05-20.56.15:919][887]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2019.01.05-20.56.18:326][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.56.18:416][176]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.56.18:444][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.18:444][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.56.18:444][176]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:56:18)
+[2019.01.05-20.56.18:444][176]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.56.18:450][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005386s)
+[2019.01.05-20.56.18:451][176]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.56.18:451][176]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2019.01.05-20.56.18:452][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.007110s)
+[2019.01.05-20.56.18:489][176]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.56.18:598][176]LogInit: FAudioDevice initialized.
+[2019.01.05-20.56.18:632][176]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.56.18:637][176]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.56.18
+[2019.01.05-20.56.18:638][176]LogWorld: Bringing up level for play took: 0.005294
+[2019.01.05-20.56.18:652][176]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.18:652][176]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.18:652][176]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.18:654][176]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.56.18:655][176]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.56.18:655][176]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.18:656][176]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene -0.516
+[2019.01.05-20.56.18:656][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.36:719][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.36:720][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.56.36:756][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.56.36:756][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.36:781][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.56.36:824][340]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.01.05-20.56.38:588][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.56.40:455][608]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:444).
+[2019.01.05-20.56.40:510][609]LogRenderer: Reallocating scene render targets to support 1292x764 Format 10 NumSamples 1 (Frame:446).
+[2019.01.05-20.56.40:605][611]LogRenderer: Reallocating scene render targets to support 1292x768 Format 10 NumSamples 1 (Frame:450).
+[2019.01.05-20.56.41:515][720]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.56.41:535][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.41:535][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.56.41:535][720]PIE: New page: PIE session: CameraTestScene (5 Jan 2019 20:56:41)
+[2019.01.05-20.56.41:536][720]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_CameraTestScene
+[2019.01.05-20.56.41:542][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006174s)
+[2019.01.05-20.56.41:543][720]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.56.41:544][720]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2019.01.05-20.56.41:544][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/CameraTestScene.CameraTestScene to /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene (0.008024s)
+[2019.01.05-20.56.41:578][720]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.56.41:680][720]LogInit: FAudioDevice initialized.
+[2019.01.05-20.56.41:715][720]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.56.41:720][720]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.56.41
+[2019.01.05-20.56.41:721][720]LogWorld: Bringing up level for play took: 0.005095
+[2019.01.05-20.56.41:735][720]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.41:735][720]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.41:735][720]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.41:737][720]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.56.41:737][720]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.56.41:738][720]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.41:738][720]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_CameraTestScene 0.567
+[2019.01.05-20.56.41:738][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.42:846][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.42:847][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.56.42:882][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.56.42:883][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene' with GeneratedClass '/Game/Scenes/CameraTestScene.CameraTestScene_C' with ClassGeneratedBy '/Game/Scenes/CameraTestScene.CameraTestScene:PersistentLevel.CameraTestScene'
+[2019.01.05-20.56.42:906][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.56.42:948][853]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.01.05-20.56.50:537][663]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestScene85040DEE42FBC39B122A5EAFDCB4C744.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene.umap'
+[2019.01.05-20.56.50:626][663]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/CameraTestScene_BuiltDataEB614E3F4431720C682D67819B5EB3B5.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/CameraTestScene_BuiltData.uasset'
+[2019.01.05-20.56.53:097][950]LogAIModule: Creating AISystem for world StartScreen
+[2019.01.05-20.56.53:099][950]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/StartScreen.StartScreen
+[2019.01.05-20.56.55:237][950]LogSlate: Window 'Save Content' being destroyed
+[2019.01.05-20.56.55:249][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/ImpaMiniMap" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap.uasset" SILENT=true
+[2019.01.05-20.56.55:270][950]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/ImpaMiniMapFBFC5FC049C02707FEDAD597C1231530.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap.uasset'
+[2019.01.05-20.56.55:296][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/ImpaMiniMap_Texture2D" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap_Texture2D.uasset" SILENT=true
+[2019.01.05-20.56.55:335][950]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/ImpaMiniMap_Texture2D1289F7824AEC29B852B367829EFCBE0D.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/ImpaMiniMap_Texture2D.uasset'
+[2019.01.05-20.56.55:360][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIs/MiniMapTexture2D_Mat" FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/MiniMapTexture2D_Mat.uasset" SILENT=true
+[2019.01.05-20.56.55:395][950]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/MiniMapTexture2D_MatA02BD57043662195D90C9B9A18457471.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/UIs/MiniMapTexture2D_Mat.uasset'
+[2019.01.05-20.56.55:404][950]Cmd: MAP LOAD FILE="../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.05-20.56.55:404][950]LightingResults: New page: Lighting Build
+[2019.01.05-20.56.55:405][950]LoadErrors: New page: Loading map: StartScreen.umap
+[2019.01.05-20.56.55:406][950]MapCheck: New page: Map Check
+[2019.01.05-20.56.55:406][950]LightingResults: New page: Lighting Build
+[2019.01.05-20.56.55:434][950]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.05-20.56.55:499][950]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.05-20.56.55:590][950]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.791ms to complete.
+[2019.01.05-20.56.55:590][950]LogFileHelpers: Loading map 'StartScreen' took 0.188
+[2019.01.05-20.56.56:291][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.05-20.56.56:313][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Scenes/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2019.01.05-20.56.56:313][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.05-20.56.56:314][ 26]PIE: New page: PIE session: StartScreen (5 Jan 2019 20:56:56)
+[2019.01.05-20.56.56:314][ 26]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_StartScreen
+[2019.01.05-20.56.56:315][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2019.01.05-20.56.56:316][ 26]LogAIModule: Creating AISystem for world StartScreen
+[2019.01.05-20.56.56:316][ 26]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2019.01.05-20.56.56:316][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/StartScreen.StartScreen to /Game/Scenes/UEDPIE_0_StartScreen.StartScreen (0.002441s)
+[2019.01.05-20.56.56:354][ 26]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.05-20.56.56:441][ 26]LogInit: FAudioDevice initialized.
+[2019.01.05-20.56.56:477][ 26]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.56.56:478][ 26]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2019.01.05-20.56.56
+[2019.01.05-20.56.56:478][ 26]LogWorld: Bringing up level for play took: 0.000398
+[2019.01.05-20.56.56:492][ 26]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.56:492][ 26]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.56.56:492][ 26]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.56:493][ 26]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.56.56:493][ 26]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_StartScreen -0.677
+[2019.01.05-20.56.56:493][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Scenes/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2019.01.05-20.57.01:502][626]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.01.05-20.57.01:503][626]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.01.05-20.57.01:503][626]LogNet: Browse: /Game/Scenes/CameraTestScene
+[2019.01.05-20.57.01:503][626]LogLoad: LoadMap: /Game/Scenes/CameraTestScene
+[2019.01.05-20.57.02:032][626]LogAIModule: Creating AISystem for world CameraTestScene
+[2019.01.05-20.57.02:032][626]LogLoad: Game class is 'TestGameMode_C'
+[2019.01.05-20.57.02:046][626]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene up for play (max tick rate 0) at 2019.01.05-20.57.02
+[2019.01.05-20.57.02:047][626]LogWorld: Bringing up level for play took: 0.013744
+[2019.01.05-20.57.02:048][626]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.05-20.57.02:048][626]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.57.02:048][626]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.05-20.57.02:048][626]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.57.02:049][626]LogActor: Warning: MyBPBasePlayerWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBPBasePlayerWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.57.02:049][626]LogActor: Warning: MyBiggoronKnifeWeapon_C /Game/Scenes/UEDPIE_0_CameraTestScene.CameraTestScene:PersistentLevel.MyBiggoronKnifeWeapon_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.05-20.57.02:051][626]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.05-20.57.02:051][626]LogLoad: Took 0.547637 seconds to LoadMap(/Game/Scenes/CameraTestScene)
+[2019.01.05-20.57.02:063][627]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062043 > MaxSimulationTimeStep (0.050) for 'MyImpaCharacter_17', movement 'Walking'
+[2019.01.05-20.57.39:151][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Scenes/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2019.01.05-20.57.39:151][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.57.39:190][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.05-20.57.39:191][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Scenes/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Scenes/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2019.01.05-20.57.39:215][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.05-20.57.39:256][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.01.05-20.57.40:364][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.05-20.57.40:489][228]MapCheck: New page: Map Check
+[2019.01.05-20.57.40:500][228]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.05-20.57.40:501][228]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.05-20.57.40:543][228]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.01.05-20.57.40:567][228]LightingResults: New page: Lighting Build - 5 Jan 2019 20:57:40
+[2019.01.05-20.57.40:616][228]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.05-20.57.40:683][228]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.05-20.57.40:696][228]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.05-20.57.41:204][228]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.05-20.57.41:204][228]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16500
+[2019.01.05-20.57.45:673][228]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.05-20.57.45:674][228]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.05-20.57.45:674][228]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.05-20.57.45:674][228]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.05-20.57.45:674][228]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.05-20.57.45:674][228]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.05-20.57.45:751][228]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.05-20.57.45:751][228]MapCheck: New page: StartScreen - 5 Jan 2019 20:57:45
+[2019.01.05-20.57.45:842][228]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.489ms to complete.
+[2019.01.05-20.57.45:868][228]LogEditorBuildUtils: Build time 0:05
+[2019.01.05-20.57.47:427][339]Job is a success!
+[2019.01.05-20.57.47:462][340]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2019.01.05-20.57.47:462][340]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.05-20.57.47:463][340]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.01.05-20.57.47:463][340]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.05-20.57.47:463][340]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.01.05-20.57.47:463][340]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.01.05-20.57.47:463][340]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.01.05-20.57.47:514][340]Lightmass on DESKTOP-D8L6EI8: 1.18 sec total, 89 ms importing, 12 ms setup, 695 ms photons, 358 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 3.45 sec total, 0 ms processing.
+[2019.01.05-20.57.47:523][340]LogStaticLightingSystem: Illumination: 6.94 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.01.05-20.57.47:523][340]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.01.05-20.57.47:523][340]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.01.05-20.57.47:685][340]DumpUnbuiltLightIteractions
+[2019.01.05-20.57.47:685][340]Lights with unbuilt interactions: 0
+[2019.01.05-20.57.47:685][340]
+[2019.01.05-20.57.47:685][340]Primitives with unbuilt interactions: 0
+[2019.01.05-20.57.47:704][341]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.05-20.57.47:704][341]MapCheck: New page: StartScreen - 5 Jan 2019 20:57:47
+[2019.01.05-20.57.47:810][341]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.933ms to complete.
+[2019.01.05-20.57.54:849][151]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/StartScreen181D8F3143318CF7975EA1A2877B7DA9.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/StartScreen.umap'
+[2019.01.05-20.57.54:899][151]LogFileHelpers: Saving map 'StartScreen' took 0.292
+[2019.01.05-20.57.54:929][151]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Saved/StartScreen_BuiltData107E2F7C4C9AA06E2AA7B0ADDB31B596.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/TGPPairProject/PairProject/Content/Scenes/StartScreen_BuiltData.uasset'
+[2019.01.05-20.58.00:993][860]LogSlate: Window 'PairProject - Unreal Editor' being destroyed
+[2019.01.05-20.58.00:995][860]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.05-20.58.01:191][861]Cmd: QUIT_EDITOR
+[2019.01.05-20.58.01:280][861]LogExit: Preparing to exit.
+[2019.01.05-20.58.01:732][861]LogExit: Editor shut down
+[2019.01.05-20.58.01:733][861]LogExit: Transaction tracking system shut down
+[2019.01.05-20.58.02:236][861]LogExit: Object subsystem successfully closed.
+[2019.01.05-20.58.02:260][861]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.05-20.58.02:264][861]LogD3D11RHI: Shutdown
+[2019.01.05-20.58.02:264][861]LogD3D11RHI: CleanupD3DDevice
+[2019.01.05-20.58.02:266][861]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.05-20.58.02:275][861]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (626)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (624)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module Voice (622)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module SequencerWidgets (620)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module SceneOutliner (614)
+[2019.01.05-20.58.02:276][861]LogModuleManager: Shutting down and abandoning module AddContentDialog (612)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module WidgetCarousel (611)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module EditorWidgets (608)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module CollectionManager (606)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module StatsViewer (604)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module FoliageEdit (602)
+[2019.01.05-20.58.02:277][861]LogModuleManager: Shutting down and abandoning module LandscapeEditor (600)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module MeshPaintMode (598)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (596)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module ActorPickerMode (594)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module GeometryMode (592)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module TextureAlignMode (590)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module BspMode (588)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (586)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (584)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module AutomationWorker (582)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (580)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (576)
+[2019.01.05-20.58.02:278][861]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (574)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module PlacementMode (573)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module MaterialEditor (572)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (568)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (566)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (564)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.01.05-20.58.02:279][861]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.01.05-20.58.02:280][861]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.01.05-20.58.02:281][861]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.01.05-20.58.02:281][861]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.01.05-20.58.02:732][861]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.01.05-20.58.02:732][861]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.01.05-20.58.02:732][861]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.01.05-20.58.02:732][861]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module InputBindingEditor (504)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module MergeActors (502)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (500)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module LocalizationService (499)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module HardwareTargeting (496)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (494)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module UndoHistory (492)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module XmlParser (490)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module Blutility (488)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (486)
+[2019.01.05-20.58.02:733][861]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (485)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (482)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module SettingsEditor (480)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module ProjectLauncher (478)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module SessionFrontend (476)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module ProfilerClient (474)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module DeviceManager (472)
+[2019.01.05-20.58.02:734][861]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (471)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module AutomationController (468)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module AutomationWindow (466)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module Layers (464)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (462)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module DetailCustomizations (460)
+[2019.01.05-20.58.02:788][861]LogModuleManager: Shutting down and abandoning module PackagesDialog (458)
+[2019.01.05-20.58.02:789][861]LogModuleManager: Shutting down and abandoning module Persona (456)
+[2019.01.05-20.58.02:789][861]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (455)
+[2019.01.05-20.58.02:789][861]LogModuleManager: Shutting down and abandoning module AnimGraph (453)
+[2019.01.05-20.58.02:789][861]LogModuleManager: Shutting down and abandoning module Kismet (450)
+[2019.01.05-20.58.02:793][861]LogModuleManager: Shutting down and abandoning module GraphEditor (448)
+[2019.01.05-20.58.02:793][861]LogModuleManager: Shutting down and abandoning module ClassViewer (446)
+[2019.01.05-20.58.02:794][861]LogModuleManager: Shutting down and abandoning module Toolbox (444)
+[2019.01.05-20.58.02:794][861]LogModuleManager: Shutting down and abandoning module DesktopPlatform (443)
+[2019.01.05-20.58.02:794][861]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.01.05-20.58.02:795][861]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.01.05-20.58.02:796][861]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
