@@ -53,13 +53,19 @@ protected:
 	const float MaxStamina = 10.0f;
 	const float BasicAttackDamage = 5.0f;
 	const float SpecialAttackDamage = 10.0f;
-	
+
+	bool movingToPosition = false;
+	FVector DirectionToGo;
+
 	bool frozen = false;
 	float frozenTimer = 0;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
 		bool StartButtonHit = false;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
+		bool BackButtonHit = false;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Input")
 		bool AButtonHit = false;
 

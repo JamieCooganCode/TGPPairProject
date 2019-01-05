@@ -35,4 +35,6 @@ public:
 	void UpDPadDown();
 
 	void SendPlayerToLocation(FVector location);
+
+	int nonPossessedPlayer;
 };

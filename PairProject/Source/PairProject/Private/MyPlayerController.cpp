@@ -13,7 +13,7 @@ void AMyPlayerController::Tick(float delta)
 	if (characterArray.Num() != 0)
 	{
 		possessedCharacter = FindPossesedPlayer();
-		SendPlayerToLocation(FVector(1000.0f, 0.0f, 0.0f));
+		//SendPlayerToLocation(FVector(1000.0f, 0.0f, 0.0f));
 	}
 	
 }
@@ -32,6 +32,9 @@ ABaseCharacter* AMyPlayerController::FindPossesedPlayer()
 	for (int i = 0; i < characterArray.Num(); i++) 
 	{
 		ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[i]);
+
+		if (currentPlayer->isPossessed == false)
+			nonPossessedPlayer = i;
 
 		if (currentPlayer->isPossessed == true)
 			return currentPlayer;
@@ -58,6 +61,6 @@ void AMyPlayerController::UpDPadDown()
 
 void AMyPlayerController::SendPlayerToLocation(FVector position)
 {
-	ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[1]);
+	ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[nonPossessedPlayer]);
 	currentPlayer->MoveToPosition(position);
 }
