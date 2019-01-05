@@ -185,11 +185,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/I D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine
-/Yc"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\Users\h017026h\Documents\GitKraken\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine
+/Yc"D:\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\TGPPairProject\PairProject\Intermediate\Build\Win64\PairProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
