@@ -20,9 +20,7 @@ ABaseCharacter::ABaseCharacter()
 	CameraSpringArm->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, 0.0f), FRotator(-35.0f, 0.0f, 0.0f));
 	CameraSpringArm->TargetArmLength = 600.0f;
 
-	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
-
-	
+	ThirdPersonCameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);	
 	
 	CurrentHealth = MaxHealth;
 	CurrentStamina = MaxStamina;
@@ -39,13 +37,16 @@ void ABaseCharacter::BeginPlay()
 void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	//GetActorForwardVector() then GetActorRightVector() ThirdPersonCameraComponent->GetForwardVector() ThirdPersonCameraComponent->GetRightVector()
 
 	if (!frozen)
 	{
 		if (movingToPosition)
 		{
+			MoveToPosition(localPositionToGoTo);
 			AddMovementInput(DirectionToGo, CurrentVelocity.Y * DeltaTime);
+
+			if (CheckIfClose())
+				movingToPosition = false;
 		}
 		else
 		{
@@ -88,10 +89,6 @@ void ABaseCharacter::Tick(float DeltaTime)
 
 	if (BackButtonHit)
 		BackButtonHit = false;
-	/*if (AttackList.Find("B"))
-	{
-		CurrentAttack = SpecialB;
-	}*/
 
 
 	if (AttackList.Len() == 5)
@@ -157,38 +154,65 @@ void ABaseCharacter::FreezePlayerInPlace()
 	frozen = true;
 }
 
-void ABaseCharacter::MoveToPosition(FVector position)
-{
-	/*FVector direction = position - GetActorLocation();
-	CurrentVelocity.X = direction.X * 100;
-	CurrentVelocity.Y = direction.Y * 100;*/
 
+void ABaseCharacter::PositionToMoveTo(FVector position)
+{
+	isPossessed = false;
+	localPositionToGoTo = position;
+	movingToPosition = true;
+}
+
+void ABaseCharacter::MoveToPosition(FVector position) //fix this
+{
+	FVector keepDirection;
+	
 	if (GetActorLocation().Y > position.Y)
 	{
-		CurrentVelocity.Y = -100;
 		DirectionToGo.Y = -1;
 	}
 	else
 	{
-		CurrentVelocity.Y = 100;
 		DirectionToGo.Y = 1;
 	}
 
 	if (GetActorLocation().X > position.X)
 	{
-		CurrentVelocity.X = -100;
 		DirectionToGo.X = -1;
 	}
 	else
 	{
-		CurrentVelocity.X = 100;
 		DirectionToGo.X = 1;
 	}
 	
-	movingToPosition = true;
+	if (abs(position.X - GetActorLocation().X) > abs(position.Y - GetActorLocation().Y))
+	{
+		DirectionToGo.Y = DirectionToGo.Y * abs((position.Y - GetActorLocation().Y)/(position.X - GetActorLocation().X));
+	}
+	else
+	{
+		DirectionToGo.X = DirectionToGo.X * abs((position.X - GetActorLocation().X) / (position.X - GetActorLocation().X));
+	}
 
+	//speed is constant
+	CurrentVelocity.X = 150;
+	CurrentVelocity.Y = 150;
+
+	//movingToPosition = true;
 	DirectionToGo.Z = GetActorForwardVector().Z;
+}
 
+bool ABaseCharacter::CheckIfClose()
+{
+	if ((sqrt(pow((GetActorLocation().X - localPositionToGoTo.X), 2) + pow((GetActorLocation().Y - localPositionToGoTo.Y), 2))) <= 20)
+	{
+		CurrentVelocity.X = 0;
+		CurrentVelocity.Y = 0;
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
 void ABaseCharacter::SetUpCameraArm()
@@ -203,18 +227,12 @@ void ABaseCharacter::SetUpCamera()
 
 void ABaseCharacter::MoveForward(float value)
 {
-	CurrentVelocity.Y = value * -100;
-}
-
-void ABaseCharacter::RotatePlayer()
-{
-	//not used
-
+	CurrentVelocity.Y = value * -150;
 }
 
 void ABaseCharacter::MoveRight(float value)
 {
-	CurrentVelocity.X = value * 100;
+	CurrentVelocity.X = value * 150;
 	CurrentRotation = value;
 }
 
@@ -228,16 +246,15 @@ void ABaseCharacter::PitchCamera(float value)
 	CameraInput.Y = value;
 }
 
-
 void ABaseCharacter::TakeDamage(float attackValue)
 {
 	CurrentHealth -= attackValue;
 
 	if (CurrentHealth <= 0)
 	{
-		//game over
+		//done in the level blueprint so UI can be accessed
 	}
-} //needs game over ui
+} 
 
 void ABaseCharacter::IncreaseCurrentHealth(float value)
 {
@@ -269,8 +286,6 @@ void ABaseCharacter::DecreaseCurrentHealth(float value)
 
 	if (CurrentHealth < 0)
 		CurrentHealth = 0;
-		//gameover
-
 }
 
 void ABaseCharacter::DecreaseCurrentStamina(float value)

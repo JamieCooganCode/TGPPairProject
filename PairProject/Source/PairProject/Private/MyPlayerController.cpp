@@ -7,8 +7,12 @@
 void AMyPlayerController::Tick(float delta)
 {
 	Super::Tick(delta);
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABaseCharacter::StaticClass(), characterArray); //fiinds all player
-	
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABaseCharacter::StaticClass(), characterArray); //finds all player
+
+	KeepOnePosition = FVector(14, 3350, 0);
+	KeepTwoPosition = FVector(4529, -2007, 0);
+	KeepThreePosition = FVector(-2268, -3539, 0);
+
 	//PossessPlayer();
 	if (characterArray.Num() != 0)
 	{
@@ -37,11 +41,37 @@ ABaseCharacter* AMyPlayerController::FindPossesedPlayer()
 			nonPossessedPlayer = i;
 
 		if (currentPlayer->isPossessed == true)
+		{
+			if (i == 0)
+			{
+				nonPossessedPlayer = 1;
+			}
+			else
+			{
+				nonPossessedPlayer = 0;
+			}
+			
 			return currentPlayer;
+		}
+			
 	}
 
 	return NULL;
 }
+
+ABaseCharacter* AMyPlayerController::FindNonPossessedPlayer()
+{
+	for (int i = 0; i < characterArray.Num(); i++)
+	{
+		ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[i]);
+		if (currentPlayer->isPossessed == false)
+		{
+			return currentPlayer;
+		}
+	}
+	return NULL;
+}
+
 
 void AMyPlayerController::SetupInputComponent(UInputComponent* PlayerInputComponent) //isnt called
 {
@@ -62,5 +92,27 @@ void AMyPlayerController::UpDPadDown()
 void AMyPlayerController::SendPlayerToLocation(FVector position)
 {
 	ABaseCharacter *currentPlayer = Cast<ABaseCharacter>(characterArray[nonPossessedPlayer]);
-	currentPlayer->MoveToPosition(position);
+	currentPlayer->PositionToMoveTo(position);
+}
+
+void AMyPlayerController::SendPlayerToKeep(int keepNumber)
+{
+	switch (keepNumber)
+	{
+
+	case 0:
+		SendPlayerToLocation(KeepOnePosition);
+		break;
+
+	case 1:
+		SendPlayerToLocation(KeepTwoPosition);
+		break;
+
+	case  2:
+		SendPlayerToLocation(KeepThreePosition);
+		break;
+
+	default:
+		break;
+	}
 }

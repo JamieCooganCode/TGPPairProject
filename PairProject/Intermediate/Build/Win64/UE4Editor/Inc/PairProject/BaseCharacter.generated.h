@@ -86,14 +86,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execRotatePlayer) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RotatePlayer(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execSetUpCameraArm) \
 	{ \
 		P_FINISH; \
@@ -181,14 +173,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->TakeDamage(Z_Param_attackValue); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execRotatePlayer) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->RotatePlayer(); \
 		P_NATIVE_END; \
 	} \
  \

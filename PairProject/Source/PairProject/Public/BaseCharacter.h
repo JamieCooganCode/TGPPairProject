@@ -54,8 +54,10 @@ protected:
 	const float BasicAttackDamage = 5.0f;
 	const float SpecialAttackDamage = 10.0f;
 
-	bool movingToPosition = false;
-	FVector DirectionToGo;
+	
+	
+	FVector localPositionToGoTo;
+	bool CheckIfClose();
 
 	bool frozen = false;
 	float frozenTimer = 0;
@@ -97,10 +99,6 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
 		void SetUpCameraArm();
 
-	UFUNCTION(BlueprintCallable, Category = "Camera_SetUp")
-		void RotatePlayer();
-
-	
 
 	//Controller Input functions
 
@@ -150,12 +148,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Attacks")
 		bool Attacking;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		FVector DirectionToGo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		bool movingToPosition = false;
 
 	UFUNCTION(BlueprintCallable)
 		void TakeDamage(float attackValue);
 
 
 	void MoveToPosition(FVector position); //improve
+	void PositionToMoveTo(FVector position);
 
 	UFUNCTION(BlueprintCallable)
 	void IncreaseCurrentHealth(float value);

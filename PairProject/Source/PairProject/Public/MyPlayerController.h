@@ -26,7 +26,13 @@ public:
 		ABaseCharacter* FindPossesedPlayer();
 
 	UFUNCTION(BlueprintCallable)
+		ABaseCharacter* FindNonPossessedPlayer();
+
+	UFUNCTION(BlueprintCallable)
 		void PossessPlayer();
+
+	UFUNCTION(BlueprintCallable)
+		void SendPlayerToKeep(int keepNumber);
 
 	virtual void Tick(float DeltaTime) override;
 
@@ -37,4 +43,11 @@ public:
 	void SendPlayerToLocation(FVector location);
 
 	int nonPossessedPlayer;
+
+private:
+
+	FVector KeepOnePosition;
+	FVector KeepTwoPosition;
+	FVector KeepThreePosition;
+
 };
