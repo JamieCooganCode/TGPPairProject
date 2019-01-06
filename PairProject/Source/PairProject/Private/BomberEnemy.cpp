@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#include "BomberEnemy.h"
 #include "PairProject/Public/IAttackable.h"
 #include "PairProject/Public/BaseAttack.h"
-#include "BomberEnemy.h"
+
 
 ABomberEnemy::ABomberEnemy() : ABaseEnemy()
 {
