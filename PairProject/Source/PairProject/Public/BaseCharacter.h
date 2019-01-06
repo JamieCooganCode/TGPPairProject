@@ -152,7 +152,7 @@ public:
 
 
 	UFUNCTION(BlueprintCallable)
-		void TakeDamage(float attackValue);
+	void TakeDamage(float attackValue);
 
 
 	void MoveToPosition(FVector position); //improve

@@ -18,20 +18,35 @@ void AFreezeEnemy::Tick(float DeltaTime)
 {
 	if (_attackTarget != nullptr)
 	{
-		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
-		Rotate(DeltaTime, directionToTarget, 10.0f);
-		float angle = acos((Dot3(directionToTarget, this->GetActorForwardVector())) / (directionToTarget.Size() * this->GetActorForwardVector().Size()));
-		if (angle < 0.261799f)
+		if (_attackTarget2 != nullptr)
 		{
-
-			if (directionToTarget.Size() <= _attackRange)
+			FVector temp, temp2;
+			temp = this->RootComponent->GetComponentLocation() - _attackTarget->GetActorLocation();
+			temp2 = this->RootComponent->GetComponentLocation() - _attackTarget2->GetActorLocation();
+			if (temp.Size() > temp2.Size())
 			{
-				Attack(DeltaTime, directionToTarget);
-				_currentMovementSpeed = 0.0f;
+				AActor* tempActor = _attackTarget;
+				_attackTarget = _attackTarget2;
+				_attackTarget2 = tempActor;
 			}
-			else
+		}
+		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
+		if (directionToTarget.Size() < _sightRange)
+		{
+			Rotate(DeltaTime, directionToTarget, 10.0f);
+			float angle = acos((Dot3(directionToTarget, this->GetActorForwardVector())) / (directionToTarget.Size() * this->GetActorForwardVector().Size()));
+			if (angle < 0.261799f)
 			{
-				Move(DeltaTime, directionToTarget);
+
+				if (directionToTarget.Size() <= _attackRange)
+				{
+					Attack(DeltaTime, directionToTarget);
+					_currentMovementSpeed = 0.0f;
+				}
+				else
+				{
+					Move(DeltaTime, directionToTarget);
+				}
 			}
 		}
 	}

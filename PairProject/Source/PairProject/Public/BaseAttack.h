@@ -21,7 +21,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	float _attackDuration = 5.0f;
+	float _attackDuration = 1.0f;
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float _attackDamage;
 	UPROPERTY(EditAnywhere, Category = "Stats")

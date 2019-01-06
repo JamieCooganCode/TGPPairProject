@@ -34,6 +34,8 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	AActor* _attackTarget;
 	UPROPERTY(EditAnywhere, Category = "Attack")
+	AActor* _attackTarget2;
+	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _attackRange;
 	UPROPERTY(EditAnywhere, Category = "Attack")
 	float _attackCooldown;

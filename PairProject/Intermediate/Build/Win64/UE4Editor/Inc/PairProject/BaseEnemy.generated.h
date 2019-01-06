@@ -101,6 +101,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseEnemy); \
 	FORCEINLINE static uint32 __PPO___rotationSpeed() { return STRUCT_OFFSET(ABaseEnemy, _rotationSpeed); } \
 	FORCEINLINE static uint32 __PPO___sightRange() { return STRUCT_OFFSET(ABaseEnemy, _sightRange); } \
 	FORCEINLINE static uint32 __PPO___attackTarget() { return STRUCT_OFFSET(ABaseEnemy, _attackTarget); } \
+	FORCEINLINE static uint32 __PPO___attackTarget2() { return STRUCT_OFFSET(ABaseEnemy, _attackTarget2); } \
 	FORCEINLINE static uint32 __PPO___attackRange() { return STRUCT_OFFSET(ABaseEnemy, _attackRange); } \
 	FORCEINLINE static uint32 __PPO___attackCooldown() { return STRUCT_OFFSET(ABaseEnemy, _attackCooldown); } \
 	FORCEINLINE static uint32 __PPO___timeSinceLastAttack() { return STRUCT_OFFSET(ABaseEnemy, _timeSinceLastAttack); } \

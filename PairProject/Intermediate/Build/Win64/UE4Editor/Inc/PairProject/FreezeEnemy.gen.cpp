@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeFreezeEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFreezeEnemy, 1654648620);
+	IMPLEMENT_CLASS(AFreezeEnemy, 1143936277);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFreezeEnemy(Z_Construct_UClass_AFreezeEnemy, &AFreezeEnemy::StaticClass, TEXT("/Script/PairProject"), TEXT("AFreezeEnemy"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFreezeEnemy);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

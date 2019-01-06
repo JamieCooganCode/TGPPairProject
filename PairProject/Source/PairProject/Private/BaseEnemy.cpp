@@ -17,8 +17,7 @@ ABaseEnemy::ABaseEnemy()
 	_sightSphere->SetupAttachment(RootComponent);
 	_sightSphere->OnComponentBeginOverlap.AddDynamic(this, &ABaseEnemy::OverlapTriggered);
 	_sightSphere->SetGenerateOverlapEvents(true);
-	_sightSphere->SetHiddenInGame(false);
-	_sightSphere->SetCollisionProfileName("OverlapAll");
+	_sightSphere->SetCollisionProfileName("OverlapAllButIgnoreMe");
 }
 
 // Called when the game starts or when spawned
@@ -39,18 +38,42 @@ void ABaseEnemy::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (_attackTarget != nullptr)
 	{
-		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
-		if (directionToTarget.Size() <= _attackRange)
+		if (_attackTarget2 != nullptr)
 		{
-			Attack(DeltaTime, directionToTarget);
-			_currentMovementSpeed = 0.0f;
+			FVector temp, temp2;
+			temp = this->RootComponent->GetComponentLocation() - _attackTarget->GetActorLocation();
+			temp2 = this->RootComponent->GetComponentLocation() - _attackTarget2->GetActorLocation();
+			if (temp.Size() > temp2.Size())
+			{
+				AActor* tempActor = _attackTarget;
+				_attackTarget = _attackTarget2;
+				_attackTarget2 = tempActor;
+			}
 		}
-		else
+		FVector directionToTarget = _attackTarget->GetActorLocation() - this->RootComponent->GetComponentLocation();
+		if (directionToTarget.Size() < _sightRange)
 		{
-			Move(DeltaTime, directionToTarget);
+			if (directionToTarget.Size() <= _attackRange)
+			{
+				Attack(DeltaTime, directionToTarget);
+				_currentMovementSpeed = 0.0f;
+			}
+			else
+			{
+				Move(DeltaTime, directionToTarget);
+			}
 		}
 
 		Rotate(DeltaTime, directionToTarget, 10.0f);
+	}
+	else if (_attackTarget2 != nullptr)
+	{
+		_attackTarget = _attackTarget2;
+	}
+
+	if (_timeSinceLastAttack > _attackCooldown + 0.5f)
+	{
+		_attacking = false;
 	}
 }
 
@@ -67,7 +90,7 @@ void ABaseEnemy::Attack(float deltaTime, FVector directionToTarget)
 {
 	if (_timeSinceLastAttack > _attackCooldown)
 	{
-		UClass* test = _attackComponent;
+		_attacking = true;
 		UBaseAttack* attack = NewObject<UBaseAttack>(this, _attackComponent);
 		attack->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 		attack->SetRelativeLocation(FVector(_attackRange, 0.0f, 0.0f));
