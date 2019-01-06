@@ -16,11 +16,28 @@ class ABaseCharacter;
 
 #define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSendPlayerToKeep) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_keepNumber); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SendPlayerToKeep(Z_Param_keepNumber); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execPossessPlayer) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->PossessPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFindNonPossessedPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ABaseCharacter**)Z_Param__Result=P_THIS->FindNonPossessedPlayer(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -35,11 +52,28 @@ class ABaseCharacter;
 
 #define PairProject_Source_PairProject_Public_MyPlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSendPlayerToKeep) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_keepNumber); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SendPlayerToKeep(Z_Param_keepNumber); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execPossessPlayer) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->PossessPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFindNonPossessedPlayer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ABaseCharacter**)Z_Param__Result=P_THIS->FindNonPossessedPlayer(); \
 		P_NATIVE_END; \
 	} \
  \

@@ -25,15 +25,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana();
-	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_RotatePlayer();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCamera();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm();
 	PAIRPROJECT_API UFunction* Z_Construct_UFunction_ABaseCharacter_TakeDamage();
 	PAIRPROJECT_API UEnum* Z_Construct_UEnum_PairProject_Team();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PAIRPROJECT_API UClass* Z_Construct_UClass_UIAttackable_NoRegister();
 // End Cross Module References
 	static UEnum* AttackType_StaticEnum()
@@ -106,7 +105,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 			{ "IncreaseCurrentHealth", &ABaseCharacter::execIncreaseCurrentHealth },
 			{ "IncreaseCurrentStamina", &ABaseCharacter::execIncreaseCurrentStamina },
 			{ "IncreseCurrentMana", &ABaseCharacter::execIncreseCurrentMana },
-			{ "RotatePlayer", &ABaseCharacter::execRotatePlayer },
 			{ "SetUpCamera", &ABaseCharacter::execSetUpCamera },
 			{ "SetUpCameraArm", &ABaseCharacter::execSetUpCameraArm },
 			{ "TakeDamage", &ABaseCharacter::execTakeDamage },
@@ -251,7 +249,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
-		{ "ToolTip", "improve" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "IncreaseCurrentHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BaseCharacter_eventIncreaseCurrentHealth_Parms), Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth_Statics::Function_MetaDataParams)) };
@@ -325,29 +322,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Camera_SetUp" },
-		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, "RotatePlayer", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04080401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ABaseCharacter_RotatePlayer()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_RotatePlayer_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -446,6 +420,15 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp__startTeam;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp__startTeam_Underlying;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movingToPosition_MetaData[];
+#endif
+		static void NewProp_movingToPosition_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_movingToPosition;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DirectionToGo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_DirectionToGo;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attacking_MetaData[];
 #endif
 		static void NewProp_Attacking_SetBit(void* Obj);
@@ -524,10 +507,9 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		{ &Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentMana, "DecreaseCurrentMana" }, // 1075561474
 		{ &Z_Construct_UFunction_ABaseCharacter_DecreaseCurrentStamina, "DecreaseCurrentStamina" }, // 1419206577
 		{ &Z_Construct_UFunction_ABaseCharacter_FreezePlayerInPlace, "FreezePlayerInPlace" }, // 801721135
-		{ &Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth, "IncreaseCurrentHealth" }, // 2550605413
+		{ &Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentHealth, "IncreaseCurrentHealth" }, // 1177304113
 		{ &Z_Construct_UFunction_ABaseCharacter_IncreaseCurrentStamina, "IncreaseCurrentStamina" }, // 3399477435
 		{ &Z_Construct_UFunction_ABaseCharacter_IncreseCurrentMana, "IncreseCurrentMana" }, // 666444885
-		{ &Z_Construct_UFunction_ABaseCharacter_RotatePlayer, "RotatePlayer" }, // 518970199
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCamera, "SetUpCamera" }, // 4095290072
 		{ &Z_Construct_UFunction_ABaseCharacter_SetUpCameraArm, "SetUpCameraArm" }, // 135692383
 		{ &Z_Construct_UFunction_ABaseCharacter_TakeDamage, "TakeDamage" }, // 2179754920
@@ -548,6 +530,24 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam = { UE4CodeGen_Private::EPropertyClass::Enum, "_startTeam", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, _startTeam), Z_Construct_UEnum_PairProject_Team, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition_MetaData[] = {
+		{ "Category", "Player_Movement" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition_SetBit(void* Obj)
+	{
+		((ABaseCharacter*)Obj)->movingToPosition = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition = { UE4CodeGen_Private::EPropertyClass::Bool, "movingToPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABaseCharacter), &Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_DirectionToGo_MetaData[] = {
+		{ "Category", "Player_Movement" },
+		{ "ModuleRelativePath", "Public/BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_DirectionToGo = { UE4CodeGen_Private::EPropertyClass::Struct, "DirectionToGo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABaseCharacter, DirectionToGo), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_DirectionToGo_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_DirectionToGo_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking_MetaData[] = {
 		{ "Category", "Player_Attacks" },
@@ -680,6 +680,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp__startTeam_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_movingToPosition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_DirectionToGo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_Attacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentAttackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseCharacter_Statics::NewProp_CurrentStamina,
@@ -722,7 +724,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3197635362);
+	IMPLEMENT_CLASS(ABaseCharacter, 2039603877);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, &ABaseCharacter::StaticClass, TEXT("/Script/PairProject"), TEXT("ABaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
